@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	text-align: center;
+}
+#background {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+	width: 100%;
+	height: 100%;
+}
+#parallax {
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	margin-top: 0;
+	width: 100%;
+	height: 100vh;
+	background-image: url(./images/cloud_PNG24.png),
+		url(./images/Soft_Cloud_PNG_Clip_Art_Image.png),
+		url(./images/1-14969_clouds-realistic-cloud-clouds-png.png),
+		url(./images/purepng.com-cloudnaturecloudsmoke-9615246757368kjiz.png);
+	background-position: bottom left, bottom, bottom, bottom right;
+	background-repeat: no-repeat;
+	background-size: 300px, 450px, 600px, 800px;
+}
+
+.filter > li {
+	list-style-type: none;
+	display: inline;
+	font-size: 1.5rem;
+	color: rgb(44, 44, 44);
+	margin: 1em;
+	padding: 0.25em;
+	border-radius: 0.5em;
+	background-color: lightskyblue;
+}
+
+li:nth-child(1) {
+	background-color: transparent;
+}
