@@ -24,11 +24,11 @@ body {
 	height: 100vh;
 	background-image: url(./images/cloud_PNG24.png),
 		url(./images/Soft_Cloud_PNG_Clip_Art_Image.png),
-		url(./images/1-14969_clouds-realistic-cloud-clouds-png.png),
-		url(./images/purepng.com-cloudnaturecloudsmoke-9615246757368kjiz.png);
-	background-position: bottom left, bottom, bottom, bottom right;
+		url(./images/purepng.com-cloudnaturecloudsmoke-9615246757368kjiz.png),
+		url(./images/1-14969_clouds-realistic-cloud-clouds-png.png);
+	background-position: 40% 100%, 60% 100%, 30% 120%, 70% 120%;
 	background-repeat: no-repeat;
-	background-size: 300px, 450px, 600px, 800px;
+	background-size: 800px, 800px, 600px, 600px;
 }
 
 .filter > li {
@@ -44,4 +44,18 @@ body {
 
 li:nth-child(1) {
 	background-color: transparent;
+}
+
+.project {
+	width: 50%;
+	margin: 2em;
+}
+
+.preview {
+	width: 100%;
+	border-radius: 5%;
+}
+
+.projects {
+	display: flex;
 }
