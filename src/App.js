@@ -7,8 +7,13 @@ function App() {
 	Parallax();
 	return (
 		<div>
-			<h1>Andrew Love - Software Engineer</h1>
-			<h2>Full-stack and cloud developer</h2>
+			<header>
+				<h1>Andrew Love - Software Engineer</h1>
+				<h2>Full-stack and cloud developer</h2>
+				<h2>
+					For hire - Email: andrewcbuensalida@gmail.com - Phone: 661-964-9268
+				</h2>
+			</header>
 			<Filter />
 			<div className="projects">
 				<Project data={instagram} />

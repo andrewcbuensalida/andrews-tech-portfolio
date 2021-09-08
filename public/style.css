@@ -31,6 +31,13 @@ body {
 	background-size: 800px, 800px, 600px, 600px;
 }
 
+header {
+	color: rgb(0, 0, 0);
+	font-family: "Bungee Hairline", cursive;
+}
+header > * {
+	margin: -1%;
+}
 .filter > li {
 	list-style-type: none;
 	display: inline;
@@ -61,3 +68,5 @@ li:nth-child(1) {
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
+
+/* tilt stuff */
