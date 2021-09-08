@@ -6,6 +6,8 @@ const blackjack = {
 	stack: ["javascript", "html/css", "css", "aws", "ci/cd"],
 	image: "./images/blackjack.png",
 	alt: "blackjack",
+	githubLink:
+		"https://github.com/andrewcbuensalida/javascript-beginners-blackjack-clever-programmer",
 };
 const books = {
 	title: `Love's Books`,
@@ -26,6 +28,7 @@ const books = {
 	],
 	image: "./images/books.png",
 	alt: "books",
+	githubLink: "https://github.com/andrewcbuensalida/graphql-playlist",
 };
 const instagram = {
 	title: `Instagram Clone`,
@@ -45,6 +48,7 @@ const instagram = {
 	],
 	image: "./images/instagram.png",
 	alt: "instagram",
+	githubLink: "https://github.com/andrewcbuensalida/Instagram-Clone",
 };
 const starwars = {
 	title: `Random Star Wars Generator`,
@@ -66,6 +70,8 @@ const starwars = {
 	],
 	image: "./images/starwars.png",
 	alt: "starwars",
+	githubLink:
+		"https://github.com/andrewcbuensalida/puppeteer-node-random-starwars",
 };
 const todo = {
 	title: `Todo List`,
@@ -76,5 +82,6 @@ const todo = {
 	stack: ["javascript", "html/css", "css", "aws", "node", "express", "mongodb"],
 	image: "./images/todo.png",
 	alt: "todo",
+	githubLink: "https://github.com/andrewcbuensalida/node-mongodb-todo",
 };
 export { blackjack, books, instagram, starwars, todo };

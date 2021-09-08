@@ -40,7 +40,8 @@ header > * {
 	margin: -1%;
 }
 
-.filter {
+.filter,
+.filter > button {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
@@ -72,6 +73,8 @@ li:nth-child(1) {
 .project {
 	margin: 2%;
 	flex-basis: 43%;
+	font-family: "Bungee Hairline", cursive;
+	line-height: 120%;
 }
 
 .preview {
@@ -160,4 +163,18 @@ li:nth-child(1) {
 	100% {
 		opacity: 1;
 	}
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.github {
+	width: 5%;
+	margin-left: 5%;
+}
+.github > img {
+	width: 100%;
 }

@@ -1,7 +1,7 @@
 import Tilt from "react-tilt";
 
 function Project({ filters, data }) {
-	const { image, alt, description, stack, URL, title } = data;
+	const { image, alt, description, stack, URL, title, githubLink } = data;
 	let isIncluded = false;
 	stack.forEach((lang) => {
 		if (filters.includes(lang)) {
@@ -21,7 +21,12 @@ function Project({ filters, data }) {
 					</a>
 				</Tilt>
 
-				<h1>{title}</h1>
+				<h1 className="title">
+					{title}
+					<a href={githubLink} className="github">
+						<img src=".\images\github.png" />
+					</a>
+				</h1>
 				<h2>{description}</h2>
 				<h2>
 					<a href={URL}>{URL}</a>
