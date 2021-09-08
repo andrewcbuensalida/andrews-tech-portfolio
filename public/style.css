@@ -32,21 +32,30 @@ body {
 }
 
 header {
-	color: rgb(0, 0, 0);
 	font-family: "Bungee Hairline", cursive;
+	color: rgb(0, 0, 0);
 }
 header > * {
 	margin: -1%;
+}
+
+.filter {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-family: "Quantico", sans-serif;
 }
 .filter > li {
 	list-style-type: none;
 	display: inline;
 	font-size: 1.5rem;
 	color: rgb(44, 44, 44);
-	margin: 1em;
+	margin: 1%;
 	padding: 0.25em;
 	border-radius: 0.5em;
 	background-color: lightskyblue;
+	cursor: pointer;
 }
 
 li:nth-child(1) {
@@ -68,5 +77,3 @@ li:nth-child(1) {
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
-
-/* tilt stuff */
