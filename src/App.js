@@ -1,20 +1,21 @@
 import Filter from "./components/Filter";
 import Parallax from "./components/parallax";
 import Project from "./components/Project";
+import { blackjack, books, instagram, starwars, todo } from "./data";
 
 function App() {
 	Parallax();
 	return (
 		<div>
-			<h1>Andrew Buensalida - Software Engineer</h1>
-			<h3>Full-stack and cloud developer</h3>
+			<h1>Andrew Love - Software Engineer</h1>
+			<h2>Full-stack and cloud developer</h2>
 			<Filter />
 			<div className="projects">
-				<Project src="./images/blackjack.png" alt="blackjack" />
-				<Project src="./images/books.png" alt="books" />
-				<Project src="./images/instagram.png" alt="isntagram" />
-				<Project src="./images/starwars.png" alt="starwars" />
-				<Project src="./images/todo.png" alt="todo" />
+				<Project data={instagram} />
+				<Project data={books} />
+				<Project data={blackjack} />
+				<Project data={starwars} />
+				<Project data={todo} />
 			</div>
 		</div>
 	);

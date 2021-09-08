@@ -17,7 +17,7 @@ body {
 }
 #parallax {
 	z-index: -1;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	margin-top: 0;
 	width: 100%;
@@ -47,8 +47,8 @@ li:nth-child(1) {
 }
 
 .project {
-	width: 50%;
-	margin: 2em;
+	margin: 2%;
+	flex-basis: 46%;
 }
 
 .preview {
@@ -58,4 +58,6 @@ li:nth-child(1) {
 
 .projects {
 	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
