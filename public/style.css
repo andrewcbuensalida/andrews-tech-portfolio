@@ -64,6 +64,11 @@ li:nth-child(1) {
 	background-color: transparent;
 }
 
+.projects {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
 .project {
 	margin: 2%;
 	flex-basis: 43%;
@@ -72,12 +77,6 @@ li:nth-child(1) {
 .preview {
 	width: 100%;
 	border-radius: 5%;
-}
-
-.projects {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
 }
 
 /* filter buttons */
@@ -108,4 +107,57 @@ li:nth-child(1) {
 	box-shadow: inset 0 0 #3d3361, inset 0 2px 9px 1px #23244b;
 	color: #000000;
 	text-shadow: 0 1px #1b2039;
+}
+
+/* preview fade-in/out */
+.project {
+	animation: fadeIn ease 2s;
+	-webkit-animation: fadeIn ease 2s;
+	-moz-animation: fadeIn ease 2s;
+	-o-animation: fadeIn ease 2s;
+	-ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }

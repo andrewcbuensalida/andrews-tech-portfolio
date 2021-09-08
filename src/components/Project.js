@@ -8,9 +8,10 @@ function Project({ filters, data }) {
 			isIncluded = true;
 		}
 	});
+
 	return (
 		isIncluded && (
-			<div className="project">
+			<div className={`project `}>
 				<Tilt
 					className="Tilt"
 					options={{ max: 15, perspective: 1500, scale: 1.05 }}
