@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	text-align: center;
+	overflow-y: scroll;
 }
 #background {
 	width: 100%;
@@ -46,7 +47,8 @@ header > * {
 	justify-content: center;
 	font-family: "Quantico", sans-serif;
 }
-.filter > li {
+.filter > button,
+li {
 	list-style-type: none;
 	display: inline;
 	font-size: 1.5rem;
@@ -54,7 +56,7 @@ header > * {
 	margin: 1%;
 	padding: 0.25em;
 	border-radius: 0.5em;
-	background-color: lightskyblue;
+	background-color: grey;
 	cursor: pointer;
 }
 
@@ -64,7 +66,7 @@ li:nth-child(1) {
 
 .project {
 	margin: 2%;
-	flex-basis: 46%;
+	flex-basis: 43%;
 }
 
 .preview {
@@ -76,4 +78,34 @@ li:nth-child(1) {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+}
+
+/* filter buttons */
+
+.selected {
+	background: linear-gradient(#313c62, #434e74);
+	box-shadow: inset 0 0 #3d3361, inset 0 2px 9px 1px #23314b;
+	color: #000000;
+	text-shadow: 0 1px #1b2839;
+}
+.unselected {
+	background: linear-gradient(#7ba4ca, #5886ab);
+	border: 1px solid #344a7a;
+	color: #000000;
+	text-shadow: 0 1px #8398db;
+	box-shadow: inset 0 1px 1px 0 #a1a5dd, 0 2px 0 -1px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+.unselected:hover {
+	background: linear-gradient(#655ea8, #49508e);
+	border: 1px solid #484186;
+	color: #000000;
+	text-shadow: 0 1px #5958b0;
+	box-shadow: 0 2px 0 -1px rgba(0, 0, 0, 0.2);
+}
+.unselected:active {
+	background: linear-gradient(#313c62, #434e74);
+	box-shadow: inset 0 0 #3d3361, inset 0 2px 9px 1px #23244b;
+	color: #000000;
+	text-shadow: 0 1px #1b2039;
 }

@@ -3,16 +3,39 @@ function Filter({ handleFilter }) {
 		<div>
 			<ul className="filter">
 				<li>Filter:</li>
-				<li onClick={handleFilter}>Node</li>
-				<li onClick={handleFilter}>React</li>
-				<li onClick={handleFilter}>Web Scraping</li>
-				<li onClick={handleFilter}>Javascript</li>
-				<li onClick={handleFilter}>AWS</li>
-				<li onClick={handleFilter}>GraphQL</li>
-				<li onClick={handleFilter}>MongoDB</li>
-				<li onClick={handleFilter}>CI/CD</li>
-				<li onClick={handleFilter}>Firebase</li>
-				<li onClick={handleFilter}>HTML/CSS</li>
+				<button className="unselected" onClick={handleFilter}>
+					All
+				</button>
+				<button className="unselected" onClick={handleFilter}>
+					Node
+				</button>
+				<button className="unselected" onClick={handleFilter}>
+					React
+				</button>
+				<button className="unselected" onClick={handleFilter}>
+					Web Scraping
+				</button>
+				<button className="unselected" onClick={handleFilter}>
+					Javascript
+				</button>
+				<button className="unselected" onClick={handleFilter}>
+					AWS
+				</button>
+				<button className="unselected" onClick={handleFilter}>
+					GraphQL
+				</button>
+				<button className="unselected" onClick={handleFilter}>
+					MongoDB
+				</button>
+				<button className="unselected" onClick={handleFilter}>
+					CI/CD
+				</button>
+				<button className="unselected" onClick={handleFilter}>
+					Firebase
+				</button>
+				<button className="unselected" onClick={handleFilter}>
+					HTML/CSS
+				</button>
 			</ul>
 		</div>
 	);

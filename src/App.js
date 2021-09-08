@@ -8,15 +8,39 @@ function App() {
 	Parallax();
 	const [filters, setFilters] = useState([]);
 	function handleFilter(e) {
-		const clickedFilter = e.target.textContent.toLowerCase();
-		setFilters((prev) => {
-			if (prev.includes(clickedFilter)) {
-				return prev.filter((filter) => filter != clickedFilter);
+		if (e.target.textContent == "All") {
+			if (e.target.className == "unselected") {
+				let allUnselected = Array.from(
+					document.getElementsByClassName("unselected")
+				);
+				allUnselected.forEach((el) => {
+					el.className = "selected";
+					setFilters((prev) => [...prev, el.textContent.toLowerCase()]);
+				});
 			} else {
-				return [...prev, clickedFilter];
+				let allSelected = Array.from(
+					document.getElementsByClassName("selected")
+				);
+				allSelected.forEach((el) => {
+					el.className = "unselected";
+					setFilters([]);
+				});
 			}
-		});
-		console.log(filters);
+		} else {
+			if (e.target.className == "unselected") {
+				e.target.className = "selected";
+			} else {
+				e.target.className = "unselected";
+			}
+			const clickedFilter = e.target.textContent.toLowerCase();
+			setFilters((prev) => {
+				if (prev.includes(clickedFilter)) {
+					return prev.filter((filter) => filter !== clickedFilter);
+				} else {
+					return [...prev, clickedFilter];
+				}
+			});
+		}
 	}
 	return (
 		<div>

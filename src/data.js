@@ -3,7 +3,7 @@ const blackjack = {
 	description: `Play against the dealer. 
         Stack includes Javascript, HTML, CSS, hosted in an AWS s3 bucket`,
 	URL: "http://www.andrewsblackjack.com",
-	stack: ["javascript", "html", "css", "aws", "ci/cd"],
+	stack: ["javascript", "html/css", "css", "aws", "ci/cd"],
 	image: "./images/blackjack.png",
 	alt: "blackjack",
 };
@@ -22,6 +22,7 @@ const books = {
 		"atlas",
 		"node",
 		"ec2",
+		"html/css",
 	],
 	image: "./images/books.png",
 	alt: "books",
@@ -33,7 +34,7 @@ const instagram = {
 	URL: "http://www.instagram.anhonestobserver.com",
 	stack: [
 		"react",
-		"html",
+		"html/css",
 		"tailwind",
 		"aws",
 		"javascript",
@@ -54,11 +55,11 @@ const starwars = {
 	URL: "http://www.starwars.anhonestobserver.com",
 	stack: [
 		"javascript",
-		"html",
+		"html/css",
 		"css",
 		"aws",
 		"puppeteer",
-		"web scaping",
+		"web scraping",
 		"node",
 		"express",
 		"ci/cd",
@@ -72,7 +73,7 @@ const todo = {
         Stack includes Javascript, Node and Express for the server, Mongoose and MongoDB Atlas for the database,
 		hosted on an AWS EC2 intance`,
 	URL: "http://www.todo.anhonestobserver.com",
-	stack: ["javascript", "html", "css", "aws", "node", "express", "mongodb"],
+	stack: ["javascript", "html/css", "css", "aws", "node", "express", "mongodb"],
 	image: "./images/todo.png",
 	alt: "todo",
 };
