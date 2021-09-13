@@ -35,13 +35,13 @@ function Filter({ handleFilter }) {
 				</button>
 				<button className="unselected" onClick={handleFilter}>
 					HTML/CSS
-				</button>{" "}
+				</button>
 				<button className="unselected" onClick={handleFilter}>
 					Google Cloud Platform
-				</button>{" "}
+				</button>
 				<button className="unselected" onClick={handleFilter}>
 					EJS
-				</button>{" "}
+				</button>
 				<button className="unselected" onClick={handleFilter}>
 					MVC Pattern
 				</button>

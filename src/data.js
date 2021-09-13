@@ -111,4 +111,4 @@ const todo = {
 	alt: "todo",
 	githubLink: "https://github.com/andrewcbuensalida/node-mongodb-todo",
 };
-export { blackjack, books, instagram, starwars, todo };
+export { blackjack, books, instagram, starwars, todo, blogs };
