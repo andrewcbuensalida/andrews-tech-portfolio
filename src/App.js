@@ -46,7 +46,7 @@ function App() {
 		<div>
 			<header>
 				<h1>Andrew Buensalida - Software Engineer</h1>
-				<h2>Full-stack and cloud developer</h2>
+				<h2>A Full-stack and cloud developer in Silicon Valley</h2>
 				<h2>
 					For hire - Email: andrewcbuensalida@gmail.com - Phone: 661-964-9268
 				</h2>
