@@ -44,6 +44,9 @@ function Filter({ handleFilter }) {
 				</button>
 				<button className="unselected" onClick={handleFilter}>
 					MVC Pattern
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Git
 				</button>
 			</ul>
 		</div>
