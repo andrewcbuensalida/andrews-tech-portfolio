@@ -19,7 +19,7 @@ function Filter({ handleFilter }) {
 					Javascript
 				</button>
 				<button className="unselected" onClick={handleFilter}>
-					AWS
+					Amazon Web Services
 				</button>
 				<button className="unselected" onClick={handleFilter}>
 					GraphQL
@@ -35,6 +35,15 @@ function Filter({ handleFilter }) {
 				</button>
 				<button className="unselected" onClick={handleFilter}>
 					HTML/CSS
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Google Cloud Platform
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					EJS
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					MVC Pattern
 				</button>
 			</ul>
 		</div>

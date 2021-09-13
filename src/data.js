@@ -1,11 +1,31 @@
 const blackjack = {
 	title: `Andrew's Black Jack`,
 	description: `Play against the dealer. 
-        Stack includes Javascript, HTML, CSS, hosted in an AWS s3 bucket`,
+        Stack includes Javascript, HTML, CSS, hosted in an Amazon web services s3 bucket`,
 	URL: "http://www.andrewsblackjack.com",
-	stack: ["javascript", "html/css", "css", "aws", "ci/cd"],
+	stack: ["javascript", "html/css", "css", "amazon web services", "ci/cd"],
 	image: "./images/blackjack.png",
 	alt: "blackjack",
+	githubLink:
+		"https://github.com/andrewcbuensalida/javascript-beginners-blackjack-clever-programmer",
+};
+const blogs = {
+	title: `Andrew's Blogs`,
+	description: `Create, Read, and Delete blogs. 
+        Stack includes MongoDB, MVC pattern, Google Cloud Platform's App Engine and Cloud Build for CI/CD,
+		 Node, Express, and ejs for the front-end`,
+	URL: "http://www.blogs.anhonestobserver.com",
+	stack: [
+		"javascript",
+		"html/css",
+		"css",
+		"google cloud platform",
+		"ejs",
+		"mvc pattern",
+		"ci/cd",
+	],
+	image: "./images/blackjack.png",
+	alt: "blogs",
 	githubLink:
 		"https://github.com/andrewcbuensalida/javascript-beginners-blackjack-clever-programmer",
 };
@@ -18,7 +38,7 @@ const books = {
 	stack: [
 		"react",
 		"graphql",
-		"aws",
+		"amazon web services",
 		"amplify",
 		"mongodb",
 		"atlas",
@@ -39,7 +59,7 @@ const instagram = {
 		"react",
 		"html/css",
 		"tailwind",
-		"aws",
+		"amazon web services",
 		"javascript",
 		"firebase",
 		"gcp",
@@ -55,13 +75,13 @@ const starwars = {
 	description: `Generate a random Star Wars character. First method is web scraping with Puppeteer. Second method
 	is with an API. 
         Stack includes Javascript for the front-end, Puppeteer for the scraper,
-		 Node/Express for the server on an AWS EC2 instance, and AWS pipeline for CI/CD`,
+		 Node/Express for the server on an AWS EC2 instance, and codepipeline for CI/CD`,
 	URL: "http://www.starwars.anhonestobserver.com",
 	stack: [
 		"javascript",
 		"html/css",
 		"css",
-		"aws",
+		"amazon web services",
 		"puppeteer",
 		"web scraping",
 		"node",
@@ -79,7 +99,15 @@ const todo = {
         Stack includes Javascript, Node and Express for the server, Mongoose and MongoDB Atlas for the database,
 		hosted on an AWS EC2 intance`,
 	URL: "http://www.todo.anhonestobserver.com",
-	stack: ["javascript", "html/css", "css", "aws", "node", "express", "mongodb"],
+	stack: [
+		"javascript",
+		"html/css",
+		"css",
+		"amazon web services",
+		"node",
+		"express",
+		"mongodb",
+	],
 	image: "./images/todo.png",
 	alt: "todo",
 	githubLink: "https://github.com/andrewcbuensalida/node-mongodb-todo",
