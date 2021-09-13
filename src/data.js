@@ -24,10 +24,9 @@ const blogs = {
 		"mvc pattern",
 		"ci/cd",
 	],
-	image: "./images/blackjack.png",
+	image: "./images/blogs.png",
 	alt: "blogs",
-	githubLink:
-		"https://github.com/andrewcbuensalida/javascript-beginners-blackjack-clever-programmer",
+	githubLink: "https://github.com/andrewcbuensalida/node-crash-course.git",
 };
 const books = {
 	title: `Love's Books`,
