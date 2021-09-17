@@ -2,15 +2,7 @@ import { useState } from "react";
 import Filter from "./components/Filter";
 import Parallax from "./components/parallax";
 import Project from "./components/Project";
-import {
-	blackjack,
-	books,
-	instagram,
-	starwars,
-	todo,
-	blogs,
-	cookies,
-} from "./data";
+import projects from "./data";
 
 function App() {
 	Parallax();
@@ -50,6 +42,10 @@ function App() {
 			});
 		}
 	}
+	const projectsComponents = projects.map((project) => (
+		<Project filters={filters} data={project} />
+	));
+
 	return (
 		<div>
 			<header>
@@ -60,15 +56,7 @@ function App() {
 				</h2>
 			</header>
 			<Filter filters={filters} handleFilter={handleFilter} />
-			<div className="projects">
-				<Project filters={filters} data={instagram} />
-				<Project filters={filters} data={cookies} />
-				<Project filters={filters} data={blogs} />
-				<Project filters={filters} data={books} />
-				<Project filters={filters} data={blackjack} />
-				<Project filters={filters} data={starwars} />
-				<Project filters={filters} data={todo} />
-			</div>
+			<div className="projects">{projectsComponents}</div>
 		</div>
 	);
 }
