@@ -2,7 +2,15 @@ import { useState } from "react";
 import Filter from "./components/Filter";
 import Parallax from "./components/parallax";
 import Project from "./components/Project";
-import { blackjack, books, instagram, starwars, todo, blogs } from "./data";
+import {
+	blackjack,
+	books,
+	instagram,
+	starwars,
+	todo,
+	blogs,
+	cookies,
+} from "./data";
 
 function App() {
 	Parallax();
@@ -54,6 +62,7 @@ function App() {
 			<Filter filters={filters} handleFilter={handleFilter} />
 			<div className="projects">
 				<Project filters={filters} data={instagram} />
+				<Project filters={filters} data={cookies} />
 				<Project filters={filters} data={blogs} />
 				<Project filters={filters} data={books} />
 				<Project filters={filters} data={blackjack} />

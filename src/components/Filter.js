@@ -20,9 +20,18 @@ function Filter({ handleFilter }) {
 				</button>
 				<button className="unselected" onClick={handleFilter}>
 					Amazon Web Services
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					User Authorization
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					JSON Web Tokens
 				</button>
 				<button className="unselected" onClick={handleFilter}>
 					GraphQL
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Tailwind
 				</button>
 				<button className="unselected" onClick={handleFilter}>
 					MongoDB

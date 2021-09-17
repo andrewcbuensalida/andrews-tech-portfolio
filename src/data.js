@@ -1,3 +1,6 @@
+// list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,
+// ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,
+// web scraping, puppeteer, "user authorization", "json web tokens"
 const blackjack = {
 	title: `Andrew's Black Jack`,
 	description: `Play against the dealer. 
@@ -15,6 +18,32 @@ const blackjack = {
 	alt: "blackjack",
 	githubLink:
 		"https://github.com/andrewcbuensalida/javascript-beginners-blackjack-clever-programmer",
+};
+const cookies = {
+	title: `Minute Cookie Recipes`,
+	description: `Log in to see cookie recipes. 
+        Stack includes Handlebars templating engine, JWT and Cookie User Authorization, 
+		Model View Controller design pattern, Bcrypt password encryption, Node with express for the server,
+		MongoDB with mongoose for the database,
+		Google Cloud's App Engine for hosting, and Cloud Build for CI/CD`,
+	URL: "http://www.cookies.anhonestobserver.com",
+	stack: [
+		"javascript",
+		"html/css",
+		"css",
+		"google cloud platform",
+		"ci/cd",
+		"git",
+		"mvc pattern",
+		"mongodb",
+		"node",
+		"app engine",
+		"user authorization",
+		"json web tokens",
+	],
+	image: "./images/cookies.png",
+	alt: "cookies",
+	githubLink: "https://github.com/andrewcbuensalida/node-express-jwt-auth.git",
 };
 const blogs = {
 	title: `Andrew's Blogs`,
@@ -70,10 +99,11 @@ const instagram = {
 		"amazon web services",
 		"javascript",
 		"firebase",
-		"gcp",
+		"google cloud platform",
 		"cloud",
 		"git",
 		"ci/cd",
+		"user authorization",
 	],
 	image: "./images/instagram.png",
 	alt: "instagram",
@@ -123,4 +153,4 @@ const todo = {
 	alt: "todo",
 	githubLink: "https://github.com/andrewcbuensalida/node-mongodb-todo",
 };
-export { blackjack, books, instagram, starwars, todo, blogs };
+export { blackjack, books, instagram, starwars, todo, blogs, cookies };
