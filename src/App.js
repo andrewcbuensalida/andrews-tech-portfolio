@@ -9,7 +9,7 @@ function App() {
 	const [filters, setFilters] = useState([]);
 	function handleFilter(e) {
 		if (e.target.textContent == "All") {
-			if (e.target.className == "unselected") {
+			if (e.target.className.includes("unselected")) {
 				let allUnselected = Array.from(
 					document.getElementsByClassName("unselected")
 				);

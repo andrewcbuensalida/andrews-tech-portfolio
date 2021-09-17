@@ -3,7 +3,7 @@ function Filter({ handleFilter }) {
 		<div>
 			<ul className="filter">
 				<li>Filter:</li>
-				<button className="unselected" onClick={handleFilter}>
+				<button className="unselected all" onClick={handleFilter}>
 					All
 				</button>
 				<button className="unselected" onClick={handleFilter}>
