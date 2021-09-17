@@ -30,6 +30,11 @@ body {
 	background-position: 40% 100%, 60% 100%, 30% 120%, 70% 120%;
 	background-repeat: no-repeat;
 	background-size: 800px, 800px, 600px, 600px;
+	animation: fadeIn ease 5s;
+	-webkit-animation: fadeIn ease 5s;
+	-moz-animation: fadeIn ease 5s;
+	-o-animation: fadeIn ease 5s;
+	-ms-animation: fadeIn ease 5s;
 }
 
 header {
