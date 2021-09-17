@@ -1,6 +1,6 @@
 // list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,
 // ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,
-// web scraping, puppeteer, "user authorization", "json web tokens"
+// web scraping, puppeteer, "user authorization", "json web tokens", "handlebars"
 const blackjack = {
 	title: `Andrew's Black Jack`,
 	description: `Play against the dealer. 
@@ -29,6 +29,7 @@ const cookies = {
 	URL: "http://www.cookies.anhonestobserver.com",
 	stack: [
 		"javascript",
+		"handlebars",
 		"html/css",
 		"css",
 		"google cloud platform",

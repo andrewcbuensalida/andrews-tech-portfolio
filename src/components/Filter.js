@@ -26,6 +26,9 @@ function Filter({ handleFilter }) {
 				</button>{" "}
 				<button className="unselected" onClick={handleFilter}>
 					JSON Web Tokens
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Handlebars
 				</button>
 				<button className="unselected" onClick={handleFilter}>
 					GraphQL
