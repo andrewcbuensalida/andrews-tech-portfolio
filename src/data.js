@@ -1,6 +1,6 @@
 // list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,
 // ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,
-// web scraping, puppeteer, "user authorization", "json web tokens", "handlebars"
+// web scraping, puppeteer, "user authorization", "json web tokens", "handlebars", "nginx", "ssl certification"
 const projects = [
 	{
 		title: `Andrew's Black Jack`,
@@ -70,9 +70,7 @@ const projects = [
 	},
 	{
 		title: `Love's Books`,
-		description: `Add your favorite books. 
-			Stack includes React with GraphQL for CRUD on AWS Amplify for the front-end and 
-			a MongoDB Atlas database and Node server on an AWS EC2 for the back-end`,
+		description: `Add your favorite books. Stack includes React with GraphQL for the front-end and a MongoDB Atlas database and Node server on an AWS EC2 with Nginx proxy on an SSL certified domain with Code Pipeline for CI/CD`,
 		URL: "http://www.books.anhonestobserver.com",
 		stack: [
 			"react",
@@ -85,6 +83,8 @@ const projects = [
 			"ec2",
 			"html/css",
 			"git",
+			"nginx",
+			"ssl certification",
 		],
 		image: "./images/books.png",
 		alt: "books",

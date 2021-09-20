@@ -59,6 +59,12 @@ function Filter({ handleFilter }) {
 				</button>{" "}
 				<button className="unselected" onClick={handleFilter}>
 					Git
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Nginx
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					SSL Certification
 				</button>
 			</ul>
 		</div>
