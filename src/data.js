@@ -1,6 +1,7 @@
+// if adding a new stack, dont forget to update filter component
 // list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,
 // ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,
-// web scraping, puppeteer, "user authorization", "json web tokens", "handlebars", "nginx", "ssl certification", "jest testing"
+// web scraping, puppeteer, "user authorization", "json web tokens", "handlebars", "nginx", "ssl certification", "jest testing",'chartjs'
 const projects = [
 	{
 		title: `Andrew's Black Jack`,
@@ -168,6 +169,8 @@ const projects = [
 			"amazon web services",
 			"jest testing",
 			"ci/cd",
+			"chartjs",
+			"web scraping",
 		],
 		image: "./images/portfolio.png",
 		alt: "portfolio",

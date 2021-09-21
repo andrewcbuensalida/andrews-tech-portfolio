@@ -69,6 +69,9 @@ function Filter({ handleFilter }) {
 				<button className="unselected" onClick={handleFilter}>
 					Jest testing
 				</button>
+				<button className="unselected" onClick={handleFilter}>
+					Chartjs
+				</button>
 			</ul>
 		</div>
 	);

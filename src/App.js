@@ -3,6 +3,7 @@ import Filter from "./components/Filter";
 import Parallax from "./components/parallax";
 import Project from "./components/Project";
 import projects from "./data";
+import PieChart from "./components/PieChart";
 
 function App() {
 	Parallax();
@@ -57,6 +58,7 @@ function App() {
 			</header>
 			<Filter filters={filters} handleFilter={handleFilter} />
 			<div className="projects">{projectsComponents}</div>
+			<PieChart />
 		</div>
 	);
 }
