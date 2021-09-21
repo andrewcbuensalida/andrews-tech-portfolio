@@ -65,6 +65,9 @@ function Filter({ handleFilter }) {
 				</button>{" "}
 				<button className="unselected" onClick={handleFilter}>
 					SSL Certification
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Jest testing
 				</button>
 			</ul>
 		</div>

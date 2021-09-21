@@ -1,6 +1,6 @@
 // list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,
 // ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,
-// web scraping, puppeteer, "user authorization", "json web tokens", "handlebars", "nginx", "ssl certification"
+// web scraping, puppeteer, "user authorization", "json web tokens", "handlebars", "nginx", "ssl certification", "jest testing"
 const projects = [
 	{
 		title: `Andrew's Black Jack`,
@@ -156,5 +156,22 @@ const projects = [
 	// 	alt: "todo",
 	// 	githubLink: "https://github.com/andrewcbuensalida/node-mongodb-todo",
 	// },
+	{
+		title: `Andrew's Portfolio`,
+		description: `Website that displays some of my projects. Includes links to the apps and their respective Github repositories.
+			Stack includes React for the front-end, Jest for testing, CSS from codepen, hosted on AWS Amplify for continuous deployment. `,
+		URL: "http://www.anhonestobserver.com",
+		stack: [
+			"react",
+			"html/css",
+			"css",
+			"amazon web services",
+			"jest testing",
+			"ci/cd",
+		],
+		image: "./images/portfolio.png",
+		alt: "portfolio",
+		githubLink: "https://github.com/andrewcbuensalida/andrews-tech-portfolio",
+	},
 ];
 export default projects;
