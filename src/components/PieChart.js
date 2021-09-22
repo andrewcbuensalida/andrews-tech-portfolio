@@ -52,13 +52,13 @@ function PieChart() {
 						plugins: {
 							title: {
 								display: true,
-								text: "Languages by % (as per Github)",
+								text: "Languages by % (from Github)",
 							},
 							tooltip: {
 								backgroundColor: "grey",
 								callbacks: {
 									label: function (tooltipItem, data) {
-										console.log(tooltipItem.raw);
+										// console.log(tooltipItem.raw);
 										return tooltipItem.raw + "%";
 									},
 								},
