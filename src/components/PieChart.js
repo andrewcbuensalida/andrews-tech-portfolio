@@ -52,7 +52,7 @@ function PieChart() {
 						plugins: {
 							title: {
 								display: true,
-								text: "Languages by % (from Github)",
+								text: "Languages by bytes % (from Github)",
 							},
 							tooltip: {
 								backgroundColor: "grey",

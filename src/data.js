@@ -1,5 +1,5 @@
 // if adding a new stack, dont forget to update filter component
-// list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,
+// list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,"linux","docker"
 // ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,
 // web scraping, puppeteer, "user authorization", "json web tokens", "handlebars", "nginx", "ssl certification", "jest testing",'chartjs'
 const projects = [
@@ -86,6 +86,7 @@ const projects = [
 	// 		"git",
 	// 		"nginx",
 	// 		"ssl certification",
+	//		"linux",
 	// 	],
 	// 	image: "./images/books.png",
 	// 	alt: "books",
@@ -152,6 +153,7 @@ const projects = [
 	// 		"git",
 	// 		"express",
 	// 		"mongodb",
+	// 		"docker"
 	// 	],
 	// 	image: "./images/todo.png",
 	// 	alt: "todo",

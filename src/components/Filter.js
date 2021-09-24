@@ -71,6 +71,12 @@ function Filter({ handleFilter }) {
 				</button>
 				<button className="unselected" onClick={handleFilter}>
 					Chartjs
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Linux
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Docker
 				</button>
 			</ul>
 		</div>
