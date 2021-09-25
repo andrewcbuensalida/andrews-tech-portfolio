@@ -114,30 +114,30 @@ const projects = [
 		alt: "instagram",
 		githubLink: "https://github.com/andrewcbuensalida/Instagram-Clone",
 	},
-	{
-		title: `Random Star Wars Generator`,
-		description: `Generate a random Star Wars character. First method is web scraping with Puppeteer. Second method
-		is with an API. 
-			Stack includes Javascript for the front-end, Puppeteer for the scraper,
-			 Node/Express for the server on an AWS EC2 instance, and codepipeline for CI/CD`,
-		URL: "http://www.starwars.anhonestobserver.com",
-		stack: [
-			"javascript",
-			"html/css",
-			"css",
-			"amazon web services",
-			"puppeteer",
-			"web scraping",
-			"node",
-			"git",
-			"express",
-			"ci/cd",
-		],
-		image: "./images/starwars.png",
-		alt: "starwars",
-		githubLink:
-			"https://github.com/andrewcbuensalida/puppeteer-node-random-starwars",
-	},
+	// {
+	// 	title: `Random Star Wars Generator`,
+	// 	description: `Generate a random Star Wars character. First method is web scraping with Puppeteer. Second method
+	// 	is with an API.
+	// 		Stack includes Javascript for the front-end, Puppeteer for the scraper,
+	// 		 Node/Express for the server on an AWS EC2 instance, and codepipeline for CI/CD`,
+	// 	URL: "http://www.starwars.anhonestobserver.com",
+	// 	stack: [
+	// 		"javascript",
+	// 		"html/css",
+	// 		"css",
+	// 		"amazon web services",
+	// 		"puppeteer",
+	// 		"web scraping",
+	// 		"node",
+	// 		"git",
+	// 		"express",
+	// 		"ci/cd",
+	// 	],
+	// 	image: "./images/starwars.png",
+	// 	alt: "starwars",
+	// 	githubLink:
+	// 		"https://github.com/andrewcbuensalida/puppeteer-node-random-starwars",
+	// },
 	// {
 	// 	title: `Todo List`,
 	// 	description: `Add, remove, and edit a todo list.
