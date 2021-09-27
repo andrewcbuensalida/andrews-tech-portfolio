@@ -141,7 +141,7 @@ const projects = [
 	// {
 	// 	title: `Todo List`,
 	// 	description: `Add, remove, and edit a todo list.
-	// 		Stack includes Javascript, Node and Express for the server, Mongoose and MongoDB Atlas for the database,
+	// 		Stack includes Javascript with a Node, Nginx, and Certbot Docker containers, Mongoose and MongoDB Atlas for the database,
 	// 		hosted on an AWS EC2 intance`,
 	// 	URL: "http://www.todo.anhonestobserver.com",
 	// 	stack: [
@@ -153,7 +153,9 @@ const projects = [
 	// 		"git",
 	// 		"express",
 	// 		"mongodb",
-	// 		"docker"
+	// 		"docker",
+	// 		"nginx",
+	// 		"ssl certification"
 	// 	],
 	// 	image: "./images/todo.png",
 	// 	alt: "todo",
