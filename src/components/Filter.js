@@ -77,6 +77,9 @@ function Filter({ handleFilter }) {
 				</button>{" "}
 				<button className="unselected" onClick={handleFilter}>
 					Docker
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Rate Limiting
 				</button>
 			</ul>
 		</div>

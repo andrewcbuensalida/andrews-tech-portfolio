@@ -1,6 +1,6 @@
-// if adding a new stack, dont forget to update filter component
+// if adding a new stack, dont forget to update filter component. Also dont forget to update resume.
 // list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,"linux","docker"
-// ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,
+// ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,"rate limiting",
 // web scraping, puppeteer, "user authorization", "json web tokens", "handlebars", "nginx", "ssl certification", "jest testing",'chartjs'
 const projects = [
 	{
@@ -51,9 +51,7 @@ const projects = [
 	},
 	{
 		title: `Andrew's Blogs`,
-		description: `Create, Read, and Delete blogs. 
-			Stack includes MongoDB, MVC pattern, Google Cloud Platform's App Engine and Cloud Build for CI/CD,
-			 Node, Express, and ejs for the front-end`,
+		description: `Create, Read, and Delete blogs. Stack includes MongoDB, MVC pattern, Google Cloud Platform's App Engine and Cloud Build for CI/CD, Node, Express rate limiting, and ejs for the front-end.`,
 		URL: "http://www.blogs.anhonestobserver.com",
 		stack: [
 			"javascript",
@@ -64,6 +62,7 @@ const projects = [
 			"mvc pattern",
 			"ci/cd",
 			"git",
+			"rate limiting",
 		],
 		image: "./images/blogs.png",
 		alt: "blogs",
