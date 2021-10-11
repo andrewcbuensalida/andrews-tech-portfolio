@@ -26,7 +26,7 @@ const projects = [
 		title: `Doctor Database`,
 		description: `Find and rate your doctor. 
 			Stack includes Bootstrap, Nginx, Axios, React, PostgreSQL, Node, hosted on an AWS ec2 server, with continuous integration with Code Pipeline.`,
-		URL: "http://doctordb.anhonesobserver.com",
+		URL: "http://doctordb.anhonestobserver.com",
 		stack: [
 			"react",
 			"html/css",
