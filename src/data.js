@@ -5,22 +5,26 @@
 // web scraping, puppeteer, "user authorization", "json web tokens", "handlebars", "nginx", "ssl certification", "jest testing",'chartjs'
 const projects = [
 	{
-		title: `Andrew's Black Jack`,
-		description: `Play against the dealer. 
-			Stack includes Javascript, HTML, CSS, hosted in an Amazon web services s3 bucket`,
-		URL: "http://www.andrewsblackjack.com",
+		title: `Instagram Clone`,
+		description: `Sign-up, Like, Comment, and Follow other users. 
+			Stack includes React, Tailwind CSS, Firebase NoSQL database, AWS Elastic Beanstalk and Code Pipeline for CI/CD`,
+		URL: "http://www.instagram.anhonestobserver.com",
 		stack: [
-			"javascript",
+			"react",
 			"html/css",
-			"css",
+			"tailwind",
 			"amazon web services",
-			"ci/cd",
+			"javascript",
+			"firebase",
+			"google cloud platform",
+			"cloud",
 			"git",
+			"ci/cd",
+			"user authorization",
 		],
-		image: "./images/blackjack.png",
-		alt: "blackjack",
-		githubLink:
-			"https://github.com/andrewcbuensalida/javascript-beginners-blackjack-clever-programmer",
+		image: "./images/instagram.png",
+		alt: "instagram",
+		githubLink: "https://github.com/andrewcbuensalida/Instagram-Clone",
 	},
 	{
 		title: `Doctor Database`,
@@ -114,51 +118,47 @@ const projects = [
 		githubLink: "https://github.com/andrewcbuensalida/graphql-playlist",
 	},
 	{
-		title: `Instagram Clone`,
-		description: `Sign-up, Like, Comment, and Follow other users. 
-			Stack includes React, Tailwind CSS, Firebase NoSQL database, AWS Elastic Beanstalk and Code Pipeline for CI/CD`,
-		URL: "http://www.instagram.anhonestobserver.com",
+		title: `Andrew's Black Jack`,
+		description: `Play against the dealer. 
+			Stack includes Javascript, HTML, CSS, hosted in an Amazon web services s3 bucket`,
+		URL: "http://www.andrewsblackjack.com",
 		stack: [
-			"react",
-			"html/css",
-			"tailwind",
-			"amazon web services",
 			"javascript",
-			"firebase",
-			"google cloud platform",
-			"cloud",
-			"git",
+			"html/css",
+			"css",
+			"amazon web services",
 			"ci/cd",
-			"user authorization",
+			"git",
 		],
-		image: "./images/instagram.png",
-		alt: "instagram",
-		githubLink: "https://github.com/andrewcbuensalida/Instagram-Clone",
+		image: "./images/blackjack.png",
+		alt: "blackjack",
+		githubLink:
+			"https://github.com/andrewcbuensalida/javascript-beginners-blackjack-clever-programmer",
 	},
-	// {
-	// 	title: `Random Star Wars Generator`,
-	// 	description: `Generate a random Star Wars character. First method is web scraping with Puppeteer. Second method
-	// 	is with an API.
-	// 		Stack includes Javascript for the front-end, Puppeteer for the scraper,
-	// 		 Node/Express for the server on an AWS EC2 instance, and codepipeline for CI/CD`,
-	// 	URL: "http://www.starwars.anhonestobserver.com",
-	// 	stack: [
-	// 		"javascript",
-	// 		"html/css",
-	// 		"css",
-	// 		"amazon web services",
-	// 		"puppeteer",
-	// 		"web scraping",
-	// 		"node",
-	// 		"git",
-	// 		"express",
-	// 		"ci/cd",
-	// 	],
-	// 	image: "./images/starwars.png",
-	// 	alt: "starwars",
-	// 	githubLink:
-	// 		"https://github.com/andrewcbuensalida/puppeteer-node-random-starwars",
-	// },
+	{
+		title: `Random Star Wars Generator`,
+		description: `Generate a random Star Wars character. First method is web scraping with Puppeteer. Second method
+		is with an API.
+			Stack includes Javascript for the front-end, Puppeteer for the scraper,
+			 Node/Express for the server on an AWS EC2 instance, and codepipeline for CI/CD`,
+		URL: "http://www.starwars.anhonestobserver.com",
+		stack: [
+			"javascript",
+			"html/css",
+			"css",
+			"amazon web services",
+			"puppeteer",
+			"web scraping",
+			"node",
+			"git",
+			"express",
+			"ci/cd",
+		],
+		image: "./images/starwars.png",
+		alt: "starwars",
+		githubLink:
+			"https://github.com/andrewcbuensalida/puppeteer-node-random-star-wars",
+	},
 	// {
 	// 	title: `Todo List`,
 	// 	description: `Add, remove, and edit a todo list.
