@@ -1,6 +1,7 @@
 // if adding a new stack, dont forget to update filter component. Also dont forget to update resume.
-// list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,"linux","docker"
-// ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,"rate limiting",
+// list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,"linux","docker", "postgres"
+// ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,"rate limiting","bootstrap"
+//"axios"
 // web scraping, puppeteer, "user authorization", "json web tokens", "handlebars", "nginx", "ssl certification", "jest testing",'chartjs'
 const projects = [
 	{
@@ -20,6 +21,27 @@ const projects = [
 		alt: "blackjack",
 		githubLink:
 			"https://github.com/andrewcbuensalida/javascript-beginners-blackjack-clever-programmer",
+	},
+	{
+		title: `Doctor Database`,
+		description: `Find and rate your doctor. 
+			Stack includes Bootstrap, Nginx, Axios, React, PostgreSQL, Node, hosted on an AWS ec2 server, with continuous integration with Code Pipeline.`,
+		URL: "http://doctordb.anhonesobserver.com",
+		stack: [
+			"react",
+			"html/css",
+			"axios",
+			"amazon web services",
+			"ci/cd",
+			"git",
+			"bootstrap",
+			"nginx",
+			"postgres",
+			"node",
+		],
+		image: "./images/doctordb.png",
+		alt: "doctordb",
+		githubLink: "https://github.com/andrewcbuensalida/PERN-STACK-YELP-CLONE",
 	},
 	{
 		title: `Minute Cookie Recipes`,

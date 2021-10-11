@@ -80,6 +80,12 @@ function Filter({ handleFilter }) {
 				</button>{" "}
 				<button className="unselected" onClick={handleFilter}>
 					Rate Limiting
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Bootstrap
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Postgres
 				</button>
 			</ul>
 		</div>
