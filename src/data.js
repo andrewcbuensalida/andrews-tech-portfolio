@@ -24,7 +24,7 @@ const projects = [
 	},
 	{
 		title: `Doctor Database`,
-		description: `Find and rate your doctor. 
+		description: `Infinite scroll to find and rate your doctor. 
 			Stack includes Bootstrap, Nginx, Axios, React, PostgreSQL, Node, hosted on an AWS ec2 server, with continuous integration with Code Pipeline.`,
 		URL: "http://doctordb.anhonestobserver.com",
 		stack: [
@@ -90,29 +90,29 @@ const projects = [
 		alt: "blogs",
 		githubLink: "https://github.com/andrewcbuensalida/node-crash-course.git",
 	},
-	// {
-	// 	title: `Love's Books`,
-	// 	description: `Add your favorite books. Stack includes React with GraphQL for the front-end and a MongoDB Atlas database and Node server on an AWS EC2 with Nginx proxy on an SSL certified domain with Code Pipeline for CI/CD`,
-	// 	URL: "http://www.books.anhonestobserver.com",
-	// 	stack: [
-	// 		"react",
-	// 		"graphql",
-	// 		"amazon web services",
-	// 		"amplify",
-	// 		"mongodb",
-	// 		"atlas",
-	// 		"node",
-	// 		"ec2",
-	// 		"html/css",
-	// 		"git",
-	// 		"nginx",
-	// 		"ssl certification",
-	//		"linux",
-	// 	],
-	// 	image: "./images/books.png",
-	// 	alt: "books",
-	// 	githubLink: "https://github.com/andrewcbuensalida/graphql-playlist",
-	// },
+	{
+		title: `Love's Books`,
+		description: `Add your favorite books. Stack includes React with GraphQL for the front-end and a MongoDB Atlas database and Node server on an AWS EC2 with Nginx proxy on an SSL certified domain with Code Pipeline for CI/CD`,
+		URL: "http://www.books.anhonestobserver.com",
+		stack: [
+			"react",
+			"graphql",
+			"amazon web services",
+			"amplify",
+			"mongodb",
+			"atlas",
+			"node",
+			"ec2",
+			"html/css",
+			"git",
+			"nginx",
+			"ssl certification",
+			"linux",
+		],
+		image: "./images/books.png",
+		alt: "books",
+		githubLink: "https://github.com/andrewcbuensalida/graphql-playlist",
+	},
 	{
 		title: `Instagram Clone`,
 		description: `Sign-up, Like, Comment, and Follow other users. 
