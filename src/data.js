@@ -159,29 +159,28 @@ const projects = [
 		githubLink:
 			"https://github.com/andrewcbuensalida/puppeteer-node-random-star-wars",
 	},
-	// {
-	// 	title: `Todo List`,
-	// 	description: `Add, remove, and edit a todo list.
-	// 		Stack includes Javascript with a Node, Nginx, and Certbot Docker containers, Mongoose and MongoDB Atlas for the database,
-	// 		hosted on an AWS EC2 intance`,
-	// 	URL: "http://www.todo.anhonestobserver.com",
-	// 	stack: [
-	// 		"javascript",
-	// 		"html/css",
-	// 		"css",
-	// 		"amazon web services",
-	// 		"node",
-	// 		"git",
-	// 		"express",
-	// 		"mongodb",
-	// 		"docker",
-	// 		"nginx",
-	// 		"ssl certification"
-	// 	],
-	// 	image: "./images/todo.png",
-	// 	alt: "todo",
-	// 	githubLink: "https://github.com/andrewcbuensalida/node-mongodb-todo",
-	// },
+	{
+		title: `Todo List`,
+		description: `Add, remove, and edit a todo list.
+			Stack includes Javascript with a Node, and MongoDB Docker containers, hosted on an AWS EC2 intance`,
+		URL: "http://www.todo.anhonestobserver.com",
+		stack: [
+			"javascript",
+			"html/css",
+			"css",
+			"amazon web services",
+			"node",
+			"git",
+			"express",
+			"mongodb",
+			"docker",
+			"nginx",
+			"ssl certification",
+		],
+		image: "./images/todo.png",
+		alt: "todo",
+		githubLink: "https://github.com/andrewcbuensalida/node-mongodb-todo",
+	},
 	{
 		title: `Andrew's Portfolio`,
 		description: `Website that displays some of my projects. Includes links to the apps and their respective Github repositories.
