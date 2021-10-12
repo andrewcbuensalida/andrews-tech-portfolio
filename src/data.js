@@ -162,7 +162,7 @@ const projects = [
 	{
 		title: `Todo List`,
 		description: `Add, remove, and edit a todo list.
-			Stack includes Javascript with a Node, and MongoDB Docker containers, hosted on an AWS EC2 intance`,
+			Stack includes CI/CD with watchtower deploying Node, and MongoDB Docker containers, hosted on an AWS EC2 intance`,
 		URL: "https://www.todo.anhonestobserver.com",
 		stack: [
 			"javascript",
