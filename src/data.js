@@ -1,8 +1,8 @@
 // if adding a new stack, dont forget to update filter component. Also dont forget to update resume.
 // list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,"linux","docker", "postgres"
 // ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,"rate limiting","bootstrap"
-//"axios"
-// web scraping, puppeteer, "user authorization", "json web tokens", "handlebars", "nginx", "ssl certification", "jest testing",'chartjs'
+//"axios",'chartjs', "linux"
+// web scraping, puppeteer, "user authorization", "json web tokens", "handlebars", "nginx", "ssl certification", "jest testing",
 const projects = [
 	{
 		title: `Instagram Clone`,
@@ -42,6 +42,7 @@ const projects = [
 			"nginx",
 			"postgres",
 			"node",
+			"linux",
 		],
 		image: "./images/doctordb.png",
 		alt: "doctordb",
@@ -103,6 +104,7 @@ const projects = [
 			"graphql",
 			"amazon web services",
 			"amplify",
+			"linux",
 			"mongodb",
 			"atlas",
 			"node",
@@ -153,6 +155,7 @@ const projects = [
 			"git",
 			"express",
 			"ci/cd",
+			"linux",
 		],
 		image: "./images/starwars.png",
 		alt: "starwars",
@@ -175,6 +178,7 @@ const projects = [
 			"mongodb",
 			"docker",
 			"nginx",
+			"linux",
 			"ssl certification",
 		],
 		image: "./images/todo.png",

@@ -86,6 +86,9 @@ function Filter({ handleFilter }) {
 				</button>{" "}
 				<button className="unselected" onClick={handleFilter}>
 					Postgres
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Linux
 				</button>
 			</ul>
 		</div>
