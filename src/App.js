@@ -59,6 +59,11 @@ function App() {
 			<Filter filters={filters} handleFilter={handleFilter} />
 			<div className="projects">{projectsComponents}</div>
 			<PieChart />
+			<img
+				style={{ width: "75%", margin: "30px", borderRadius: "5%" }}
+				src="./images/architecture.png"
+				alt="architecture"
+			/>
 		</div>
 	);
 }
