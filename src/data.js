@@ -1,7 +1,7 @@
 // if adding a new stack, dont forget to update filter component. Also dont forget to update resume.
 // list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,"linux","docker", "postgres"
 // ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,"rate limiting","bootstrap"
-//"axios",'chartjs', "linux"
+//"axios",'chartjs', "linux", 'google assistant'
 // web scraping, puppeteer, "user authorization", "json web tokens", "handlebars", "nginx", "ssl certification", "jest testing",
 const projects = [
 	{
@@ -46,7 +46,8 @@ const projects = [
 		],
 		image: "./images/doctordb.png",
 		alt: "doctordb",
-		githubLink: "https://github.com/andrewcbuensalida/PERN-STACK-YELP-CLONE",
+		githubLink:
+			"https://github.com/andrewcbuensalida/PERN-STACK-YELP-CLONE",
 	},
 	{
 		title: `Minute Cookie Recipes`,
@@ -77,6 +78,22 @@ const projects = [
 			"https://github.com/andrewcbuensalida/node-express-jwt-auth.git",
 	},
 	{
+		title: `Auto Scribe`,
+		description: `Mainly for nurse assistants, Auto Scribe hands-freely records brief changes, and feeding, gives advice on transferring the patient, and CPR, and gives info on who the top performers are. *There are currently 4 fictional patients with room numbers of 11, 12, 21, and 22. Stack includes Node for the back-end server, Google Firebase Firestore for the noSQL databse, hosted on a Google Compute Cloud virtual machine.`,
+		URL: "https://assistant.google.com/services/invoke/uid/000000817e041429/alm/CgRUf1EIEgIQAQ==?hl=en",
+		stack: [
+			"javascript",
+			"google cloud platform",
+			"google assistant",
+			"git",
+			"firebase",
+			"linux",
+		],
+		image: "./images/autoscribe.png",
+		alt: "auto scribe",
+		githubLink: "https://github.com/andrewcbuensalida/doctor-google",
+	},
+	{
 		title: `Andrew's Blogs`,
 		description: `Create, Read, and Delete blogs. Stack includes MongoDB, MVC pattern, Google Cloud Platform's App Engine and Cloud Build for CI/CD, Node, Express rate limiting, and ejs for the front-end.`,
 		URL: "http://www.blogs.anhonestobserver.com",
@@ -93,7 +110,8 @@ const projects = [
 		],
 		image: "./images/blogs.png",
 		alt: "blogs",
-		githubLink: "https://github.com/andrewcbuensalida/node-crash-course.git",
+		githubLink:
+			"https://github.com/andrewcbuensalida/node-crash-course.git",
 	},
 	{
 		title: `Love's Books`,
@@ -202,7 +220,8 @@ const projects = [
 		],
 		image: "./images/portfolio.png",
 		alt: "portfolio",
-		githubLink: "https://github.com/andrewcbuensalida/andrews-tech-portfolio",
+		githubLink:
+			"https://github.com/andrewcbuensalida/andrews-tech-portfolio",
 	},
 ];
 export default projects;

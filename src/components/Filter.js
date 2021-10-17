@@ -89,6 +89,9 @@ function Filter({ handleFilter }) {
 				</button>{" "}
 				<button className="unselected" onClick={handleFilter}>
 					Linux
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Google Assistant
 				</button>
 			</ul>
 		</div>
