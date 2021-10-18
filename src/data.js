@@ -8,7 +8,7 @@ const projects = [
 		title: `Instagram Clone`,
 		description: `Sign-up, Like, Comment, and Follow other users. 
 			Stack includes React, Tailwind CSS, Firebase NoSQL database, AWS Elastic Beanstalk and Code Pipeline for CI/CD`,
-		URL: "https://www.instagram.anhonestobserver.com",
+		URL: "http://www.instagram.anhonestobserver.com",
 		stack: [
 			"react",
 			"html/css",
@@ -24,13 +24,13 @@ const projects = [
 		],
 		image: "./images/instagram.png",
 		alt: "instagram",
-		githubLink: "https://www.github.com/andrewcbuensalida/Instagram-Clone",
+		githubLink: "https://github.com/andrewcbuensalida/Instagram-Clone",
 	},
 	{
 		title: `Doctor Database`,
 		description: `Infinite scroll to find and rate your doctor. 
 			Stack includes Bootstrap, Nginx, Axios, React, PostgreSQL, Node, hosted on an AWS ec2 server, with continuous integration with Code Pipeline.`,
-		URL: "http://www.doctordb.anhonestobserver.com",
+		URL: "https://doctordb.anhonestobserver.com",
 		stack: [
 			"react",
 			"html/css",
@@ -47,7 +47,7 @@ const projects = [
 		image: "./images/doctordb.png",
 		alt: "doctordb",
 		githubLink:
-			"http://www.github.com/andrewcbuensalida/PERN-STACK-YELP-CLONE",
+			"https://github.com/andrewcbuensalida/PERN-STACK-YELP-CLONE",
 	},
 	{
 		title: `Minute Cookie Recipes`,
@@ -75,16 +75,12 @@ const projects = [
 		image: "./images/cookies.png",
 		alt: "cookies",
 		githubLink:
-			"http://www.github.com/andrewcbuensalida/node-express-jwt-auth.git",
+			"https://github.com/andrewcbuensalida/node-express-jwt-auth.git",
 	},
 	{
 		title: `Auto Scribe`,
-		description: `Mainly for nurse assistants, Auto Scribe hands-freely records brief changes, and feeding, 
-		gives advice on transferring the patient, and CPR, and gives info on who the top performers are. 
-		*There are currently 4 fictional patients with room numbers of 11, 12, 21, and 22. 
-		Stack includes Node for the back-end server, Google Firebase Firestore for the noSQL databse, 
-		hosted on a Google Compute Cloud virtual machine.`,
-		URL: "http://www.assistant.google.com/services/invoke/uid/000000817e041429/alm/CgRUf1EIEgIQAQ==?hl=en",
+		description: `Mainly for nurse assistants, Auto Scribe hands-freely records brief changes, and feeding, gives advice on transferring the patient, and CPR, and gives info on who the top performers are. *There are currently 4 fictional patients with room numbers of 11, 12, 21, and 22. Stack includes Node for the back-end server, Google Firebase Firestore for the noSQL databse, hosted on a Google Compute Cloud virtual machine.`,
+		URL: "https://assistant.google.com/services/invoke/uid/000000817e041429/alm/CgRUf1EIEgIQAQ==?hl=en",
 		stack: [
 			"javascript",
 			"google cloud platform",
@@ -95,7 +91,7 @@ const projects = [
 		],
 		image: "./images/autoscribe.png",
 		alt: "auto scribe",
-		githubLink: "http://www.github.com/andrewcbuensalida/doctor-google",
+		githubLink: "https://github.com/andrewcbuensalida/doctor-google",
 	},
 	{
 		title: `Andrew's Blogs`,
@@ -115,12 +111,12 @@ const projects = [
 		image: "./images/blogs.png",
 		alt: "blogs",
 		githubLink:
-			"http://www.github.com/andrewcbuensalida/node-crash-course.git",
+			"https://github.com/andrewcbuensalida/node-crash-course.git",
 	},
 	{
 		title: `Love's Books`,
 		description: `Add your favorite books. Stack includes React with GraphQL for the front-end and a MongoDB Atlas database and Node server on an AWS EC2 with Nginx proxy on an SSL certified domain with Code Pipeline for CI/CD`,
-		URL: "http://www.books.anhonestobserver.com",
+		URL: "https://www.books.anhonestobserver.com",
 		stack: [
 			"react",
 			"graphql",
@@ -139,7 +135,7 @@ const projects = [
 		],
 		image: "./images/books.png",
 		alt: "books",
-		githubLink: "http://www.github.com/andrewcbuensalida/graphql-playlist",
+		githubLink: "https://github.com/andrewcbuensalida/graphql-playlist",
 	},
 	{
 		title: `Andrew's Black Jack`,
@@ -157,7 +153,7 @@ const projects = [
 		image: "./images/blackjack.png",
 		alt: "blackjack",
 		githubLink:
-			"http://www.github.com/andrewcbuensalida/javascript-beginners-blackjack-clever-programmer",
+			"https://github.com/andrewcbuensalida/javascript-beginners-blackjack-clever-programmer",
 	},
 	{
 		title: `Random Star Wars Generator`,
@@ -165,7 +161,7 @@ const projects = [
 		is with an API.
 			Stack includes Javascript for the front-end, Puppeteer for the scraper,
 			 Node/Express for the server on an AWS EC2 instance, and codepipeline for CI/CD`,
-		URL: "http://www.starwars.anhonestobserver.com",
+		URL: "https://www.starwars.anhonestobserver.com",
 		stack: [
 			"javascript",
 			"html/css",
@@ -182,13 +178,13 @@ const projects = [
 		image: "./images/starwars.png",
 		alt: "starwars",
 		githubLink:
-			"http://www.github.com/andrewcbuensalida/puppeteer-node-random-star-wars",
+			"https://github.com/andrewcbuensalida/puppeteer-node-random-star-wars",
 	},
 	{
 		title: `Todo List`,
 		description: `Add, remove, and edit a todo list.
 			Stack includes CI/CD with watchtower deploying Node, and MongoDB Docker containers, hosted on an AWS EC2 intance`,
-		URL: "http://www.todo.anhonestobserver.com",
+		URL: "https://www.todo.anhonestobserver.com",
 		stack: [
 			"javascript",
 			"html/css",
@@ -205,13 +201,13 @@ const projects = [
 		],
 		image: "./images/todo.png",
 		alt: "todo",
-		githubLink: "http://www.github.com/andrewcbuensalida/node-mongodb-todo",
+		githubLink: "https://github.com/andrewcbuensalida/node-mongodb-todo",
 	},
 	{
 		title: `Andrew's Portfolio`,
 		description: `Website that displays some of my projects. Includes links to the apps and their respective Github repositories.
 			Stack includes React for the front-end, Jest for testing, CSS from codepen, hosted on AWS Amplify for continuous deployment. `,
-		URL: "http://www.anhonestobserver.com",
+		URL: "https://www.anhonestobserver.com",
 		stack: [
 			"react",
 			"html/css",
@@ -225,7 +221,7 @@ const projects = [
 		image: "./images/portfolio.png",
 		alt: "portfolio",
 		githubLink:
-			"http://www.github.com/andrewcbuensalida/andrews-tech-portfolio",
+			"https://github.com/andrewcbuensalida/andrews-tech-portfolio",
 	},
 ];
 export default projects;
