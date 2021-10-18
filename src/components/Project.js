@@ -30,7 +30,9 @@ function Project({ filters, data }) {
 				<h2>{description}</h2>
 				<h2>
 					<a href={URL}>
-						{URL.slice(0, 34)}
+						{URL.replace("http://", "")
+							.replace("https://", "")
+							.slice(0, 34)}
 						{URL.length > 34 && "..."}
 					</a>
 				</h2>
