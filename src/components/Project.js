@@ -29,7 +29,10 @@ function Project({ filters, data }) {
 				</h1>
 				<h2>{description}</h2>
 				<h2>
-					<a href={URL}>{URL}</a>
+					<a href={URL}>
+						{URL.slice(0, 34)}
+						{URL.length > 34 && "..."}
+					</a>
 				</h2>
 			</div>
 		)

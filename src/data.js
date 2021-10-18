@@ -8,7 +8,7 @@ const projects = [
 		title: `Instagram Clone`,
 		description: `Sign-up, Like, Comment, and Follow other users. 
 			Stack includes React, Tailwind CSS, Firebase NoSQL database, AWS Elastic Beanstalk and Code Pipeline for CI/CD`,
-		URL: "http://www.instagram.anhonestobserver.com",
+		URL: "www.instagram.anhonestobserver.com",
 		stack: [
 			"react",
 			"html/css",
@@ -24,13 +24,13 @@ const projects = [
 		],
 		image: "./images/instagram.png",
 		alt: "instagram",
-		githubLink: "https://github.com/andrewcbuensalida/Instagram-Clone",
+		githubLink: "www.github.com/andrewcbuensalida/Instagram-Clone",
 	},
 	{
 		title: `Doctor Database`,
 		description: `Infinite scroll to find and rate your doctor. 
 			Stack includes Bootstrap, Nginx, Axios, React, PostgreSQL, Node, hosted on an AWS ec2 server, with continuous integration with Code Pipeline.`,
-		URL: "https://doctordb.anhonestobserver.com",
+		URL: "www.doctordb.anhonestobserver.com",
 		stack: [
 			"react",
 			"html/css",
@@ -46,8 +46,7 @@ const projects = [
 		],
 		image: "./images/doctordb.png",
 		alt: "doctordb",
-		githubLink:
-			"https://github.com/andrewcbuensalida/PERN-STACK-YELP-CLONE",
+		githubLink: "www.github.com/andrewcbuensalida/PERN-STACK-YELP-CLONE",
 	},
 	{
 		title: `Minute Cookie Recipes`,
@@ -56,7 +55,7 @@ const projects = [
 			Model View Controller design pattern, Bcrypt password encryption, Node with express for the server,
 			MongoDB with mongoose for the database,
 			Google Cloud's App Engine for hosting, and Cloud Build for CI/CD`,
-		URL: "http://www.cookies.anhonestobserver.com",
+		URL: "www.cookies.anhonestobserver.com",
 		stack: [
 			"javascript",
 			"handlebars",
@@ -75,12 +74,16 @@ const projects = [
 		image: "./images/cookies.png",
 		alt: "cookies",
 		githubLink:
-			"https://github.com/andrewcbuensalida/node-express-jwt-auth.git",
+			"www.github.com/andrewcbuensalida/node-express-jwt-auth.git",
 	},
 	{
 		title: `Auto Scribe`,
-		description: `Mainly for nurse assistants, Auto Scribe hands-freely records brief changes, and feeding, gives advice on transferring the patient, and CPR, and gives info on who the top performers are. *There are currently 4 fictional patients with room numbers of 11, 12, 21, and 22. Stack includes Node for the back-end server, Google Firebase Firestore for the noSQL databse, hosted on a Google Compute Cloud virtual machine.`,
-		URL: "https://assistant.google.com/services/invoke/uid/000000817e041429/alm/CgRUf1EIEgIQAQ==?hl=en",
+		description: `Mainly for nurse assistants, Auto Scribe hands-freely records brief changes, and feeding, 
+		gives advice on transferring the patient, and CPR, and gives info on who the top performers are. 
+		*There are currently 4 fictional patients with room numbers of 11, 12, 21, and 22. 
+		Stack includes Node for the back-end server, Google Firebase Firestore for the noSQL databse, 
+		hosted on a Google Compute Cloud virtual machine.`,
+		URL: "www.assistant.google.com/services/invoke/uid/000000817e041429/alm/CgRUf1EIEgIQAQ==?hl=en",
 		stack: [
 			"javascript",
 			"google cloud platform",
@@ -91,12 +94,12 @@ const projects = [
 		],
 		image: "./images/autoscribe.png",
 		alt: "auto scribe",
-		githubLink: "https://github.com/andrewcbuensalida/doctor-google",
+		githubLink: "www.github.com/andrewcbuensalida/doctor-google",
 	},
 	{
 		title: `Andrew's Blogs`,
 		description: `Create, Read, and Delete blogs. Stack includes MongoDB, MVC pattern, Google Cloud Platform's App Engine and Cloud Build for CI/CD, Node, Express rate limiting, and ejs for the front-end.`,
-		URL: "http://www.blogs.anhonestobserver.com",
+		URL: "www.blogs.anhonestobserver.com",
 		stack: [
 			"javascript",
 			"html/css",
@@ -110,13 +113,12 @@ const projects = [
 		],
 		image: "./images/blogs.png",
 		alt: "blogs",
-		githubLink:
-			"https://github.com/andrewcbuensalida/node-crash-course.git",
+		githubLink: "www.github.com/andrewcbuensalida/node-crash-course.git",
 	},
 	{
 		title: `Love's Books`,
 		description: `Add your favorite books. Stack includes React with GraphQL for the front-end and a MongoDB Atlas database and Node server on an AWS EC2 with Nginx proxy on an SSL certified domain with Code Pipeline for CI/CD`,
-		URL: "https://www.books.anhonestobserver.com",
+		URL: "www.books.anhonestobserver.com",
 		stack: [
 			"react",
 			"graphql",
@@ -135,13 +137,13 @@ const projects = [
 		],
 		image: "./images/books.png",
 		alt: "books",
-		githubLink: "https://github.com/andrewcbuensalida/graphql-playlist",
+		githubLink: "www.github.com/andrewcbuensalida/graphql-playlist",
 	},
 	{
 		title: `Andrew's Black Jack`,
 		description: `Play against the dealer. 
 			Stack includes Javascript, HTML, CSS, hosted in an Amazon web services s3 bucket`,
-		URL: "http://www.andrewsblackjack.com",
+		URL: "www.andrewsblackjack.com",
 		stack: [
 			"javascript",
 			"html/css",
@@ -153,7 +155,7 @@ const projects = [
 		image: "./images/blackjack.png",
 		alt: "blackjack",
 		githubLink:
-			"https://github.com/andrewcbuensalida/javascript-beginners-blackjack-clever-programmer",
+			"www.github.com/andrewcbuensalida/javascript-beginners-blackjack-clever-programmer",
 	},
 	{
 		title: `Random Star Wars Generator`,
@@ -161,7 +163,7 @@ const projects = [
 		is with an API.
 			Stack includes Javascript for the front-end, Puppeteer for the scraper,
 			 Node/Express for the server on an AWS EC2 instance, and codepipeline for CI/CD`,
-		URL: "https://www.starwars.anhonestobserver.com",
+		URL: "www.starwars.anhonestobserver.com",
 		stack: [
 			"javascript",
 			"html/css",
@@ -178,13 +180,13 @@ const projects = [
 		image: "./images/starwars.png",
 		alt: "starwars",
 		githubLink:
-			"https://github.com/andrewcbuensalida/puppeteer-node-random-star-wars",
+			"www.github.com/andrewcbuensalida/puppeteer-node-random-star-wars",
 	},
 	{
 		title: `Todo List`,
 		description: `Add, remove, and edit a todo list.
 			Stack includes CI/CD with watchtower deploying Node, and MongoDB Docker containers, hosted on an AWS EC2 intance`,
-		URL: "https://www.todo.anhonestobserver.com",
+		URL: "www.todo.anhonestobserver.com",
 		stack: [
 			"javascript",
 			"html/css",
@@ -201,13 +203,13 @@ const projects = [
 		],
 		image: "./images/todo.png",
 		alt: "todo",
-		githubLink: "https://github.com/andrewcbuensalida/node-mongodb-todo",
+		githubLink: "www.github.com/andrewcbuensalida/node-mongodb-todo",
 	},
 	{
 		title: `Andrew's Portfolio`,
 		description: `Website that displays some of my projects. Includes links to the apps and their respective Github repositories.
 			Stack includes React for the front-end, Jest for testing, CSS from codepen, hosted on AWS Amplify for continuous deployment. `,
-		URL: "https://www.anhonestobserver.com",
+		URL: "www.anhonestobserver.com",
 		stack: [
 			"react",
 			"html/css",
@@ -220,8 +222,7 @@ const projects = [
 		],
 		image: "./images/portfolio.png",
 		alt: "portfolio",
-		githubLink:
-			"https://github.com/andrewcbuensalida/andrews-tech-portfolio",
+		githubLink: "www.github.com/andrewcbuensalida/andrews-tech-portfolio",
 	},
 ];
 export default projects;
