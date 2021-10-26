@@ -16,7 +16,10 @@ function App() {
 				);
 				allUnselected.forEach((el) => {
 					el.className = "selected";
-					setFilters((prev) => [...prev, el.textContent.toLowerCase()]);
+					setFilters((prev) => [
+						...prev,
+						el.textContent.toLowerCase(),
+					]);
 				});
 			} else {
 				let allSelected = Array.from(
@@ -53,17 +56,29 @@ function App() {
 				<h1>Andrew Buensalida - Software Engineer</h1>
 				<h2>A Full-stack and cloud developer in Silicon Valley</h2>
 				<h2>
-					For hire - Email: andrewcbuensalida@gmail.com - Phone: 661-964-9268
+					For hire - Email: andrewcbuensalida@gmail.com - Phone:
+					661-964-9268
 				</h2>
 			</header>
 			<Filter filters={filters} handleFilter={handleFilter} />
 			<div className="projects">{projectsComponents}</div>
 			<PieChart />
-			<img
+			{/* <img
 				style={{ width: "75%", margin: "30px", borderRadius: "5%" }}
 				src="./images/architecture.png"
 				alt="architecture"
-			/>
+			/> */}
+			<h2>
+				Javascript Leetcode Tutorials
+				<a href="https://www.youtube.com/playlist?list=PLr0FiiHGmtJEx7os_nly2U-z5dqq2EZp3">
+					https://www.youtube.com/playlist?list=PLr0...
+				</a>
+				<br />
+				Python Leetcode Tutorials
+				<a href="https://www.youtube.com/playlist?list=PLr0FiiHGmtJHEtE3fTprJKodg7bqtk6bg">
+					https://www.youtube.com/playlist?list=P...
+				</a>
+			</h2>
 		</div>
 	);
 }

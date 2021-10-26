@@ -2,6 +2,8 @@ body {
 	margin: 0;
 	text-align: center;
 	overflow-y: scroll;
+	font-family: "Bungee Hairline", cursive;
+	color: rgb(0, 0, 0);
 }
 #background {
 	width: 100%;
@@ -37,10 +39,6 @@ body {
 	-ms-animation: fadeIn ease 5s;
 }
 
-header {
-	font-family: "Bungee Hairline", cursive;
-	color: rgb(0, 0, 0);
-}
 header > * {
 	margin: -1%;
 }
