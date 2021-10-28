@@ -77,6 +77,11 @@ function App() {
 				Python Leetcode Tutorials
 				<a href="https://www.youtube.com/playlist?list=PLr0FiiHGmtJHEtE3fTprJKodg7bqtk6bg">
 					https://www.youtube.com/playlist?list=P...
+				</a>{" "}
+				<br />
+				LinkedIn
+				<a href="https://www.linkedin.com/in/andrewcbuensalida/">
+					https://www.linkedin.com/in/andrewcbuensalida/
 				</a>
 			</h2>
 		</div>
