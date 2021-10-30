@@ -24,7 +24,7 @@ function Project({ filters, data }) {
 				<h1 className="title">
 					{title}
 					<a href={githubLink} className="github">
-						<img src=".\images\github.png" />
+						<img alt="github" src=".\images\github.png" />
 					</a>
 				</h1>
 				<h2>{description}</h2>

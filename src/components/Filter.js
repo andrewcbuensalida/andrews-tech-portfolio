@@ -1,4 +1,41 @@
-function Filter({ handleFilter }) {
+function Filter({ handleFilter, projects }) {
+	function toPascalCase(string) {
+		let split = string.split(" ");
+		let pascalSplit = split.map(
+			(word) => word[0].toUpperCase() + word.substr(1)
+		);
+		let pascalJoin = pascalSplit.join(" ");
+		return pascalJoin;
+	}
+	// could do this, or regular object, or array of arrays, or localecompare, or the one in the return with entries,sort,map
+	let filterBtns = new Map();
+	for (let project of projects) {
+		for (let lang of project.stack) {
+			if (!filterBtns.has(lang)) {
+				filterBtns.set(
+					lang,
+					<button
+						key={lang}
+						className="unselected"
+						onClick={handleFilter}
+					>
+						{toPascalCase(lang)}
+					</button>
+				);
+			}
+		}
+	}
+	// console.log(
+	// 	[...filterBtns.values()].sort((a, b) => {
+	// 		if (a.key < b.key) {
+	// 			return -1;
+	// 		}
+	// 		if (a.key > b.key) {
+	// 			return 1;
+	// 		}
+	// 	})
+	// );
+
 	return (
 		<div>
 			<ul className="filter">
@@ -6,105 +43,8 @@ function Filter({ handleFilter }) {
 				<button className="unselected all" onClick={handleFilter}>
 					All
 				</button>
-				<button className="unselected" onClick={handleFilter}>
-					Node
-				</button>
-				<button className="unselected" onClick={handleFilter}>
-					React
-				</button>
-				<button className="unselected" onClick={handleFilter}>
-					Web Scraping
-				</button>
-				<button className="unselected" onClick={handleFilter}>
-					Javascript
-				</button>
-				<button className="unselected" onClick={handleFilter}>
-					Amazon Web Services
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					User Authorization
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					JSON Web Tokens
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Handlebars
-				</button>
-				<button className="unselected" onClick={handleFilter}>
-					GraphQL
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Tailwind
-				</button>
-				<button className="unselected" onClick={handleFilter}>
-					MongoDB
-				</button>
-				<button className="unselected" onClick={handleFilter}>
-					CI/CD
-				</button>
-				<button className="unselected" onClick={handleFilter}>
-					Firebase
-				</button>
-				<button className="unselected" onClick={handleFilter}>
-					HTML/CSS
-				</button>
-				<button className="unselected" onClick={handleFilter}>
-					Google Cloud Platform
-				</button>
-				<button className="unselected" onClick={handleFilter}>
-					EJS
-				</button>
-				<button className="unselected" onClick={handleFilter}>
-					MVC Pattern
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Git
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Nginx
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					SSL Certification
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Jest testing
-				</button>
-				<button className="unselected" onClick={handleFilter}>
-					Chartjs
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Linux
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Docker
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Rate Limiting
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Bootstrap
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Postgres
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Linux
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Google Assistant
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Django
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					Python
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					SQLite
-				</button>{" "}
-				<button className="unselected" onClick={handleFilter}>
-					SCSS
-				</button>
+				{/* sorting [['a',<h1...>],['b',<h1...>]] seems to be just comparing the first elements, a to b */}
+				{[...filterBtns.entries()].sort().map((lang) => lang[1])}
 			</ul>
 		</div>
 	);

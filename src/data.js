@@ -1,4 +1,4 @@
-// if adding a new stack, dont forget to update filter component. Also dont forget to update resume.
+// if adding a new stack, dont forget to update resume.
 // list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,"linux","docker", "postgres"
 // ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,"rate limiting","bootstrap"
 //"axios",'chartjs', "linux", 'google assistant', 'django', 'python', 'sqlite',"nginx",'scss',
@@ -17,7 +17,6 @@ const projects = [
 			"javascript",
 			"firebase",
 			"google cloud platform",
-			"cloud",
 			"git",
 			"ci/cd",
 			"user authorization",
@@ -61,14 +60,12 @@ const projects = [
 			"javascript",
 			"handlebars",
 			"html/css",
-			"css",
 			"google cloud platform",
 			"ci/cd",
 			"git",
 			"mvc pattern",
 			"mongodb",
 			"node",
-			"app engine",
 			"user authorization",
 			"json web tokens",
 		],
@@ -100,7 +97,6 @@ const projects = [
 		stack: [
 			"javascript",
 			"html/css",
-			"css",
 			"google cloud platform",
 			"ejs",
 			"mvc pattern",
@@ -124,9 +120,7 @@ const projects = [
 			"amplify",
 			"linux",
 			"mongodb",
-			"atlas",
 			"node",
-			"ec2",
 			"html/css",
 			"git",
 			"nginx",
@@ -145,7 +139,6 @@ const projects = [
 		stack: [
 			"javascript",
 			"html/css",
-			"css",
 			"amazon web services",
 			"ci/cd",
 			"git",
@@ -165,7 +158,6 @@ const projects = [
 		stack: [
 			"javascript",
 			"html/css",
-			"css",
 			"amazon web services",
 			"puppeteer",
 			"web scraping",
@@ -188,7 +180,7 @@ const projects = [
 		stack: [
 			"javascript",
 			"html/css",
-			"css",
+
 			"scss",
 			"amazon web services",
 			"node",
@@ -211,7 +203,7 @@ const projects = [
 		stack: [
 			"django",
 			"html/css",
-			"css",
+
 			"amazon web services",
 			"python",
 			"sqlite",
@@ -231,7 +223,7 @@ const projects = [
 		stack: [
 			"react",
 			"html/css",
-			"css",
+
 			"amazon web services",
 			"jest testing",
 			"ci/cd",

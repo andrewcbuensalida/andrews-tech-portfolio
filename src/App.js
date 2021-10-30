@@ -9,7 +9,7 @@ function App() {
 	Parallax();
 	const [filters, setFilters] = useState([]);
 	function handleFilter(e) {
-		if (e.target.textContent == "All") {
+		if (e.target.textContent === "All") {
 			if (e.target.className.includes("unselected")) {
 				let allUnselected = Array.from(
 					document.getElementsByClassName("unselected")
@@ -31,7 +31,7 @@ function App() {
 				});
 			}
 		} else {
-			if (e.target.className == "unselected") {
+			if (e.target.className === "unselected") {
 				e.target.className = "selected";
 			} else {
 				e.target.className = "unselected";
@@ -47,7 +47,7 @@ function App() {
 		}
 	}
 	const projectsComponents = projects.map((project) => (
-		<Project filters={filters} data={project} />
+		<Project key={project.title} filters={filters} data={project} />
 	));
 
 	return (
@@ -60,7 +60,7 @@ function App() {
 					661-964-9268
 				</h2>
 			</header>
-			<Filter filters={filters} handleFilter={handleFilter} />
+			<Filter projects={projects} handleFilter={handleFilter} />
 			<div className="projects">{projectsComponents}</div>
 			<PieChart />
 			{/* <img

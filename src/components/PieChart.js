@@ -6,20 +6,21 @@ import { useEffect, useState } from "react";
 function PieChart() {
 	const [languages, setLanguages] = useState([]);
 	const [percentages, setPercentages] = useState([]);
-	useEffect(async () => {
-		const totalLanguagesBytes = await getLanguages();
-		// console.log(totalLanguagesBytes);
-		setLanguages(Object.keys(totalLanguagesBytes));
-		const totalBytes = Object.values(totalLanguagesBytes).reduce(
-			(prev, curr) => prev + curr
-		);
-		const percentages = Object.values(totalLanguagesBytes).map(
-			(languageBytes) => Math.floor((languageBytes / totalBytes) * 100)
-		);
-		setPercentages(percentages);
+	useEffect(() => {
+		async function fetchData() {
+			const totalLanguagesBytes = await getLanguages();
+			setLanguages(Object.keys(totalLanguagesBytes));
+			const totalBytes = Object.values(totalLanguagesBytes).reduce(
+				(prev, curr) => prev + curr
+			);
+			const percentages = Object.values(totalLanguagesBytes).map(
+				(languageBytes) =>
+					Math.floor((languageBytes / totalBytes) * 100)
+			);
+			setPercentages(percentages);
+		}
+		fetchData();
 	}, []);
-	// console.log(languages);
-	// console.log(percentages);
 	const randomColors = languages.map(
 		() => `#${Math.floor(Math.random() * 16777215).toString(16)}`
 	);
