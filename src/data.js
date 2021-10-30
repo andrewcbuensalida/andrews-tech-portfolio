@@ -42,6 +42,7 @@ const projects = [
 			"postgres",
 			"node",
 			"linux",
+			"ssl certification",
 		],
 		image: "./images/doctordb.png",
 		alt: "doctordb",
@@ -85,6 +86,7 @@ const projects = [
 			"git",
 			"firebase",
 			"linux",
+			"ssl certification",
 		],
 		image: "./images/autoscribe.png",
 		alt: "auto scribe",
@@ -150,10 +152,7 @@ const projects = [
 	},
 	{
 		title: `Random Star Wars Generator`,
-		description: `Generate a random Star Wars character. First method is web scraping with Puppeteer. Second method
-		is with an API.
-			Stack includes Javascript for the front-end, Puppeteer for the scraper,
-			 Node/Express for the server on an AWS EC2 instance, and codepipeline for CI/CD`,
+		description: `Generates a random Star Wars character via web scraping with Puppeteer and through an API. Stack includes Javascript for the front-end, Puppeteer for the scraper, Node/Express for the server on an AWS EC2 Linux instance, and codepipeline for CI/CD `,
 		URL: "https://www.starwars.anhonestobserver.com",
 		stack: [
 			"javascript",
@@ -166,6 +165,7 @@ const projects = [
 			"express",
 			"ci/cd",
 			"linux",
+			"ssl certification",
 		],
 		image: "./images/starwars.png",
 		alt: "starwars",
@@ -180,7 +180,6 @@ const projects = [
 		stack: [
 			"javascript",
 			"html/css",
-
 			"scss",
 			"amazon web services",
 			"node",
@@ -203,12 +202,13 @@ const projects = [
 		stack: [
 			"django",
 			"html/css",
-
+			"git",
 			"amazon web services",
 			"python",
 			"sqlite",
 			"nginx",
 			"ssl certification",
+			"linux",
 		],
 		image: "./images/pyshop.png",
 		alt: "pyshop",
@@ -223,12 +223,13 @@ const projects = [
 		stack: [
 			"react",
 			"html/css",
-
+			"amplify",
 			"amazon web services",
 			"jest testing",
 			"ci/cd",
 			"chartjs",
 			"web scraping",
+			"git",
 		],
 		image: "./images/portfolio.png",
 		alt: "portfolio",
