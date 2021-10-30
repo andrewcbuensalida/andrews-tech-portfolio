@@ -69,6 +69,7 @@ const projects = [
 			"node",
 			"user authorization",
 			"json web tokens",
+			"gcp app engine",
 		],
 		image: "./images/cookies.png",
 		alt: "cookies",
@@ -119,7 +120,6 @@ const projects = [
 			"react",
 			"graphql",
 			"amazon web services",
-			"amplify",
 			"linux",
 			"mongodb",
 			"node",
@@ -223,7 +223,6 @@ const projects = [
 		stack: [
 			"react",
 			"html/css",
-			"amplify",
 			"amazon web services",
 			"jest testing",
 			"ci/cd",
