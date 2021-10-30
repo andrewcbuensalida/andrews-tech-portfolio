@@ -1,7 +1,7 @@
 // if adding a new stack, dont forget to update filter component. Also dont forget to update resume.
 // list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,"linux","docker", "postgres"
 // ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,"rate limiting","bootstrap"
-//"axios",'chartjs', "linux", 'google assistant', 'django', 'python', 'sqlite',"nginx",
+//"axios",'chartjs', "linux", 'google assistant', 'django', 'python', 'sqlite',"nginx",'scss',
 // web scraping, puppeteer, "user authorization", "json web tokens", "handlebars",  "ssl certification", "jest testing",
 const projects = [
 	{
@@ -189,6 +189,7 @@ const projects = [
 			"javascript",
 			"html/css",
 			"css",
+			"scss",
 			"amazon web services",
 			"node",
 			"git",

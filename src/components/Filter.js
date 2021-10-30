@@ -101,6 +101,9 @@ function Filter({ handleFilter }) {
 				</button>{" "}
 				<button className="unselected" onClick={handleFilter}>
 					SQLite
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					SCSS
 				</button>
 			</ul>
 		</div>
