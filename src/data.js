@@ -1,8 +1,8 @@
 // if adding a new stack, dont forget to update filter component. Also dont forget to update resume.
 // list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,"linux","docker", "postgres"
 // ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,"rate limiting","bootstrap"
-//"axios",'chartjs', "linux", 'google assistant'
-// web scraping, puppeteer, "user authorization", "json web tokens", "handlebars", "nginx", "ssl certification", "jest testing",
+//"axios",'chartjs', "linux", 'google assistant', 'django', 'python', 'sqlite',"nginx",
+// web scraping, puppeteer, "user authorization", "json web tokens", "handlebars",  "ssl certification", "jest testing",
 const projects = [
 	{
 		title: `Instagram Clone`,
@@ -202,6 +202,25 @@ const projects = [
 		image: "./images/todo.png",
 		alt: "todo",
 		githubLink: "https://github.com/andrewcbuensalida/node-mongodb-todo",
+	},
+	{
+		title: `PyShop`,
+		description: `A Django webapp that displays price and stock data of products. Currently in-progress. Stack includes Python, Gunicorn, Nginx, with a SQLite database, hosted on an AWS EC2 virtual machine.`,
+		URL: "https://pyshop.anhonestobserver.com/",
+		stack: [
+			"django",
+			"html/css",
+			"css",
+			"amazon web services",
+			"python",
+			"sqlite",
+			"nginx",
+			"ssl certification",
+		],
+		image: "./images/pyshop.png",
+		alt: "pyshop",
+		githubLink:
+			"https://github.com/andrewcbuensalida/django-python-pyshop-mosh",
 	},
 	{
 		title: `Andrew's Portfolio`,

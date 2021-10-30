@@ -92,6 +92,15 @@ function Filter({ handleFilter }) {
 				</button>{" "}
 				<button className="unselected" onClick={handleFilter}>
 					Google Assistant
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Django
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					Python
+				</button>{" "}
+				<button className="unselected" onClick={handleFilter}>
+					SQLite
 				</button>
 			</ul>
 		</div>
