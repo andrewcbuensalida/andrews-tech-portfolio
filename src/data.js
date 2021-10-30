@@ -69,7 +69,6 @@ const projects = [
 			"node",
 			"user authorization",
 			"json web tokens",
-			"gcp app engine",
 		],
 		image: "./images/cookies.png",
 		alt: "cookies",
