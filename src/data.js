@@ -1,7 +1,7 @@
 // if adding a new stack, dont forget to update resume.
 // list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,"linux","docker", "postgres"
 // ejs, mvc pattern, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,"rate limiting","bootstrap"
-//"axios",'chartjs', "linux", 'google assistant', 'django', 'python', 'sqlite',"nginx",'scss',
+//"axios",'chartjs', "linux", 'google assistant', 'django', 'python', 'sqlite',"nginx",'scss','typescript',
 // web scraping, puppeteer, "user authorization", "json web tokens", "handlebars",  "ssl certification", "jest testing",
 const projects = [
 	{
@@ -173,11 +173,11 @@ const projects = [
 	},
 	{
 		title: `Todo List`,
-		description: `Add, remove, and edit a todo list.
-			Stack includes CI/CD with watchtower deploying Node, and MongoDB Docker containers, hosted on an AWS EC2 intance`,
+		description: `Add, remove, and edit a todo list. Stack includes Typescript, SCSS, CI/CD with watchtower deploying Node, and MongoDB Docker containers, hosted on an AWS EC2 Linux instance`,
 		URL: "https://www.todo.anhonestobserver.com",
 		stack: [
 			"javascript",
+			"typescript",
 			"html/css",
 			"scss",
 			"amazon web services",
