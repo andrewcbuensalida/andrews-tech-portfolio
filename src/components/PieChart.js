@@ -58,9 +58,8 @@ function PieChart() {
 							tooltip: {
 								backgroundColor: "grey",
 								callbacks: {
-									label: function (tooltipItem, data) {
-										// console.log(tooltipItem.raw);
-										return tooltipItem.raw + "%";
+									label: function (tooltipItem) {
+										return `${tooltipItem.label} ${tooltipItem.raw} %`;
 									},
 								},
 							},
