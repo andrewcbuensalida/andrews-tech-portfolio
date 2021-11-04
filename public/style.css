@@ -88,7 +88,7 @@ li:nth-child(1) {
 	background: linear-gradient(#7ba4ca, #5886ab);
 	border: 1px solid #344a7a;
 	color: #000000;
-	text-shadow: 0 1px #8398db;
+	text-shadow: 0 1px #828eb6;
 	box-shadow: inset 0 1px 1px 0 #a1a5dd, 0 2px 0 -1px rgba(0, 0, 0, 0.2);
 	cursor: pointer;
 }
@@ -107,7 +107,7 @@ li:nth-child(1) {
 	text-shadow: 0 1px #1b2039;
 }
 /* blinking all button */
-@-webkit-keyframes blackWhite {
+/* @-webkit-keyframes blackWhite {
 	0% {
 		background-color: #313c62;
 	}
@@ -117,9 +117,9 @@ li:nth-child(1) {
 	100% {
 		background-color: #313c62;
 	}
-}
-.all {
-	background: black;
+} */
+.clear {
+	background: rgb(143, 113, 113);
 	-webkit-animation-name: blackWhite;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-duration: 3s;

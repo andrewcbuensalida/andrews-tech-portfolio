@@ -40,8 +40,8 @@ function Filter({ handleFilter, projects }) {
 		<div>
 			<ul className="filter">
 				<li>Filter:</li>
-				<button className="unselected all" onClick={handleFilter}>
-					All
+				<button className="clear" onClick={handleFilter}>
+					Clear
 				</button>
 				{/* sorting [['a',<h1...>],['b',<h1...>]] seems to be just comparing the first elements, a to b */}
 				{[...filterBtns.entries()].sort().map((lang) => lang[1])}

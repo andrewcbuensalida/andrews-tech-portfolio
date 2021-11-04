@@ -7,29 +7,17 @@ import PieChart from "./components/PieChart";
 
 function App() {
 	Parallax();
+	// filter buttons selected
 	const [filters, setFilters] = useState([]);
 	function handleFilter(e) {
-		if (e.target.textContent === "All") {
-			if (e.target.className.includes("unselected")) {
-				let allUnselected = Array.from(
-					document.getElementsByClassName("unselected")
-				);
-				allUnselected.forEach((el) => {
-					el.className = "selected";
-					setFilters((prev) => [
-						...prev,
-						el.textContent.toLowerCase(),
-					]);
-				});
-			} else {
-				let allSelected = Array.from(
-					document.getElementsByClassName("selected")
-				);
-				allSelected.forEach((el) => {
-					el.className = "unselected";
-					setFilters([]);
-				});
-			}
+		if (e.target.textContent === "Clear") {
+			let allSelected = Array.from(
+				document.getElementsByClassName("selected")
+			);
+			allSelected.forEach((el) => {
+				el.className = "unselected";
+			});
+			setFilters([]);
 		} else {
 			if (e.target.className === "unselected") {
 				e.target.className = "selected";

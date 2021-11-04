@@ -3,11 +3,19 @@ import Tilt from "react-tilt";
 function Project({ filters, data }) {
 	const { image, alt, description, stack, URL, title, githubLink } = data;
 	let isIncluded = false;
-	stack.forEach((lang) => {
-		if (filters.includes(lang)) {
-			isIncluded = true;
-		}
+
+	console.log(`This is filters`);
+	console.log(filters);
+
+	// if all the languages in the filter are in the languages that the project uses, the project is included
+	isIncluded = filters.every((filter) => {
+		return stack.includes(filter);
 	});
+	// stack.forEach((lang) => {
+	// 	if (filters.includes(lang)) {
+	// 		isIncluded = true;
+	// 	}
+	// });
 
 	return (
 		isIncluded && (
