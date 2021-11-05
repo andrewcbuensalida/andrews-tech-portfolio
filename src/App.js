@@ -6,32 +6,86 @@ import projects from "./data";
 import PieChart from "./components/PieChart";
 
 function App() {
-	Parallax();
 	// filter buttons selected
 	const [filters, setFilters] = useState([]);
+	Parallax();
+
+	// loop through projects, if at least one filter isn't included in that project's stack, disable all of it's
+	//languages that aren't selected
+	// [1,2]
+	// [2,3]
+
 	function handleFilter(e) {
 		if (e.target.textContent === "Clear") {
 			let allSelected = Array.from(
 				document.getElementsByClassName("selected")
 			);
-			allSelected.forEach((el) => {
+			let allDisabled = Array.from(
+				document.getElementsByClassName("disabled")
+			);
+			let all = [...allDisabled, ...allSelected];
+			all.forEach((el) => {
 				el.className = "unselected";
 			});
 			setFilters([]);
 		} else {
 			if (e.target.className === "unselected") {
 				e.target.className = "selected";
-			} else {
+			} else if (e.target.className === "selected") {
 				e.target.className = "unselected";
 			}
-			const clickedFilter = e.target.textContent.toLowerCase();
-			setFilters((prev) => {
-				if (prev.includes(clickedFilter)) {
-					return prev.filter((filter) => filter !== clickedFilter);
-				} else {
-					return [...prev, clickedFilter];
-				}
-			});
+			if (e.target.className !== "disabled") {
+				const clickedFilter = e.target.textContent.toLowerCase();
+				setFilters((prev) => {
+					let newFilters;
+					if (prev.includes(clickedFilter)) {
+						newFilters = prev.filter(
+							(filter) => filter !== clickedFilter
+						);
+					} else {
+						newFilters = [...prev, clickedFilter];
+					}
+					projects.forEach((project) => {
+						let filtersFitInProject = newFilters.every((filter) => {
+							return project.stack.includes(filter);
+						});
+						if (!filtersFitInProject) {
+							let allUnselected = Array.from(
+								document.getElementsByClassName("unselected")
+							);
+							allUnselected.forEach((el) => {
+								if (
+									project.stack.includes(
+										el.textContent.toLowerCase()
+									)
+								) {
+									el.className = "disabled";
+								}
+							});
+						}
+					});
+					projects.forEach((project) => {
+						let filtersFitInProject = newFilters.every((filter) => {
+							return project.stack.includes(filter);
+						});
+						if (filtersFitInProject) {
+							let allDisabled = Array.from(
+								document.getElementsByClassName("disabled")
+							);
+							allDisabled.forEach((el) => {
+								if (
+									project.stack.includes(
+										el.textContent.toLowerCase()
+									)
+								) {
+									el.className = "unselected";
+								}
+							});
+						}
+					});
+					return newFilters;
+				});
+			}
 		}
 	}
 	const projectsComponents = projects.map((project) => (
@@ -57,7 +111,7 @@ function App() {
 				alt="architecture"
 			/> */}
 			<h2>
-				Javascript Leetcode Tutorials
+				{/* Javascript Leetcode Tutorials
 				<a href="https://www.youtube.com/playlist?list=PLr0FiiHGmtJEx7os_nly2U-z5dqq2EZp3">
 					https://www.youtube.com/playlist?list=PLr0...
 				</a>
@@ -66,7 +120,7 @@ function App() {
 				<a href="https://www.youtube.com/playlist?list=PLr0FiiHGmtJHEtE3fTprJKodg7bqtk6bg">
 					https://www.youtube.com/playlist?list=P...
 				</a>{" "}
-				<br />
+				<br /> */}
 				LinkedIn
 				<a href="https://www.linkedin.com/in/andrewcbuensalida/">
 					https://www.linkedin.com/in/andrewcbuensalida/
