@@ -1,8 +1,4 @@
-// if adding a new stack, dont forget to update resume.
-// list of stack javascript, html/css, amazon web services, ci/cd, git, google cloud platform,"linux","docker", "postgres"
-// ejs, mvc, react, graphql, amplify, mongodb, node, ec2, tailwind, firebase, app engine,"rate limiting","bootstrap"
-//"axios",'chartjs', "linux", 'google assistant', 'django', 'python', 'sqlite',"nginx",'scss','typescript',
-// web scraping, puppeteer, "user authorization", "jwt", "handlebars",  "ssl", "jest",
+// if modifying, dont forget to update resume, linkedin, indeed, freelancer
 const projects = [
 	{
 		title: `Instagram Clone`,
@@ -81,8 +77,8 @@ const projects = [
 	},
 	{
 		title: `Auto Scribe`,
-		description: `Mainly for nurse assistants, Auto Scribe hands-freely records brief changes, and feeding, gives advice on transferring the patient, and CPR, and gives info on who the top performers are. *There are currently 4 fictional patients with room numbers of 11, 12, 21, and 22. Stack includes Node for the back-end server, Google Firebase Firestore for the noSQL databse, hosted on a Google Compute Cloud virtual machine.`,
-		URL: "https://assistant.google.com/services/invoke/uid/000000817e041429/alm/CgRUf1EIEgIQAQ==?hl=en",
+		description: `A voice-activated Google Assistant medical charting app. Mainly for nurse assistants, Auto Scribe hands-freely records brief changes, and feeding, gives advice on transferring the patient, and CPR, and gives info on who the top performers are. Contact me for a demo. Stack includes Node for the back-end server, Google Firebase Firestore for the noSQL databse, hosted on a Google Compute Cloud virtual machine. `,
+		URL: "",
 		stack: [
 			"javascript",
 			"google cloud platform",
@@ -184,6 +180,15 @@ const projects = [
 		alt: "starwars",
 		githubLink:
 			"https://github.com/andrewcbuensalida/puppeteer-node-random-star-wars",
+	},
+	{
+		title: `Hoopstr Sports Tracker `,
+		description: `A voice activated sports scoring and statistics tracking web app using PHP, MySQL, Javascript, HTML, CSS, hosted on Hostgator.`,
+		URL: "",
+		stack: ["javascript", "html/css", "hostgator", "php", "mysql", "git"],
+		image: "./images/hoopstr.png",
+		alt: "hoopstr",
+		githubLink: "https://github.com/andrewcbuensalida/php-html-Hoopstr-App",
 	},
 	{
 		title: `Todo List`,

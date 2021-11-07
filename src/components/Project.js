@@ -4,9 +4,6 @@ function Project({ filters, data }) {
 	const { image, alt, description, stack, URL, title, githubLink } = data;
 	let isIncluded = false;
 
-	console.log(`This is filters`);
-	console.log(filters);
-
 	// if all the languages in the filter are in the languages that the project uses, the project is included
 	isIncluded = filters.every((filter) => {
 		return stack.includes(filter);
@@ -24,7 +21,8 @@ function Project({ filters, data }) {
 					className="Tilt"
 					options={{ max: 15, perspective: 1500, scale: 1.05 }}
 				>
-					<a href={URL}>
+					{/*if theres no url, go to false, which means dont go anywhere. if there is a url, go to url*/}
+					<a href={URL.length != 0 && URL}>
 						<img className="preview" src={image} alt={alt} />
 					</a>
 				</Tilt>
