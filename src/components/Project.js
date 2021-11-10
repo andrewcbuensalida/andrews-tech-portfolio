@@ -19,27 +19,35 @@ function Project({ filters, data }) {
 			<div className={`project`}>
 				<Tilt
 					className="Tilt"
-					options={{ max: 15, perspective: 1500, scale: 1.05 }}
+					options={{
+						max: URL && 15,
+						perspective: URL && 1500,
+						scale: URL && 1.05,
+					}}
 				>
-					{/*if theres no url, go to false, which means dont go anywhere. if there is a url, go to url*/}
-					<a href={URL.length != 0 && URL}>
+					{/*if url is null, dont go anywhere. if there is a url, go to url*/}
+					<a href={URL}>
 						<img className="preview" src={image} alt={alt} />
 					</a>
 				</Tilt>
 
 				<h1 className="title">
 					{title}
-					<a href={githubLink} className="github">
-						<img alt="github" src=".\images\github.png" />
-					</a>
+					{githubLink && (
+						<a href={githubLink} className="github">
+							<img alt="github" src=".\images\github.png" />
+						</a>
+					)}
 				</h1>
 				<h2>{description}</h2>
 				<h2>
+					{/* URL link. if null, dont show*/}
 					<a href={URL}>
-						{URL.replace("http://", "")
-							.replace("https://", "")
-							.slice(0, 34)}
-						{URL.length > 34 && "..."}
+						{URL &&
+							URL.replace("http://", "")
+								.replace("https://", "")
+								.slice(0, 34)}
+						{URL && URL.length > 34 && "..."}
 					</a>
 				</h2>
 			</div>

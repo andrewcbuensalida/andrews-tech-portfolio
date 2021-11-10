@@ -77,7 +77,7 @@ const projects = [
 	{
 		title: `Auto Scribe`,
 		description: `A voice-activated Google Assistant medical charting app. Mainly for nurse assistants, Auto Scribe hands-freely records brief changes, and feeding, gives advice on transferring the patient, and CPR, and gives info on who the top performers are. Contact me for a demo. Stack includes Node for the back-end server, Google Firebase Firestore for the noSQL databse, hosted on a Google Compute Cloud virtual machine. `,
-		URL: "",
+		URL: null,
 		stack: [
 			"javascript",
 			"google cloud platform",
@@ -182,7 +182,7 @@ const projects = [
 	{
 		title: `Hoopstr Sports Tracker `,
 		description: `A voice activated sports scoring and statistics tracking web app using PHP, MySQL, Javascript, HTML, CSS, hosted on Hostgator.`,
-		URL: "",
+		URL: null,
 		stack: ["javascript", "html/css", "hostgator", "php", "mysql", "git"],
 		image: "./images/hoopstr.png",
 		alt: "hoopstr",
@@ -252,6 +252,33 @@ const projects = [
 		alt: "portfolio",
 		githubLink:
 			"https://github.com/andrewcbuensalida/andrews-tech-portfolio",
+	},
+	{
+		title: `Kite Earth Wordpress`,
+		description: `Static Wordpress Website with Google Maps, Photo Gallery, and Youtube integration.`,
+		URL: "https://taalkiteboardassociation.wordpress.com/ ",
+		stack: ["wordpress"],
+		image: "./images/kite.png",
+		alt: "kite",
+		githubLink: null,
+	},
+	{
+		title: `Mastermind Wordpress`,
+		description: `Static Wordpress Website with Google Maps, Photo Gallery, and Youtube integration.`,
+		URL: "https://mastermindescaperooms.wordpress.com/ ",
+		stack: ["wordpress"],
+		image: "./images/mastermind.png",
+		alt: "mastermind",
+		githubLink: null,
+	},
+	{
+		title: `VRX Wordpress`,
+		description: `Static Wordpress Website with Google Maps, Photo Gallery, and Youtube integration.`,
+		URL: "https://vrxph.wordpress.com/ ",
+		stack: ["wordpress"],
+		image: "./images/vrx.png",
+		alt: "vrx",
+		githubLink: null,
 	},
 ];
 export default projects;
