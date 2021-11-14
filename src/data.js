@@ -143,8 +143,7 @@ const projects = [
 	},
 	{
 		title: `Andrew's Black Jack`,
-		description: `Play against the dealer. 
-			Stack includes Javascript, HTML, CSS, hosted in an Amazon web services s3 bucket`,
+		description: `Play against the dealer. Refactored vanilla Javascript to JQuery and implemented game logic. Stack is hosted in an Amazon web services S3 bucket with CI/CD.`,
 		URL: "http://www.andrewsblackjack.com",
 		stack: [
 			"javascript",
@@ -152,6 +151,7 @@ const projects = [
 			"amazon web services",
 			"ci/cd",
 			"git",
+			"jquery",
 		],
 		image: "./images/blackjack.png",
 		alt: "blackjack",
