@@ -143,7 +143,7 @@ const projects = [
 	},
 	{
 		title: `Heat`,
-		description: `(In-progress) A mobile app that tracks your running race results. Technologies: React Native, Expo, Postgres, GCP Compute Engine, Formik, Yup, Node`,
+		description: `A simple mobile app that tracks your running race results. Technologies: React Native, Expo, Postgres, GCP Compute Engine, Formik, Yup, Node`,
 		URL: "https://expo.dev/@andrewcbuensalida/heat",
 		stack: [
 			"react",
