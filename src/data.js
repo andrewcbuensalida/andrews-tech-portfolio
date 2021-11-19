@@ -142,6 +142,27 @@ const projects = [
 		githubLink: "https://github.com/andrewcbuensalida/graphql-playlist",
 	},
 	{
+		title: `Heat`,
+		description: `(In-progress) A mobile app that tracks your running race results. Technologies: React Native, Expo, Postgres, GCP Compute Engine, Formik, Yup, Node`,
+		URL: "https://expo.dev/@andrewcbuensalida/heat",
+		stack: [
+			"react",
+			"react native",
+			"google cloud platform",
+			"linux",
+			"postgres",
+			"node",
+			"express",
+			"git",
+			"nginx",
+			"ssl",
+		],
+		image: "./images/heat.png",
+		alt: "heat",
+		githubLink:
+			"https://github.com/andrewcbuensalida/react-native-tutorial-1",
+	},
+	{
 		title: `Andrew's Black Jack`,
 		description: `Play against the dealer. Refactored vanilla Javascript to JQuery and implemented game logic. Stack is hosted in an Amazon web services S3 bucket with CI/CD.`,
 		URL: "http://www.andrewsblackjack.com",
