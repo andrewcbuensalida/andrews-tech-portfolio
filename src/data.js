@@ -165,6 +165,22 @@ const projects = [
 			"https://github.com/andrewcbuensalida/react-native-tutorial-1",
 	},
 	{
+		title: `Merry`,
+		description: `A LinkedIn clone featuring authentication and post creation using Material UI, React, Redux, and Firebase Firestore.`,
+		URL: "http://merry.anhonestobserver.com",
+		stack: [
+			"react",
+			"material ui",
+			"redux",
+			"google cloud platform",
+			"firebase",
+			"git",
+		],
+		image: "./images/merry.png",
+		alt: "merry",
+		githubLink: "https://github.com/andrewcbuensalida/ExampleLinkedIn",
+	},
+	{
 		title: `Andrew's Black Jack`,
 		description: `Play against the dealer. Refactored vanilla Javascript to JQuery and implemented game logic. Stack is hosted in an Amazon web services S3 bucket with CI/CD.`,
 		URL: "http://www.andrewsblackjack.com",
