@@ -1,9 +1,10 @@
 // if modifying, dont forget to update resume, linkedin, indeed, freelancer
 const projects = [
 	{
+		// this one has the private repo
 		title: `Instagram Clone`,
 		description: `Sign-up, Like, Comment, and Follow other users. 
-			Stack includes React, Tailwind CSS, Firebase NoSQL database, AWS Elastic Beanstalk and Code Pipeline for CI/CD`,
+			Stack includes React, Tailwind CSS, Firebase Firestore, AWS Elastic Beanstalk serverless hosting and Code Pipeline for CI/CD`,
 		URL: "http://www.instagram.anhonestobserver.com",
 		stack: [
 			"react",
@@ -15,7 +16,7 @@ const projects = [
 			"google cloud platform",
 			"git",
 			"ci/cd",
-			"user authorization",
+			"user authentication",
 			"react router",
 		],
 		image: "./images/instagram.png",
@@ -25,7 +26,7 @@ const projects = [
 	{
 		title: `Doctor Database`,
 		description: `Infinite scroll to find and rate your doctor. 
-			Stack includes Bootstrap, Nginx, Axios, React, PostgreSQL, Node, hosted on an AWS ec2 server, with continuous integration with Code Pipeline.`,
+			Stack includes Bootstrap, Nginx, Axios, React, PostgreSQL, Node, hosted on an AWS EC2 server, with continuous integration with Code Pipeline.`,
 		URL: "https://doctordb.anhonestobserver.com",
 		stack: [
 			"react",
@@ -41,6 +42,7 @@ const projects = [
 			"express",
 			"linux",
 			"ssl",
+			"axios",
 		],
 		image: "./images/doctordb.png",
 		alt: "doctordb",
@@ -50,7 +52,7 @@ const projects = [
 	{
 		title: `Minute Cookie Recipes`,
 		description: `Log in to see cookie recipes. 
-			Stack includes Handlebars templating engine, JWT and Cookie User Authorization, 
+			Stack includes Handlebars templating engine, JWT and Cookie User authentication, 
 			Model View Controller design pattern, Bcrypt password encryption, Node with express for the server,
 			MongoDB with mongoose for the database,
 			Google Cloud's App Engine for hosting, and Cloud Build for CI/CD`,
@@ -66,7 +68,7 @@ const projects = [
 			"mongodb",
 			"node",
 			"express",
-			"user authorization",
+			"user authentication",
 			"jwt",
 		],
 		image: "./images/cookies.png",
@@ -166,8 +168,8 @@ const projects = [
 	},
 	{
 		title: `Merry`,
-		description: `A LinkedIn clone featuring authentication and post creation using Material UI, React, Redux, and Firebase Firestore.`,
-		URL: "http://merry.anhonestobserver.com",
+		description: `A LinkedIn clone with limited functionality. It features authentication and post creation using Material UI, React, Redux, Firebase Firestore and serverless hosting.`,
+		URL: "https://merry.anhonestobserver.com",
 		stack: [
 			"react",
 			"material ui",
@@ -175,6 +177,7 @@ const projects = [
 			"google cloud platform",
 			"firebase",
 			"git",
+			"user authentication",
 		],
 		image: "./images/merry.png",
 		alt: "merry",
@@ -255,7 +258,7 @@ const projects = [
 	},
 	{
 		title: `PyShop`,
-		description: `A Django webapp that displays price and stock data of products. Currently in-progress. Stack includes Python, Gunicorn, Nginx, with a SQLite database, hosted on an AWS EC2 virtual machine.`,
+		description: `PyShop. Currently in-progress. A Django webapp that displays price and stock data of products. Stack includes Python, Gunicorn, Nginx, with a SQLite database, hosted on an AWS EC2 with CodePipeline for CI/CD.`,
 		URL: "https://pyshop.anhonestobserver.com/",
 		stack: [
 			"django",
@@ -268,6 +271,7 @@ const projects = [
 			"ssl",
 			"linux",
 			"mvc",
+			"ci/cd",
 		],
 		image: "./images/pyshop.png",
 		alt: "pyshop",
