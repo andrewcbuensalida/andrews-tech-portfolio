@@ -50,6 +50,55 @@ const projects = [
 			"https://github.com/andrewcbuensalida/PERN-STACK-YELP-CLONE",
 	},
 	{
+		title: `Amazon Clone`,
+		description: `React Amazon Clone with Stripe payments and user authentication with Firebase. Tech: React router, Material ui, Firestore, Functions, Hosting for CI/CD. 
+			`,
+		URL: "https://amazon.anhonestobserver.com/",
+		stack: [
+			"axios",
+			"ci/cd",
+			"html/css",
+			"express",
+			"firebase",
+			"git",
+			"javascript",
+			"material ui",
+			"node",
+			"react router",
+			"user authentication",
+			"react",
+			"stripe",
+		],
+		image: "./images/amazon.png",
+		alt: "amazon",
+		githubLink:
+			"https://github.com/andrewcbuensalida/react-amazon-stripe-reducer-firebase",
+	},
+
+	{
+		title: `Andrew's Blogs`,
+		description: `Create, Read, and Delete blogs with rate limiting and SCSS animations. Stack includes EJS for the front-end, MongoDB and Mongoose for the database, and Node, Express, Google Cloud Platform's App Engine and Cloud Build for CI/CD.`,
+		URL: "http://www.blogs.anhonestobserver.com",
+		stack: [
+			"javascript",
+			"html/css",
+			"google cloud platform",
+			"scss",
+			"ejs",
+			"mvc",
+			"ci/cd",
+			"git",
+			"node",
+			"express",
+			"mvc",
+			"mongodb",
+		],
+		image: "./images/blogs.png",
+		alt: "blogs",
+		githubLink:
+			"https://github.com/andrewcbuensalida/node-crash-course.git",
+	},
+	{
 		title: `Minute Cookie Recipes`,
 		description: `Log in to see cookie recipes. 
 			Stack includes Handlebars templating engine, JWT and Cookie User authentication, 
@@ -75,29 +124,6 @@ const projects = [
 		alt: "cookies",
 		githubLink:
 			"https://github.com/andrewcbuensalida/node-express-jwt-auth.git",
-	},
-	{
-		title: `Andrew's Blogs`,
-		description: `Create, Read, and Delete blogs with rate limiting and SCSS animations. Stack includes EJS for the front-end, MongoDB and Mongoose for the database, and Node, Express, Google Cloud Platform's App Engine and Cloud Build for CI/CD.`,
-		URL: "http://www.blogs.anhonestobserver.com",
-		stack: [
-			"javascript",
-			"html/css",
-			"google cloud platform",
-			"scss",
-			"ejs",
-			"mvc",
-			"ci/cd",
-			"git",
-			"node",
-			"express",
-			"mvc",
-			"mongodb",
-		],
-		image: "./images/blogs.png",
-		alt: "blogs",
-		githubLink:
-			"https://github.com/andrewcbuensalida/node-crash-course.git",
 	},
 	{
 		title: `Auto Scribe`,
