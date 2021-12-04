@@ -250,6 +250,27 @@ const projects = [
 			"https://github.com/andrewcbuensalida/puppeteer-node-random-star-wars",
 	},
 	{
+		title: `Flexible Life`,
+		description: `A simple responsive website featuring CSS Flexbox. Tech: Node, Express, Nginx, Javascript.`,
+		URL: "https://flex.anhonestobserver.com/",
+		stack: [
+			"javascript",
+			"html/css",
+			"express",
+			"git",
+			"google cloud platform",
+			"jquery",
+			"linux",
+			"nginx",
+			"node",
+			"ssl",
+		],
+		image: "./images/flex.png",
+		alt: "flex",
+		githubLink:
+			"https://github.com/andrewcbuensalida/css-responsive-scrimba-simple-life",
+	},
+	{
 		title: `Hoopstr Sports Tracker `,
 		description: `A voice activated sports scoring and statistics tracking web app using PHP, MySQL, Javascript, HTML, CSS, hosted on Hostgator.`,
 		URL: null,
