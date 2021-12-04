@@ -264,6 +264,7 @@ const projects = [
 			"nginx",
 			"node",
 			"ssl",
+			"responsive",
 		],
 		image: "./images/flex.png",
 		alt: "flex",
