@@ -127,6 +127,10 @@ li:nth-child(1) {
 	-webkit-animation-duration: 3s;
 	-webkit-animation-timing-function: ease;
 }
+.clear:hover,
+.clear:focus {
+	background: rgb(122, 93, 93);
+}
 .selected {
 	border: 1px solid #344a7a;
 
