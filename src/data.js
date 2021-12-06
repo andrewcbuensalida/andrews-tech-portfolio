@@ -1,31 +1,8 @@
 // if modifying, dont forget to update resume, linkedin, indeed, freelancer
 const projects = [
 	{
-		// this one has the private repo
-		title: `Instagram Clone`,
-		description: `Sign-up, Like, Comment, and Follow other users. 
-			Stack includes React, Tailwind CSS, Firebase Firestore, AWS Elastic Beanstalk serverless hosting and Code Pipeline for CI/CD`,
-		URL: "http://www.instagram.anhonestobserver.com",
-		stack: [
-			"react",
-			"html/css",
-			"tailwind",
-			"amazon web services",
-			"javascript",
-			"firebase",
-			"google cloud platform",
-			"git",
-			"ci/cd",
-			"user authentication",
-			"react router",
-		],
-		image: "./images/instagram.png",
-		alt: "instagram",
-		githubLink: "https://github.com/andrewcbuensalida/Instagram-Clone",
-	},
-	{
 		title: `Doctor Database`,
-		description: `Responsive Web App with Infinite scroll to find and rate your doctor. 
+		description: `A responsive Web App with Infinite scroll to find and rate your doctor. 
 			Stack includes Bootstrap, Nginx, Axios, React, PostgreSQL, Node, hosted on an AWS EC2 server, with continuous integration with Code Pipeline.`,
 		URL: "https://doctordb.anhonestobserver.com",
 		stack: [
@@ -75,11 +52,32 @@ const projects = [
 		githubLink:
 			"https://github.com/andrewcbuensalida/react-amazon-stripe-reducer-firebase",
 	},
-
+	{
+		// this one has the private repo
+		title: `Instagram Clone`,
+		description: `A multi-paged app to sign-up, like, comment, and follow other users. Technologies: React Router, Tailwind, Date-fns, Firebase user authentication, Firestore, AWS Elastic Beanstalk and Code Pipeline for CI/CD. `,
+		URL: "https://www.instagram.anhonestobserver.com",
+		stack: [
+			"react",
+			"html/css",
+			"tailwind",
+			"amazon web services",
+			"javascript",
+			"firebase",
+			"google cloud platform",
+			"git",
+			"ci/cd",
+			"user authentication",
+			"react router",
+		],
+		image: "./images/instagram.png",
+		alt: "instagram",
+		githubLink: "https://github.com/andrewcbuensalida/Instagram-Clone",
+	},
 	{
 		title: `Andrew's Blogs`,
 		description: `Create, Read, and Delete blogs with rate limiting and SCSS animations. Stack includes EJS for the front-end, MongoDB and Mongoose for the database, and Node, Express, Google Cloud Platform's App Engine and Cloud Build for CI/CD.`,
-		URL: "http://www.blogs.anhonestobserver.com",
+		URL: "https://blogs.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"html/css",
@@ -106,7 +104,7 @@ const projects = [
 			Model View Controller design pattern, Bcrypt password encryption, Node with express for the server,
 			MongoDB with mongoose for the database,
 			Google Cloud's App Engine for hosting, and Cloud Build for CI/CD`,
-		URL: "http://www.cookies.anhonestobserver.com",
+		URL: "https://www.cookies.anhonestobserver.com",
 		stack: [
 			"javascript",
 			"handlebars",
