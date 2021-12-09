@@ -34,38 +34,40 @@ function PieChart() {
 					style={{ borderRadius: "50%" }}
 				/>
 			) : (
-				<Pie
-					data={{
-						labels: languages,
-						datasets: [
-							{
-								label: "Percentage",
-								data: percentages,
-								backgroundColor: randomColors,
-								borderColor: randomColors,
-							},
-						],
-					}}
-					height={300}
-					width={300}
-					options={{
-						maintainAspectRatio: false,
-						plugins: {
-							title: {
-								display: true,
-								text: "Languages by bytes % (from Github)",
-							},
-							tooltip: {
-								backgroundColor: "grey",
-								callbacks: {
-									label: function (tooltipItem) {
-										return `${tooltipItem.label} ${tooltipItem.raw} %`;
+				<div id="pie">
+					<Pie
+						data={{
+							labels: languages,
+							datasets: [
+								{
+									label: "Percentage",
+									data: percentages,
+									backgroundColor: randomColors,
+									borderColor: randomColors,
+								},
+							],
+						}}
+						height={365}
+						width={365}
+						options={{
+							maintainAspectRatio: false,
+							plugins: {
+								title: {
+									display: true,
+									text: "Languages by bytes % (from Github)",
+								},
+								tooltip: {
+									backgroundColor: "grey",
+									callbacks: {
+										label: function (tooltipItem) {
+											return `${tooltipItem.label} ${tooltipItem.raw} %`;
+										},
 									},
 								},
 							},
-						},
-					}}
-				/>
+						}}
+					/>
+				</div>
 			)}
 		</div>
 	);

@@ -217,10 +217,7 @@ li:nth-child(1) {
 	width: 100%;
 }
 
-/* #pie {
-	border-radius: 0.5em;
+#pie {
 	margin: auto;
-	width: 200px;
-	height: 200px;
-	background-color: aqua;
-} */
+	max-width: 800px;
+}
