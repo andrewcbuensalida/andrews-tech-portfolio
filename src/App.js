@@ -111,21 +111,23 @@ function App() {
 				alt="architecture"
 			/> */}
 			<h2>
-				{/* Javascript Leetcode Tutorials
-				<a href="https://www.youtube.com/playlist?list=PLr0FiiHGmtJEx7os_nly2U-z5dqq2EZp3">
-					https://www.youtube.com/playlist?list=PLr0...
-				</a>
-				<br />
-				Python Leetcode Tutorials
-				<a href="https://www.youtube.com/playlist?list=PLr0FiiHGmtJHEtE3fTprJKodg7bqtk6bg">
-					https://www.youtube.com/playlist?list=P...
-				</a>{" "}
-				<br /> */}
 				LinkedIn
 				<a href="https://www.linkedin.com/in/andrewcbuensalida/">
 					https://www.linkedin.com/in/andrewcbuensalida/
 				</a>
 			</h2>
+
+			<div className="youtubeContainer">
+				<iframe
+					height="100%"
+					width="100%"
+					className="youtube"
+					src="https://www.youtube.com/embed/videoseries?list=PLr0FiiHGmtJEx7os_nly2U-z5dqq2EZp3"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+				></iframe>
+			</div>
 		</div>
 	);
 }

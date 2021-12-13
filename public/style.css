@@ -4,6 +4,7 @@ body {
 	overflow-y: scroll;
 	font-family: "Bungee Hairline", cursive;
 	color: rgb(0, 0, 0);
+	overflow-x: hidden;
 }
 #background {
 	width: 100%;
@@ -220,4 +221,20 @@ li:nth-child(1) {
 #pie {
 	margin: auto;
 	max-width: 800px;
+}
+
+.youtube {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 10px;
+
+}
+
+.youtubeContainer {
+	padding-bottom: 30.25%;
+	position: relative;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 10vh;
 }
