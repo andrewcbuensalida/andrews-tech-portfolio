@@ -122,7 +122,7 @@ function App() {
 					height="100%"
 					width="100%"
 					className="youtube"
-					src="http://www.youtube.com/embed/videoseries?list=PLr0FiiHGmtJEx7os_nly2U-z5dqq2EZp3"
+					src="https://www.youtube.com/embed/videoseries?list=PLr0FiiHGmtJEx7os_nly2U-z5dqq2EZp3"
 					title="YouTube video player"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
