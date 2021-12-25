@@ -255,7 +255,7 @@ const projects = [
 	},
 	{
 		title: `Babylon Appointments`,
-		description: `Create medical appointments. Features availability filtering based on data from a MySQL database, with a mobile-first responsive React front-end and Node back-end. Other tech includes MomentJS, hosted on AWS.`,
+		description: `Create medical appointments. Features availability filtering based on data from a MySQL database, with a mobile-first responsive class-based React front-end and Node back-end. Other tech includes MomentJS, hosted on AWS.`,
 		URL: "https://babylon.anhonestobserver.com/",
 		stack: [
 			"amazon web services",
@@ -351,28 +351,28 @@ const projects = [
 		alt: "todo",
 		githubLink: "https://github.com/andrewcbuensalida/node-mongodb-todo",
 	},
-	{
-		title: `PyShop`,
-		description: `PyShop. Currently in-progress. A Django webapp that displays price and stock data of products. Stack includes Python, Gunicorn, Nginx, with a SQLite database, hosted on an AWS EC2 with CodePipeline for CI/CD.`,
-		URL: "https://pyshop.anhonestobserver.com/",
-		stack: [
-			"django",
-			"html/css",
-			"git",
-			"amazon web services",
-			"python",
-			"sqlite",
-			"nginx",
-			"ssl",
-			"linux",
-			"mvc",
-			"ci/cd",
-		],
-		image: "./images/pyshop.png",
-		alt: "pyshop",
-		githubLink:
-			"https://github.com/andrewcbuensalida/django-python-pyshop-mosh",
-	},
+	// {
+	// 	title: `PyShop`,
+	// 	description: `PyShop. Currently in-progress. A Django webapp that displays price and stock data of products. Stack includes Python, Gunicorn, Nginx, with a SQLite database, hosted on an AWS EC2 with CodePipeline for CI/CD.`,
+	// 	URL: "https://pyshop.anhonestobserver.com/",
+	// 	stack: [
+	// 		"django",
+	// 		"html/css",
+	// 		"git",
+	// 		"amazon web services",
+	// 		"python",
+	// 		"sqlite",
+	// 		"nginx",
+	// 		"ssl",
+	// 		"linux",
+	// 		"mvc",
+	// 		"ci/cd",
+	// 	],
+	// 	image: "./images/pyshop.png",
+	// 	alt: "pyshop",
+	// 	githubLink:
+	// 		"https://github.com/andrewcbuensalida/django-python-pyshop-mosh",
+	// },
 	{
 		title: `Andrew's Portfolio`,
 		description: `Website that displays some of my projects. Includes links to the apps and their respective Github repositories.
