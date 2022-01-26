@@ -118,7 +118,6 @@ function App() {
 			</header>
 			<Filter projects={projects} handleFilter={handleFilter} />
 			<div className="projects">{projectsComponents}</div>
-			<PieChart />
 			{/* <img
 				style={{ width: "75%", margin: "30px", borderRadius: "5%" }}
 				src="./images/architecture.png"
@@ -136,6 +135,7 @@ function App() {
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
 				></iframe>
 			</div>
+			<PieChart />
 		</div>
 	);
 }
