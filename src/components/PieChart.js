@@ -9,15 +9,17 @@ function PieChart() {
 	useEffect(() => {
 		async function fetchData() {
 			const totalLanguagesBytes = await getLanguages();
-			setLanguages(Object.keys(totalLanguagesBytes));
-			const totalBytes = Object.values(totalLanguagesBytes).reduce(
-				(prev, curr) => prev + curr
-			);
-			const percentages = Object.values(totalLanguagesBytes).map(
-				(languageBytes) =>
-					Math.floor((languageBytes / totalBytes) * 100)
-			);
-			setPercentages(percentages);
+			if (totalLanguagesBytes) {
+				setLanguages(Object.keys(totalLanguagesBytes));
+				const totalBytes = Object.values(totalLanguagesBytes).reduce(
+					(prev, curr) => prev + curr
+				);
+				const percentages = Object.values(totalLanguagesBytes).map(
+					(languageBytes) =>
+						Math.floor((languageBytes / totalBytes) * 100)
+				);
+				setPercentages(percentages);
+			}
 		}
 		fetchData();
 	}, []);
