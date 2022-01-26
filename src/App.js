@@ -1,4 +1,8 @@
 import { useState } from "react";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import EmailIcon from "@material-ui/icons/Email";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LocalPhoneIcon from "@material-ui/icons/LocalPhone";
 import Filter from "./components/Filter";
 import Parallax from "./components/parallax";
 import Project from "./components/Project";
@@ -95,11 +99,21 @@ function App() {
 	return (
 		<div>
 			<header>
-				<h1>Andrew Buensalida - Software Engineer</h1>
+				<h1>Andrew Buensalida - Software Engineer - Open to work</h1>
 				<h2>A Full-stack and cloud developer in Silicon Valley</h2>
 				<h2>
-					For hire - Email: andrewcbuensalida@gmail.com - Phone:
-					661-964-9268
+					<a href="https://www.linkedin.com/in/andrewcbuensalida/">
+						<LinkedInIcon style={{ fontSize: "3rem" }} />
+					</a>
+					<a href="mailto:andrewcbuensalida@gmail.com">
+						<EmailIcon style={{ fontSize: "3rem" }} />
+					</a>
+					<a href="https://github.com/andrewcbuensalida">
+						<GitHubIcon style={{ fontSize: "3rem" }} />
+					</a>{" "}
+					<a href="tel:661-964-9268">
+						<LocalPhoneIcon style={{ fontSize: "3rem" }} />
+					</a>
 				</h2>
 			</header>
 			<Filter projects={projects} handleFilter={handleFilter} />
@@ -110,12 +124,6 @@ function App() {
 				src="./images/architecture.png"
 				alt="architecture"
 			/> */}
-			<h2>
-				LinkedIn
-				<a href="https://www.linkedin.com/in/andrewcbuensalida/">
-					https://www.linkedin.com/in/andrewcbuensalida/
-				</a>
-			</h2>
 
 			<div className="youtubeContainer">
 				<iframe
