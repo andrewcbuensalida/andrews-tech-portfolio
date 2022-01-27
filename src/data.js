@@ -1,4 +1,4 @@
-// if modifying, dont forget to update resume, linkedin, indeed, freelancer
+// if modifying, dont forget to update resume, linkedin, freelancer, diagram, 
 const projects = [
 	{
 		title: `JUST do it`,
@@ -159,7 +159,6 @@ const projects = [
 		githubLink:
 			"https://github.com/andrewcbuensalida/node-express-jwt-auth.git",
 	},
-
 	{
 		title: `Love's Books`,
 		description: `Add your favorite books. Stack includes React with GraphQL for the front-end and a MongoDB Atlas database and Node server on an AWS EC2 with Nginx proxy on an SSL certified domain with Code Pipeline for CI/CD`,
