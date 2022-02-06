@@ -269,7 +269,7 @@ const projects = [
 	},
 	{
 		title: `Auto Scribe`,
-		description: `A voice-activated Google Assistant medical charting app. Mainly for nurse assistants, Auto Scribe hands-freely records brief changes, and feeding, gives advice on transferring the patient, and CPR, and gives info on who the top performers are. Contact me for a demo. Stack includes Node for the back-end server, Google Firebase Firestore for the noSQL databse, hosted on a Google Compute Cloud virtual machine. `,
+		description: `A voice-activated Google Assistant medical charting app. For nurse assistants, Auto Scribe records brief changes, and feeding, gives advice on transferring and CPR, and tracks top performers. Stack: Node, Google Firebase Firestore for the noSQL databse, hosted on a Google Compute Cloud virtual machine. `,
 		URL: null,
 		stack: [
 			"javascript",
@@ -422,7 +422,7 @@ const projects = [
 			"jest",
 			"ci/cd",
 			"web scraping",
-			"git",
+			"git","responsive"
 		],
 		image: "./images/portfolio.png",
 		alt: "portfolio",

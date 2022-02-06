@@ -99,8 +99,7 @@ function App() {
 	return (
 		<div>
 			<header>
-				<h1>Andrew Buensalida - Software Engineer - Open to work</h1>
-				<h2>A Full-stack and cloud developer in Silicon Valley</h2>
+				<h1>Andrew Buensalida - Software Engineer</h1>
 				<h2>
 					<a href="https://www.linkedin.com/in/andrewcbuensalida/">
 						<LinkedInIcon style={{ fontSize: "3rem" }} />
@@ -126,8 +125,8 @@ function App() {
 
 			<div className="youtubeContainer">
 				<iframe
-					height="100%"
-					width="100%"
+					// height="100%"
+					// width="100%"
 					className="youtube"
 					src="https://www.youtube.com/embed/videoseries?list=PLr0FiiHGmtJEx7os_nly2U-z5dqq2EZp3"
 					title="YouTube video player"
