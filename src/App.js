@@ -99,7 +99,7 @@ function App() {
 	return (
 		<div>
 			<header>
-				<h1>Andrew Buensalida - Software Engineer</h1>
+				<h1>Andrew Buensalida - Web developer</h1>
 				<h2>
 					<a href="https://www.linkedin.com/in/andrewcbuensalida/">
 						<LinkedInIcon style={{ fontSize: "3rem" }} />

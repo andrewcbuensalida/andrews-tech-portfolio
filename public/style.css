@@ -59,7 +59,10 @@ header > * {
 	margin-bottom: 0;
 	line-height: 2rem;
 }
+svg{
+	color: rgba(27, 27, 27, 0.7);
 
+}
 .filter,
 .filter > button {
 	display: flex;
@@ -97,9 +100,13 @@ li:nth-child(1) {
 .project {
 	flex-basis: 500px;
 	margin-bottom: 2%;
-	font-family: "Bungee Hairline", cursive;
-	line-height: 120%;
+	font-family: "Quantico", sans-serif;
+	/* line-height: ; */
 	padding: 1em;
+}
+.project p{
+	font-size: 1.2rem;
+
 }
 @media screen and (max-width: 666px) {
 	.project {

@@ -39,7 +39,7 @@ function Project({ filters, data }) {
 						</a>
 					)}
 				</h1>
-				<h2>{description}</h2>
+				<p>{description}</p>
 				<h2>
 					{/* URL link. if null, dont show*/}
 					<a href={URL}>
