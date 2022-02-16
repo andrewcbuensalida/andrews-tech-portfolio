@@ -25,6 +25,10 @@ function Filter({ handleFilter, projects }) {
 			}
 		}
 	}
+	
+	console.log(`This is projects`)
+	console.log(projects)
+	
 	// console.log(
 	// 	[...filterBtns.values()].sort((a, b) => {
 	// 		if (a.key < b.key) {
