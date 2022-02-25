@@ -1,4 +1,4 @@
-// if modifying, dont forget to update resume, linkedin, freelancer, diagram, angelist, indeed,dice, cybercoders,
+// if modifying, dont forget to update resume, sym link, linkedin, freelancer, diagram, angelist, indeed,dice, cybercoders,
 const projects = [
 	{
 		title: `JUST do it`,
@@ -37,7 +37,7 @@ const projects = [
 		title: `Doctor Database`,
 		description: `A responsive Web App with Infinite scroll to find and rate your doctor. 
 			Stack includes Bootstrap, Nginx, Axios, React, PostgreSQL, Node, hosted on an AWS EC2 server, with continuous integration with Code Pipeline.`,
-		URL: "https://doctordb.anhonestobserver.com",
+		URL: null,//"https://doctordb.anhonestobserver.com",
 		stack: [
 			"react",
 			"html/css",
@@ -162,7 +162,7 @@ const projects = [
 	{
 		title: `Love's Books`,
 		description: `Add your favorite books. Stack includes React with GraphQL for the front-end and a MongoDB Atlas database and Node server on an AWS EC2 with Nginx proxy on an SSL certified domain with Code Pipeline for CI/CD`,
-		URL: "https://www.books.anhonestobserver.com",
+		URL: null,//"https://www.books.anhonestobserver.com",
 		stack: [
 			"react",
 			"graphql",
@@ -270,7 +270,7 @@ const projects = [
 	{
 		title: `Auto Scribe`,
 		description: `A voice-activated Google Assistant medical charting app. For nurse assistants, Auto Scribe records brief changes, and feeding, gives advice on transferring and CPR, and tracks top performers. Stack: Node, Google Firebase Firestore for the noSQL databse, hosted on a Google Compute Cloud virtual machine. `,
-		URL: null,
+		URL: "https://assistant.google.com/services/invoke/uid/000000817e041429/alm/CgRUf1EIEgIQAQ==?hl=en",
 		stack: [
 			"javascript",
 			"google cloud platform",
@@ -313,7 +313,7 @@ const projects = [
 		title: `Crypto Logger`,
 		description: `A vanilla Typescript CRUD web app featuring sorting and filtering with DynamoDB.
 			Stack also includes Node, Express, date-fns, Bootstrap, hosted on AWS EC2. `,
-		URL: "https://crypto.anhonestobserver.com/",
+		URL: null,// "https://crypto.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"html/css",
@@ -334,7 +334,7 @@ const projects = [
 	{
 		title: `Babylon Appointments`,
 		description: `Create medical appointments. Features availability filtering based on data from a MySQL database, with a mobile-first responsive class-based React front-end and Node back-end. Other tech includes MomentJS, hosted on AWS.`,
-		URL: "https://babylon.anhonestobserver.com/",
+		URL: null,//"https://babylon.anhonestobserver.com/",
 		stack: [
 			"amazon web services",
 			"html/css",
