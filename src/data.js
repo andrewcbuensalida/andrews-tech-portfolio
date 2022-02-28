@@ -316,6 +316,7 @@ const projects = [
 		URL: null,// "https://crypto.anhonestobserver.com/",
 		stack: [
 			"javascript",
+			'typescript',
 			"html/css",
 			"amazon web services",
 			"git",

@@ -98,7 +98,7 @@ li:nth-child(1) {
 	flex-wrap: wrap;
 }
 .project {
-	flex-basis: 500px;
+	flex-basis: 400px;
 	margin-bottom: 2%;
 	font-family: "Quantico", sans-serif;
 	/* line-height: ; */
