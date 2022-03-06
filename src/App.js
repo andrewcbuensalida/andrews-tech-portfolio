@@ -118,11 +118,11 @@ function App() {
 			</header>
 			<Filter projects={projects} handleFilter={handleFilter} />
 			<div className="projects">{projectsComponents}</div>
-			{/* <img
-				style={{ width: "75%", margin: "30px", borderRadius: "5%" }}
+			<img
+				style={{ width: "90%", borderRadius: "5%" }}
 				src="./images/architecture.png"
 				alt="architecture"
-			/> */}
+			/>
 
 			<div className="youtubeContainer">
 				<iframe

@@ -408,14 +408,14 @@ const projects = [
 	},
 	{
 		title: `Todo List`,
-		description: `Add, remove, and edit a todo list. Stack includes Typescript, SCSS, CI/CD with watchtower deploying Node, and MongoDB Docker containers, hosted on an AWS EC2 Linux instance`,
+		description: `Add, remove, and edit a todo list. Stack includes Typescript, SCSS, CI/CD with watchtower deploying Node, and MongoDB Docker containers, hosted on Google Cloud Compute Engine`,
 		URL: "https://www.todo.anhonestobserver.com",
 		stack: [
 			"javascript",
 			"typescript",
 			"html/css",
 			"scss",
-			"amazon web services",
+			"google cloud platform",
 			"node",
 			"git",
 			"express",
