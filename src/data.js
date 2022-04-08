@@ -37,7 +37,7 @@ const projects = [
 		title: `Doctor Database`,
 		description: `A responsive Web App with Infinite scroll to find and rate your doctor. 
 			Stack includes Bootstrap, Nginx, Axios, React, PostgreSQL, Node, hosted on an AWS EC2 server, with continuous integration with Code Pipeline.`,
-		URL: null,//"https://doctordb.anhonestobserver.com",
+		URL: null, //"https://doctordb.anhonestobserver.com",
 		stack: [
 			"react",
 			"html/css",
@@ -162,7 +162,7 @@ const projects = [
 	{
 		title: `Love's Books`,
 		description: `Add your favorite books. Stack includes React with GraphQL for the front-end and a MongoDB Atlas database and Node server on an AWS EC2 with Nginx proxy on an SSL certified domain with Code Pipeline for CI/CD`,
-		URL: null,//"https://www.books.anhonestobserver.com",
+		URL: null, //"https://www.books.anhonestobserver.com",
 		stack: [
 			"react",
 			"graphql",
@@ -206,7 +206,7 @@ const projects = [
 			"https://github.com/andrewcbuensalida/react-native-tutorial-1",
 	},
 	{
-		title: `Merry`,
+		title: `LinkUp`,
 		description: `A LinkedIn clone with limited functionality. It features authentication and post creation using Material UI, React, Redux, Firebase Firestore and serverless hosting.`,
 		URL: "https://merry.anhonestobserver.com",
 		stack: [
@@ -268,6 +268,97 @@ const projects = [
 			"https://github.com/andrewcbuensalida/css-grid-responsive-scrimba-webdev-services",
 	},
 	{
+		title: `Merry Dating - Mobile`,
+		description: `A video speed dating app for Android and iOS. Stack: React Native, Twilio, Node, Express`,
+		URL: null,
+		stack: [
+			"javascript",
+			"git",
+			"node",
+			"express",
+			"ngrok",
+			"react native",
+			"twilio",
+		],
+		image: "./images/twilio.png",
+		alt: "Merry",
+		githubLink: null,
+	},
+	{
+		title: `Merry Dating - Web`,
+		description: `A video speed dating app for the browser. Stack: React, Twilio, Node, Express`,
+		URL: null,
+		stack: [
+			"javascript",
+			"git",
+			"node",
+			"express",
+			"ngrok",
+			"twilio",
+			"react",
+		],
+		image: "./images/twilio.png",
+		alt: "Merry",
+		githubLink: null,
+	},
+	{
+		title: `Social Street`,
+		description: `A crypto exchange. Stack: Axios, Node, Express, Heroku, Material UI, React Financial Charts`,
+		URL: "https://social-street-crypto.herokuapp.com/",
+		stack: [
+			"javascript",
+			"git",
+			"node",
+			"express",
+			"axios",
+			"heroku",
+			"material ui",
+			"react financial charts",
+			"react router",
+		],
+		image: "./images/socialstreet.png",
+		alt: "Social street",
+		githubLink: "https://github.com/andrewcbuensalida/social-street-react",
+	},
+	{
+		title: `Uplift Card Game`,
+		description: `A simple card game. If you get an ace in the last hand, you win. Stack: React, Tailwind, GraphQL, Postgres, Typescript, Jest, Node, Express, Apollo`,
+		URL: null,
+		stack: [
+			"javascript",
+			"git",
+			"node",
+			"express",
+			"tailwind",
+			"graphql",
+			"postgres",
+			"typescript",
+			"jest",
+		],
+		image: "./images/uplift.png",
+		alt: "Uplift",
+		githubLink:
+			"https://github.com/andrewcbuensalida/uplift-interview-andrew-buensalida",
+	},
+	{
+		title: `Yummy Bites`,
+		description: `An order tracking web app for food manufacturers. Stack: React, Express, Node, Postgres, Material UI, Heroku`,
+		URL: "https://yummy-bites.herokuapp.com/admin/orders",
+		stack: [
+			"javascript",
+			"git",
+			"node",
+			"express",
+			"postgres",
+			"material ui",
+			"heroku",
+		],
+		image: "./images/yummybites.png",
+		alt: "Yummy Bites",
+		githubLink:
+			"https://github.com/andrewcbuensalida/yumy-bites-react-node-express-postgress-NOT-TYPESCRIPT",
+	},
+	{
 		title: `Auto Scribe`,
 		description: `A voice-activated Google Assistant medical charting app. For nurse assistants, Auto Scribe records brief changes, and feeding, gives advice on transferring and CPR, and tracks top performers. Stack: Node, Google Firebase Firestore for the noSQL databse, hosted on a Google Compute Cloud virtual machine. `,
 		URL: "https://assistant.google.com/services/invoke/uid/000000817e041429/alm/CgRUf1EIEgIQAQ==?hl=en",
@@ -313,10 +404,10 @@ const projects = [
 		title: `Crypto Logger`,
 		description: `A vanilla Typescript CRUD web app featuring sorting and filtering with DynamoDB.
 			Stack also includes Node, Express, date-fns, Bootstrap, hosted on AWS EC2. `,
-		URL: null,// "https://crypto.anhonestobserver.com/",
+		URL: null, // "https://crypto.anhonestobserver.com/",
 		stack: [
 			"javascript",
-			'typescript',
+			"typescript",
 			"html/css",
 			"amazon web services",
 			"git",
@@ -335,7 +426,7 @@ const projects = [
 	{
 		title: `Babylon Appointments`,
 		description: `Create medical appointments. Features availability filtering based on data from a MySQL database, with a mobile-first responsive class-based React front-end and Node back-end. Other tech includes MomentJS, hosted on AWS.`,
-		URL: null,//"https://babylon.anhonestobserver.com/",
+		URL: null, //"https://babylon.anhonestobserver.com/",
 		stack: [
 			"amazon web services",
 			"html/css",
