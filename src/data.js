@@ -185,7 +185,7 @@ const projects = [
 	},
 	{
 		title: `Heat`,
-		description: `A simple mobile app that tracks your running race results. Currently for Android only. Technologies: React Native, Expo, Postgres, GCP Compute Engine, Formik, Yup, Node`,
+		description: `A simple mobile app that tracks your running race results. Currently for Android only. Technologies: React Native, React Navigation, Expo, Postgres, GCP Compute Engine, Formik, Yup, Node`,
 		URL: "https://expo.dev/@andrewcbuensalida/heat",
 		stack: [
 			"react",
@@ -199,6 +199,9 @@ const projects = [
 			"git",
 			"nginx",
 			"ssl",
+			"formik",
+			"yup",
+			"react navigation",
 		],
 		image: "./images/heat.png",
 		alt: "heat",
@@ -260,7 +263,6 @@ const projects = [
 			"node",
 			"ssl",
 			"responsive",
-			"formsubmit",
 		],
 		image: "./images/webdev.png",
 		alt: "webdev",
@@ -269,7 +271,7 @@ const projects = [
 	},
 	{
 		title: `Merry Dating - Mobile`,
-		description: `A video speed dating app for Android and iOS. Stack: React Native, Twilio, Node, Express`,
+		description: `A video speed dating app for Android and iOS. Stack: React Native, React Navigation, Twilio, Node, Express, React Hook Forms, Social Signin`,
 		URL: null,
 		stack: [
 			"javascript",
@@ -279,6 +281,9 @@ const projects = [
 			"ngrok",
 			"react native",
 			"twilio",
+			"react hook form",
+			"user authentication",
+			"react navigation",
 		],
 		image: "./images/twilio.png",
 		alt: "Merry",
@@ -303,7 +308,7 @@ const projects = [
 	},
 	{
 		title: `Social Street`,
-		description: `A crypto exchange. Stack: Axios, Node, Express, Heroku, Material UI, React Financial Charts`,
+		description: `A crypto exchange. Stack: Websockets, Axios, Node, Express, Heroku, Material UI, React Financial Charts`,
 		URL: "https://social-street-crypto.herokuapp.com/",
 		stack: [
 			"javascript",
@@ -315,6 +320,7 @@ const projects = [
 			"material ui",
 			"react financial charts",
 			"react router",
+			"websockets",
 		],
 		image: "./images/socialstreet.png",
 		alt: "Social street",
