@@ -550,6 +550,23 @@ const projects = [
 		githubLink:
 			"https://github.com/andrewcbuensalida/django-python-pyshop-mosh",
 	},
+	{
+		title: `Electrode`,
+		description: `An ElectronJS app that pulls data from Pokemon API, localStorage, SQLite, and Postgres.`,
+		URL: null, //"https://pyshop.anhonestobserver.com/",
+		stack: [
+			"html/css",
+			"git",
+			"sqlite",
+			"electronjs",
+			"postgres",
+			"javascript",
+		],
+		image: "./images/electrode.png",
+		alt: "electrode picture",
+		githubLink:
+			"https://github.com/andrewcbuensalida/electron-vanilla-javascript-todo",
+	},
 
 	{
 		title: `Kite Earth Wordpress`,

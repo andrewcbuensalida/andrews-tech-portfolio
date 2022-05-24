@@ -92,7 +92,7 @@ function App() {
 			}
 		}
 	}
-	
+
 	const projectsComponents = projects.map((project) => (
 		<Project key={project.title} filters={filters} data={project} />
 	));
@@ -100,7 +100,7 @@ function App() {
 	return (
 		<div>
 			<header>
-				<h1>Andrew Buensalida - Web developer</h1>
+				<h1>Andrew Buensalida - Software Engineer</h1>
 				<h2>
 					<a href="https://www.linkedin.com/in/andrewcbuensalida/">
 						<LinkedInIcon style={{ fontSize: "3rem" }} />
