@@ -441,8 +441,8 @@ const projects = [
 	{
 		title: `Crypto Logger`,
 		description: `A vanilla Typescript CRUD web app featuring sorting and filtering with DynamoDB.
-			Stack also includes Node, Express, date-fns, Bootstrap, hosted on AWS EC2. `,
-		URL: null, // "https://crypto.anhonestobserver.com/",
+			Stack also includes AWS Application Load Balancer, Node, Express, date-fns, Bootstrap, hosted on AWS EC2. `,
+		URL:  "https://crypto.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"typescript",
@@ -450,6 +450,7 @@ const projects = [
 			"amazon web services",
 			"aws ec2",
 			"aws route 53",
+            'aws alb',
 			"git",
 			"bootstrap",
 			"express",
