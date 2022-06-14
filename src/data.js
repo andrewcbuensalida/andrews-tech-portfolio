@@ -219,7 +219,7 @@ const projects = [
 	{
 		title: `LinkUp`,
 		description: `A LinkedIn clone with limited functionality. It features authentication and post creation using Material UI, React, Redux, Firebase Firestore and serverless hosting.`,
-		URL: "https://merry.anhonestobserver.com",
+		URL: "https://linkup.anhonestobserver.com",
 		stack: [
 			"react",
 			"material ui",
@@ -229,8 +229,8 @@ const projects = [
 			"git",
 			"user authentication",
 		],
-		image: "./images/merry.png",
-		alt: "merry",
+		image: "./images/linkup.png",
+		alt: "linkup",
 		githubLink: "https://github.com/andrewcbuensalida/ExampleLinkedIn",
 	},
 	{
@@ -279,7 +279,7 @@ const projects = [
 	},
 	{
 		title: `Merry Dating - Mobile`,
-		description: `A video speed dating app for Android and iOS. Stack: React Native, React Navigation, Twilio, Node, Express, React Hook Forms, Social Signin`,
+		description: `A video speed dating app for Android and iOS. Stack: PM2 load-balancer, AWS Application Load-balancer, Oracle DB migrated to AWS RDS Aurora, React Native, React Navigation, Twilio, Node, Express, React Hook Forms, Social Signin`,
 		URL: null,
 		stack: [
 			"javascript",
@@ -292,6 +292,10 @@ const projects = [
 			"react hook form",
 			"user authentication",
 			"react navigation",
+			"oracle db",
+			"aws aurora",
+			"aws app load-balancer",
+			"nginx",
 		],
 		image: "./images/twilio.png",
 		alt: "Merry",
@@ -299,8 +303,8 @@ const projects = [
 	},
 	{
 		title: `Merry Dating - Web`,
-		description: `A video speed dating app for the browser. Stack: React, Twilio, Node, Express`,
-		URL: null,
+		description: `A video speed dating app for the browser. Stack: PM2 load-balancer, AWS Application Load-balancer, Oracle DB migrated to AWS RDS Aurora, React, Twilio, Node, Express`,
+		URL: "https://merry.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"git",
@@ -309,6 +313,10 @@ const projects = [
 			"ngrok",
 			"twilio",
 			"react",
+			"oracle db",
+			"aws aurora",
+			"aws app load-balancer",
+			"nginx",
 		],
 		image: "./images/twilio.png",
 		alt: "Merry",
@@ -441,8 +449,8 @@ const projects = [
 	{
 		title: `Crypto Logger`,
 		description: `A vanilla Typescript CRUD web app featuring sorting and filtering with DynamoDB.
-			Stack also includes AWS Application Load Balancer, Node, Express, date-fns, Bootstrap, hosted on AWS EC2. `,
-		URL:  "https://crypto.anhonestobserver.com/",
+			Stack also includes AWS Application Load Balancer, PM2 load-balancer, Node, Express, date-fns, Bootstrap, hosted on AWS EC2. `,
+		URL: "https://crypto.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"typescript",
@@ -450,7 +458,7 @@ const projects = [
 			"amazon web services",
 			"aws ec2",
 			"aws route 53",
-            'aws alb',
+			"aws app load-balancer",
 			"git",
 			"bootstrap",
 			"express",
@@ -599,10 +607,10 @@ const projects = [
 	{
 		title: `Electrode`,
 		description: `An ElectronJS app that pulls data from Pokemon API, localStorage, SQLite, and Postgres. Stack also includes: AWS Lambda, Api Gateway`,
-		URL: null, 
+		URL: null,
 		stack: [
 			"html/css",
-			'amazon web services',
+			"amazon web services",
 			"aws lambda",
 			"aws api gateway",
 			"git",
