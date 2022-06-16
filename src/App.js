@@ -123,7 +123,26 @@ function App() {
 				src="./images/architecture.png"
 				alt="architecture"
 			/>
-
+			<div>
+				<div
+					style={{
+						width: "90%",
+						height: "720px",
+						margin: "0 auto",
+						position: "relative",
+						borderRadius: "20px",
+                        overflow:'hidden'
+					}}
+				>
+					<iframe
+						allowfullscreen
+						frameborder="0"
+						style={{ width: "100%", height: "720px" }}
+						src="https://lucid.app/documents/embedded/af494c35-4f01-4e28-a26d-59b6985689ee"
+						id="nL.pczGAFalA"
+					></iframe>
+				</div>
+			</div>
 			<div className="youtubeContainer">
 				<iframe
 					// height="100%"
