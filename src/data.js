@@ -426,7 +426,7 @@ const projects = [
 	},
 	{
 		title: `Andrew's Portfolio`,
-		description: `Website that displays some of my projects. Includes links to the apps and their respective Github repositories.
+		description: `Website that displays some of my projects. Includes a Lucid Chart diagram, links to the apps and their respective Github repositories.
 			Stack includes React for the front-end, Jest for testing, CSS from codepen, hosted on AWS Amplify for continuous deployment. `,
 		URL: "https://www.anhonestobserver.com",
 		stack: [
@@ -440,6 +440,7 @@ const projects = [
 			"web scraping",
 			"git",
 			"responsive",
+			"lucid chart",
 		],
 		image: "./images/portfolio.png",
 		alt: "portfolio",
