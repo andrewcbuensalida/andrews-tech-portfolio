@@ -304,7 +304,7 @@ const projects = [
 	{
 		title: `Merry Dating - Web`,
 		description: `A video speed dating app for the browser. Stack: PM2 load-balancer, AWS Application Load-balancer, Oracle DB migrated to AWS RDS Aurora, React, Twilio, Node, Express`,
-		URL: "https://merry.anhonestobserver.com/",
+		URL: null,//"https://merry.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"git",
@@ -398,6 +398,7 @@ const projects = [
 			"react testing library",
 			"jest",
 			"react router",
+			"enzyme",
 		],
 		image: "./images/yummybiteselectron.png",
 		alt: "Yummy Bites Electron",
@@ -451,7 +452,7 @@ const projects = [
 		title: `Crypto Logger`,
 		description: `A vanilla Typescript CRUD web app featuring sorting and filtering with DynamoDB.
 			Stack also includes AWS Application Load Balancer, PM2 load-balancer, Node, Express, date-fns, Bootstrap, hosted on AWS EC2. `,
-		URL: "https://crypto.anhonestobserver.com/",
+		URL: null,//"https://crypto.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"typescript",
@@ -534,6 +535,9 @@ const projects = [
 			"aws lambda",
 			"git",
 			"ci/cd",
+			"enzyme",
+			"react testing library",
+			"jest",
 		],
 		image: "./images/emonk.png",
 		alt: "emonk",
