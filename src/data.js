@@ -1,6 +1,50 @@
 // if modifying, dont forget to update resume, sym link, linkedin, freelancer, diagram, angelist, indeed,dice, cybercoders,
 const projects = [
 	{
+		title: `Department of Homeland Security`,
+		description: `Web app for processing immigrants. 
+		Stack includes React, Redux, Typescript, React Hook Form, React Table, AWS, Lambda, NodeJs, DynamoDB, SNS, Oracle PL/SQL, s3, SASS, Bootstrap, Serverless Framework, PDF-lib, Node mailer, Jest, Sinon, Jenkins/Cloudbees, ElectronJs`,
+		URL: null,
+		stack: [
+			"amazon web services",
+			"aws dynamodb",
+			"aws lambda",
+			"aws s3",
+			"aws sns",
+			"axios",
+			"bootstrap",
+			"ci/cd",
+			"docker",
+			"electronjs",
+			"git",
+			"html/css",
+			"javascript",
+			"jenkins",
+			"jest",
+			"linux",
+			"lucid chart",
+			"mongodb",
+			"node",
+			"nodemailer",
+			"oracle db",
+			"pdf-lib",
+			"react hook form",
+			"react router",
+			"react table",
+			"react",
+			"redux",
+			"serverless framework",
+			"sinon",
+			"typescript",
+			"visio",
+			"websockets",
+			"yup",
+		],
+		image: "./images/dhs.png",
+		alt: "dhs",
+		githubLink: null,
+	},
+	{
 		title: `JUST do it`,
 		description: `An e-commerce website with Stripe Payments. 
 			Stack includes MaterialUI, Redux, Axios, React, React Router, CSS Styled Components, CryptoJS, Express, Node, JWT, Stripe, MongdoDB hosted on Heroku with CI/CD`,
@@ -304,7 +348,7 @@ const projects = [
 	{
 		title: `Merry Dating - Web`,
 		description: `A video speed dating app for the browser. Stack: PM2 load-balancer, AWS Application Load-balancer, Oracle DB migrated to AWS RDS Aurora, React, Twilio, Node, Express`,
-		URL: null,//"https://merry.anhonestobserver.com/",
+		URL: null, //"https://merry.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"git",
@@ -452,7 +496,7 @@ const projects = [
 		title: `Crypto Logger`,
 		description: `A vanilla Typescript CRUD web app featuring sorting and filtering with DynamoDB.
 			Stack also includes AWS Application Load Balancer, PM2 load-balancer, Node, Express, date-fns, Bootstrap, hosted on AWS EC2. `,
-		URL: null,//"https://crypto.anhonestobserver.com/",
+		URL: null, //"https://crypto.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"typescript",
