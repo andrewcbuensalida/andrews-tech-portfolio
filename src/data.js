@@ -1,10 +1,35 @@
 // if modifying, dont forget to update resume, sym link, linkedin, freelancer, diagram, angelist, indeed,dice, cybercoders,
 const projects = [
 	{
+		title: `Neo4j Spring Boot University`,
+		description: `Keep track of enrolled courses. 
+		Stack includes React, AWS ec2, Bootstrap, Java, Maven, Neo4j Knowledge Graph, Spring Boot`,
+		// URL: null,
+		stack: [
+			"amazon web services",
+			"aws ec2",
+			"axios",
+			"bootstrap",
+			"git",
+			"html/css",
+			"java",
+			"javascript",
+			"linux",
+			"maven",
+			"neo4j",
+			"react router",
+			"react",
+			"spring boot",
+		],
+		image: "./images/neo4j-springboot-university.png",
+		alt: "neo4j-springboot-university",
+		githubLink: "https://github.com/andrewcbuensalida/spring-boot-neo4j.git",
+	},
+	{
 		title: `Department of Homeland Security`,
 		description: `Web app for processing immigrants. 
 		Stack includes React, Redux, Typescript, React Hook Form, React Table, AWS, Lambda, NodeJs, DynamoDB, SNS, Oracle PL/SQL, s3, SASS, Bootstrap, Serverless Framework, PDF-lib, Node mailer, Jest, Sinon, Jenkins/Cloudbees, ElectronJs`,
-		URL: null,
+		// URL: null,
 		stack: [
 			"amazon web services",
 			"aws dynamodb",
@@ -14,6 +39,7 @@ const projects = [
 			"axios",
 			"bootstrap",
 			"ci/cd",
+			"dbeaver",
 			"docker",
 			"electronjs",
 			"git",
@@ -48,7 +74,7 @@ const projects = [
 		title: `JUST do it`,
 		description: `An e-commerce website with Stripe Payments. 
 			Stack includes MaterialUI, Redux, Axios, React, React Router, CSS Styled Components, CryptoJS, Express, Node, JWT, Stripe, MongdoDB hosted on Heroku with CI/CD`,
-		URL: "http://justdoit.anhonestobserver.com",
+		// // URL: "http://justdoit.anhonestobserver.com",
 		stack: [
 			"react",
 			"cryptojs",
@@ -82,7 +108,7 @@ const projects = [
 		title: `Doctor Database`,
 		description: `A responsive Web App with Infinite scroll to find and rate your doctor. 
 			Stack includes Bootstrap, Nginx, Axios, React, PostgreSQL, Node, hosted on an AWS EC2 server, with continuous integration with Code Pipeline.`,
-		URL: null, //"https://doctordb.anhonestobserver.com",
+		// URL: null, //"https://doctordb.anhonestobserver.com",
 		stack: [
 			"react",
 			"html/css",
@@ -111,7 +137,7 @@ const projects = [
 		title: `Amazon Clone`,
 		description: `React Amazon Clone with Stripe payments and user authentication with Firebase. Tech: React router, Material ui, Firestore, Functions, Hosting for CI/CD. 
 			`,
-		URL: "https://amazon.anhonestobserver.com/",
+		// // URL: "https://amazon.anhonestobserver.com/",
 		stack: [
 			"axios",
 			"ci/cd",
@@ -136,7 +162,7 @@ const projects = [
 		// this one has the private repo
 		title: `Instagram Clone`,
 		description: `A multi-paged app to sign-up, like, comment, and follow other users. Technologies: React Router, Tailwind, Date-fns, Firebase user authentication, Firestore, AWS Elastic Beanstalk and Code Pipeline for CI/CD. `,
-		URL: "https://www.instagram.anhonestobserver.com",
+		// // URL: "https://www.instagram.anhonestobserver.com",
 		stack: [
 			"react",
 			"html/css",
@@ -159,7 +185,7 @@ const projects = [
 	{
 		title: `Andrew's Blogs`,
 		description: `Create, Read, and Delete blogs with rate limiting and SCSS animations. Stack includes EJS for the front-end, MongoDB and Mongoose for the database, and Node, Express, Google Cloud Platform's App Engine and Cloud Build for CI/CD.`,
-		URL: "https://blogs.anhonestobserver.com/",
+		// // URL: "https://blogs.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"html/css",
@@ -187,7 +213,7 @@ const projects = [
 			Model View Controller design pattern, Bcrypt password encryption, Node with express for the server,
 			MongoDB with mongoose for the database,
 			Google Cloud's App Engine for hosting, and Cloud Build for CI/CD`,
-		URL: "https://www.cookies.anhonestobserver.com",
+		// URL: "https://www.cookies.anhonestobserver.com",
 		stack: [
 			"javascript",
 			"handlebars",
@@ -211,7 +237,7 @@ const projects = [
 	{
 		title: `Love's Books`,
 		description: `Add your favorite books. Stack includes React with GraphQL for the front-end and a MongoDB Atlas database and Node server on an AWS EC2 with Nginx proxy on an SSL certified domain with Code Pipeline for CI/CD`,
-		URL: null, //"https://www.books.anhonestobserver.com",
+		// URL: null, //"https://www.books.anhonestobserver.com",
 		stack: [
 			"react",
 			"graphql",
@@ -238,7 +264,7 @@ const projects = [
 	{
 		title: `Heat`,
 		description: `A simple mobile app that tracks your running race results. Currently for Android only. Technologies: React Native, React Navigation, Expo, Postgres, GCP Compute Engine, Formik, Yup, Node`,
-		URL: "https://expo.dev/@andrewcbuensalida/heat",
+		// URL: "https://expo.dev/@andrewcbuensalida/heat",
 		stack: [
 			"react",
 			"react native",
@@ -263,7 +289,7 @@ const projects = [
 	{
 		title: `LinkUp`,
 		description: `A LinkedIn clone with limited functionality. It features authentication and post creation using Material UI, React, Redux, Firebase Firestore and serverless hosting.`,
-		URL: "https://linkup.anhonestobserver.com",
+		// URL: "https://linkup.anhonestobserver.com",
 		stack: [
 			"react",
 			"material ui",
@@ -280,7 +306,7 @@ const projects = [
 	{
 		title: `Flexible Life`,
 		description: `A simple responsive website featuring CSS Flexbox. Tech: Node, Express, Jquery, Javascript, hosted on GCP.`,
-		URL: "https://flex.anhonestobserver.com/",
+		// URL: "https://flex.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"html/css",
@@ -302,7 +328,7 @@ const projects = [
 	{
 		title: `Andrew's Web Dev Services`,
 		description: `A simple responsive website featuring CSS Grid, and contact form submission. Tech: FormSubmit, Handlebars, Node, Express, hosted on GCP.`,
-		URL: "https://webdev.anhonestobserver.com/",
+		// URL: "https://webdev.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"html/css",
@@ -324,7 +350,7 @@ const projects = [
 	{
 		title: `Merry Dating - Mobile`,
 		description: `A video speed dating app for Android and iOS. Stack: PM2 load-balancer, AWS Application Load-balancer, Oracle DB migrated to AWS RDS Aurora, React Native, React Navigation, Twilio, Node, Express, React Hook Forms, Social Signin`,
-		URL: null,
+		// URL: null,
 		stack: [
 			"javascript",
 			"git",
@@ -348,7 +374,7 @@ const projects = [
 	{
 		title: `Merry Dating - Web`,
 		description: `A video speed dating app for the browser. Stack: PM2 load-balancer, AWS Application Load-balancer, Oracle DB migrated to AWS RDS Aurora, React, Twilio, Node, Express`,
-		URL: null, //"https://merry.anhonestobserver.com/",
+		// URL: null, //"https://merry.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"git",
@@ -369,7 +395,7 @@ const projects = [
 	{
 		title: `Social Street`,
 		description: `A crypto exchange. Stack: Websockets, Axios, Node, Express, Heroku, Material UI, React Financial Charts`,
-		URL: "https://social-street-crypto.herokuapp.com/",
+		// URL: "https://social-street-crypto.herokuapp.com/",
 		stack: [
 			"javascript",
 			"git",
@@ -389,7 +415,7 @@ const projects = [
 	{
 		title: `Uplift Card Game`,
 		description: `A simple card game. If you get an ace in the last hand, you win. Stack: React, Tailwind, GraphQL, Postgres, Typescript, Jest, Node, Express, Apollo`,
-		URL: null,
+		// URL: null,
 		stack: [
 			"javascript",
 			"git",
@@ -409,7 +435,7 @@ const projects = [
 	{
 		title: `Yummy Bites`,
 		description: `An order tracking web app for food manufacturers. Stack: React, Express, Node, Postgres, Material UI, Heroku`,
-		URL: "https://yummy-bites.herokuapp.com/admin/orders",
+		// URL: "https://yummy-bites.herokuapp.com/admin/orders",
 		stack: [
 			"javascript",
 			"git",
@@ -428,7 +454,7 @@ const projects = [
 	{
 		title: `Yummy Bites Electron`,
 		description: `ElectronJS version of Yummy Bites with Selenium and React Testing Library for Automated Testing. Stack: ElectronJS, React Testing Library, Express, Node, Postgres, Material UI`,
-		URL: null,
+		// URL: null,
 		stack: [
 			"javascript",
 			"amazon web services",
@@ -451,7 +477,7 @@ const projects = [
 	{
 		title: `Auto Scribe`,
 		description: `A voice-activated Google Assistant medical charting app. For nurse assistants, Auto Scribe records brief changes, and feeding, gives advice on transferring and CPR, and tracks top performers. Stack: Node, Google Firebase Firestore for the noSQL databse, hosted on a Google Compute Cloud virtual machine. `,
-		URL: "https://assistant.google.com/services/invoke/uid/000000817e041429/alm/CgRUf1EIEgIQAQ==?hl=en",
+		// URL: "https://assistant.google.com/services/invoke/uid/000000817e041429/alm/CgRUf1EIEgIQAQ==?hl=en",
 		stack: [
 			"javascript",
 			"google cloud platform",
@@ -473,7 +499,7 @@ const projects = [
 		title: `Andrew's Portfolio`,
 		description: `Website that displays some of my projects. Includes a Lucid Chart diagram, links to the apps and their respective Github repositories.
 			Stack includes React for the front-end, Jest for testing, CSS from codepen, hosted on AWS Amplify for continuous deployment. `,
-		URL: "https://www.anhonestobserver.com",
+		// URL: "https://www.anhonestobserver.com",
 		stack: [
 			"react",
 			"javascript",
@@ -496,7 +522,7 @@ const projects = [
 		title: `Crypto Logger`,
 		description: `A vanilla Typescript CRUD web app featuring sorting and filtering with DynamoDB.
 			Stack also includes AWS Application Load Balancer, PM2 load-balancer, Node, Express, date-fns, Bootstrap, hosted on AWS EC2. `,
-		URL: null, //"https://crypto.anhonestobserver.com/",
+		// URL: null, //"https://crypto.anhonestobserver.com/",
 		stack: [
 			"javascript",
 			"typescript",
@@ -522,7 +548,7 @@ const projects = [
 	{
 		title: `Babylon Appointments`,
 		description: `Create medical appointments. Features availability filtering based on data from a MySQL database, with a mobile-first responsive class-based React front-end and Node back-end. Other tech includes MomentJS, hosted on AWS.`,
-		URL: null, //"https://babylon.anhonestobserver.com/",
+		// URL: null, //"https://babylon.anhonestobserver.com/",
 		stack: [
 			"amazon web services",
 			"aws route 53",
@@ -548,7 +574,7 @@ const projects = [
 	{
 		title: `Andrew's Black Jack`,
 		description: `Play against the dealer. Refactored vanilla Javascript to JQuery and implemented game logic. Stack is hosted in an Amazon web services S3 bucket with CI/CD.`,
-		URL: "http://www.andrewsblackjack.com.s3-website-us-west-1.amazonaws.com", // "http://www.andrewsblackjack.com",
+		// URL: "http://www.andrewsblackjack.com.s3-website-us-west-1.amazonaws.com", // "http://www.andrewsblackjack.com",
 		stack: [
 			"javascript",
 			"html/css",
@@ -567,7 +593,7 @@ const projects = [
 	{
 		title: `eMonk Accountability`,
 		description: `Loss your deposit if you relapse with your bad habit. Stack includes Bootstrap, React, Typescript, AWS Lambda, Serverless Framework, DynamoDB`,
-		URL: null, //"https://www.starwars.anhonestobserver.com",
+		// URL: null, //"https://www.starwars.anhonestobserver.com",
 		stack: [
 			"amazon web services",
 			"html/css",
@@ -591,7 +617,7 @@ const projects = [
 	{
 		title: `Random Star Wars Generator`,
 		description: `Generates a random Star Wars character via web scraping with Puppeteer and through an API. Stack includes Javascript for the front-end, Puppeteer for the scraper, Node/Express for the server on an AWS EC2 Linux instance, and codepipeline for CI/CD `,
-		URL: null, //"https://www.starwars.anhonestobserver.com",
+		// URL: null, //"https://www.starwars.anhonestobserver.com",
 		stack: [
 			"javascript",
 			"html/css",
@@ -618,7 +644,7 @@ const projects = [
 	{
 		title: `Hoopstr Sports Tracker `,
 		description: `A voice activated sports scoring and statistics tracking web app using PHP, MySQL, Javascript, HTML, CSS, hosted on Hostgator.`,
-		URL: null,
+		// URL: null,
 		stack: ["javascript", "html/css", "hostgator", "php", "mysql", "git"],
 		image: "./images/hoopstr.png",
 		alt: "hoopstr",
@@ -627,7 +653,7 @@ const projects = [
 	{
 		title: `Todo List`,
 		description: `Add, remove, and edit a todo list. Stack includes Typescript, SCSS, CI/CD with watchtower deploying Node, and MongoDB Docker containers, hosted on Google Cloud Compute Engine`,
-		URL: "https://www.todo.anhonestobserver.com",
+		// URL: "https://www.todo.anhonestobserver.com",
 		stack: [
 			"javascript",
 			"aws route 53",
@@ -653,7 +679,7 @@ const projects = [
 	{
 		title: `PyShop`,
 		description: `PyShop. Currently in-progress. A Django webapp that displays price and stock data of products. Stack includes Python, Gunicorn, Nginx, with a SQLite database, hosted on an AWS EC2 with CodePipeline for CI/CD.`,
-		URL: null, //"https://pyshop.anhonestobserver.com/",
+		// URL: null, //"https://pyshop.anhonestobserver.com/",
 		stack: [
 			"django",
 			"html/css",
@@ -678,7 +704,7 @@ const projects = [
 	{
 		title: `Electrode`,
 		description: `An ElectronJS app that pulls data from Pokemon API, localStorage, SQLite, and Postgres. Stack also includes: AWS Lambda, Api Gateway`,
-		URL: null,
+		// URL: null,
 		stack: [
 			"html/css",
 			"amazon web services",
@@ -699,7 +725,7 @@ const projects = [
 	{
 		title: `Kite Earth Wordpress`,
 		description: `Static Wordpress Website with Google Maps, Photo Gallery, and Youtube integration.`,
-		URL: "https://taalkiteboardassociation.wordpress.com/ ",
+		// URL: "https://taalkiteboardassociation.wordpress.com/ ",
 		stack: ["wordpress"],
 		image: "./images/kite.png",
 		alt: "kite",
@@ -708,7 +734,7 @@ const projects = [
 	{
 		title: `Mastermind Wordpress`,
 		description: `Static Wordpress Website with Google Maps, Photo Gallery, and Youtube integration.`,
-		URL: null, //"https://mastermindescaperooms.wordpress.com/ ",
+		// URL: null, //"https://mastermindescaperooms.wordpress.com/ ",
 		stack: ["wordpress"],
 		image: "./images/mastermind.png",
 		alt: "mastermind",
@@ -717,7 +743,7 @@ const projects = [
 	{
 		title: `VRX Wordpress`,
 		description: `Static Wordpress Website with Google Maps, Photo Gallery, and Youtube integration.`,
-		URL: "https://vrxph.wordpress.com/ ",
+		// URL: "https://vrxph.wordpress.com/ ",
 		stack: ["wordpress"],
 		image: "./images/vrx.png",
 		alt: "vrx",
