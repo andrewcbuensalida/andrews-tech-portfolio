@@ -3,13 +3,14 @@ const projects = [
 	{
 		title: `Neo4j Spring Boot University`,
 		description: `Keep track of enrolled courses. 
-		Stack includes React, AWS ec2, Bootstrap, Java, Maven, Neo4j Knowledge Graph, Spring Boot`,
+		Stack includes React, AWS ec2, Bootstrap, Java, Maven, Neo4j Knowledge Graph, Spring Boot, D3 data visualization`,
 		// URL: null,
 		stack: [
 			"amazon web services",
 			"aws ec2",
 			"axios",
 			"bootstrap",
+			"d3",
 			"git",
 			"html/css",
 			"java",
@@ -20,6 +21,7 @@ const projects = [
 			"react router",
 			"react",
 			"spring boot",
+      "user authentication"
 		],
 		image: "./images/neo4j-springboot-university.png",
 		alt: "neo4j-springboot-university",
