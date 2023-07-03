@@ -3,7 +3,7 @@ const projects = [
 	{
 		title: `Neo4j Spring Boot University`,
 		description: `Keep track of enrolled courses. 
-		Stack includes React, AWS ec2, Bootstrap, Java, Maven, Neo4j Knowledge Graph, Spring Boot, D3 data visualization`,
+		Stack includes React, AWS ec2, Bootstrap, Java, Maven, Neo4j Knowledge Graph, Spring Boot, D3 data visualization, Node, Express, Swagger`,
 		// URL: null,
 		stack: [
 			"amazon web services",
@@ -11,6 +11,7 @@ const projects = [
 			"axios",
 			"bootstrap",
 			"d3",
+			"express",
 			"git",
 			"html/css",
 			"java",
@@ -18,19 +19,22 @@ const projects = [
 			"linux",
 			"maven",
 			"neo4j",
+			"node",
 			"react router",
 			"react",
 			"spring boot",
-      "user authentication"
+			"swagger",
+			"user authentication",
 		],
 		image: "./images/neo4j-springboot-university.png",
 		alt: "neo4j-springboot-university",
-		githubLink: "https://github.com/andrewcbuensalida/spring-boot-neo4j.git",
+		githubLink:
+			"https://github.com/andrewcbuensalida/spring-boot-neo4j.git",
 	},
 	{
 		title: `Department of Homeland Security`,
 		description: `Web app for processing immigrants. 
-		Stack includes React, Redux, Typescript, React Hook Form, React Table, AWS, Lambda, NodeJs, DynamoDB, SNS, Oracle PL/SQL, s3, SASS, Bootstrap, Serverless Framework, PDF-lib, Node mailer, Jest, Sinon, Jenkins/Cloudbees, ElectronJs`,
+		Stack includes React, Redux, Typescript, React Hook Form, React Table, AWS, Lambda, NodeJs, DynamoDB, SNS, Oracle PL/SQL, s3, SASS, Bootstrap, Serverless Framework, PDF-lib, Node mailer, Jest, Sinon, Jenkins/Cloudbees, ElectronJs, Swagger`,
 		// URL: null,
 		stack: [
 			"amazon web services",
@@ -63,6 +67,7 @@ const projects = [
 			"redux",
 			"serverless framework",
 			"sinon",
+			"swagger",
 			"typescript",
 			"visio",
 			"websockets",
