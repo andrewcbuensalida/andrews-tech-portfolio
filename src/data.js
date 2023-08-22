@@ -113,6 +113,37 @@ const projects = [
 			"https://github.com/andrewcbuensalida/youtube/tree/mern-ecommerce-app-1",
 	},
 	{
+		title: `Messenger`,
+		description: `Real-time React based messenger app with user authorization. 
+			Stack includes Redis, React, chakra-ui, formik, socket.io, NodeJS, Postgres, JWT`,
+		// // URL: "http://justdoit.anhonestobserver.com",
+		stack: [
+			"react",
+			"redis",
+			"chakra-ui",
+			"formik",
+			"socket.io",
+			"websockets",
+			"yup",
+			"postgres",
+			"docker",
+			"lucid chart",
+			"html/css",
+			"javascript",
+			"git",
+			"react router",
+			"node",
+			"express",
+			"jwt",
+			"git",
+			"user authentication",
+		],
+		image: "./images/messenger.png",
+		alt: "messenger",
+		githubLink:
+			"https://github.com/andrewcbuensalida/react-live-messenger.git",
+	},
+	{
 		title: `Doctor Database`,
 		description: `A responsive Web App with Infinite scroll to find and rate your doctor. 
 			Stack includes Bootstrap, Nginx, Axios, React, PostgreSQL, Node, hosted on an AWS EC2 server, with continuous integration with Code Pipeline.`,
