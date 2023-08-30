@@ -679,7 +679,21 @@ const projects = [
 		githubLink:
 			"https://github.com/andrewcbuensalida/puppeteer-node-random-star-wars",
 	},
-
+	{
+		title: `Quizzes`,
+		description: `Vue website with quizzes about chemistry, biology, and math.`,
+		// URL: "https://www.anhonestobserver.com",
+		stack: [
+			"vue",
+			"javascript",
+			"html/css",
+			"git",
+		],
+		image: "./images/quizzes.png",
+		alt: "quizzes",
+		githubLink:
+			"https://github.com/andrewcbuensalida/Vue3-Crash-Course",
+	},
 	{
 		title: `Hoopstr Sports Tracker `,
 		description: `A voice activated sports scoring and statistics tracking web app using PHP, MySQL, Javascript, HTML, CSS, hosted on Hostgator.`,
