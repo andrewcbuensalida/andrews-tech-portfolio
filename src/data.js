@@ -683,16 +683,10 @@ const projects = [
 		title: `Quizzes`,
 		description: `Vue website with quizzes about chemistry, biology, and math.`,
 		// URL: "https://www.anhonestobserver.com",
-		stack: [
-			"vue",
-			"javascript",
-			"html/css",
-			"git",
-		],
+		stack: ["vue", "javascript", "html/css", "git"],
 		image: "./images/quizzes.png",
 		alt: "quizzes",
-		githubLink:
-			"https://github.com/andrewcbuensalida/Vue3-Crash-Course",
+		githubLink: "https://github.com/andrewcbuensalida/Vue3-Crash-Course",
 	},
 	{
 		title: `Hoopstr Sports Tracker `,
@@ -771,6 +765,23 @@ const projects = [
 		image: "./images/airflow.png",
 		alt: "airflow",
 		githubLink: "https://github.com/andrewcbuensalida/airflow",
+	},
+	{
+		title: `AWS SAM`,
+		description: `CI/CD pipeline with AWS SAM, Lambda, API Gateway, and GitHub Actions`,
+		// URL: null, //"https://pyshop.anhonestobserver.com/",
+		stack: [
+			"git",
+			"github actions",
+			"amazon web services",
+			"aws api gateway",
+			"aws lambda",
+			"aws sam",
+			"ci/cd",
+		],
+		image: "./images/sam.jpg",
+		alt: "sam-workshop",
+		githubLink: "https://github.com/andrewcbuensalida/sam-workshop",
 	},
 	{
 		title: `Twitter Clone Sequelize`,
