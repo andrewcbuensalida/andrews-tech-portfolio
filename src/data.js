@@ -827,6 +827,15 @@ const projects = [
 			"https://github.com/andrewcbuensalida/build_tools_to_automate_python",
 	},
 	{
+		title: `Python for Hackers`,
+		description: `Python tools like sockets, encryption, flask, web scraping, fuzzer`,
+		// URL: null, //"https://pyshop.anhonestobserver.com/",
+		stack: ["python", "git", "beautiful soup", "flask", "selenium"],
+		image: "./images/pythonforhackers.png",
+		alt: "python for hackers",
+		githubLink: "https://github.com/andrewcbuensalida/python-sandbox",
+	},
+	{
 		title: `AWS Cloudfront`,
 		description: ``,
 		// URL: null, //"https://pyshop.anhonestobserver.com/",
