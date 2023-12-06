@@ -20,7 +20,7 @@ function App() {
 	// [2,3]
 
 	function handleFilter(e) {
-		if (e.target.textContent === "Clear") {
+		if (e.target.id === "clear") {
 			let allSelected = Array.from(
 				document.getElementsByClassName("selected")
 			);

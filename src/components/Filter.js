@@ -41,7 +41,7 @@ function Filter({ handleFilter, projects }) {
 		<div>
 			<ul className="filter">
 				<li>Filter:</li>
-				<button className="clear" onClick={handleFilter}>
+				<button id='clear' className="clear" onClick={handleFilter}>
 					Clear ({count})
 				</button>
 				{/* sorting [['a',<h1...>],['b',<h1...>]] seems to be just comparing the first elements, a to b */}
