@@ -1,4 +1,11 @@
+import { useState } from "react";
+import { useMemo } from "react";
+import { useEffect } from "react";
+
 function Filter({ handleFilter, projects }) {
+	const [count, setCount] = useState(
+		document.getElementsByClassName("project").length
+	);
 	function toPascalCase(string) {
 		let split = string.split(" ");
 		let pascalSplit = split.map(
@@ -25,27 +32,17 @@ function Filter({ handleFilter, projects }) {
 			}
 		}
 	}
-	
-	console.log(`This is projects`)
-	console.log(projects)
-	
-	// console.log(
-	// 	[...filterBtns.values()].sort((a, b) => {
-	// 		if (a.key < b.key) {
-	// 			return -1;
-	// 		}
-	// 		if (a.key > b.key) {
-	// 			return 1;
-	// 		}
-	// 	})
-	// );
+
+	useEffect(() => {
+		setCount(document.getElementsByClassName("project").length);
+	});
 
 	return (
 		<div>
 			<ul className="filter">
 				<li>Filter:</li>
 				<button className="clear" onClick={handleFilter}>
-					Clear
+					Clear ({count})
 				</button>
 				{/* sorting [['a',<h1...>],['b',<h1...>]] seems to be just comparing the first elements, a to b */}
 				{[...filterBtns.entries()].sort().map((lang) => lang[1])}

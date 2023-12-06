@@ -94,8 +94,8 @@ function App() {
 	}
 
 	const projectsComponents = projects.map((project) => (
-		<Project key={project.title} filters={filters} data={project} />
-	));
+    <Project key={project.title} filters={filters} data={project} />
+    ));
 
 	return (
 		<div>
