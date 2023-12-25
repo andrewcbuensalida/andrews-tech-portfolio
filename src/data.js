@@ -814,10 +814,12 @@ const projects = [
 	},
 	{
 		title: `Supervisor Notification`,
-		description: `Notification webapp utilizing AWS ECS Fargate, React Router, Yup, Formik`,
+		description: `Notification webapp utilizing AWS ECS Fargate, EKS, Kubernetes, React Router, Yup, Formik`,
 		// URL: null, //"https://pyshop.anhonestobserver.com/",
 		stack: [
 			"yup",
+			"kubernetes",
+			"aws eks",
 			"react router",
 			"formik",
 			"git",
