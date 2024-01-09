@@ -1,6 +1,30 @@
 // if modifying, dont forget to update resume, sym link, linkedin, freelancer, diagram, angelist, indeed,dice, cybercoders,
 const projects = [
 	{
+		title: `NestJs Task Tracker`,
+		description: `Keep track of users and tasks. 
+		Stack includes NestJs, Typescript, AWS Elastic Beanstalk, AWS RDS, MySQL, TypeORM`,
+		// URL: null,
+		stack: [
+			"amazon web services",
+			"aws elastic beanstalk",
+			"typescript",
+			"nestjs",
+			"aws rds",
+			"mysql",
+			"typeorm",
+			"git",
+			"javascript",
+			"nodejs",
+			"user authentication",
+			"jwt",
+		],
+		image: "./images/nest.png",
+		alt: "nest tasks",
+		githubLink:
+			"https://github.com/andrewcbuensalida/nestjs-task-management.git",
+	},
+	{
 		title: `Neo4j Spring Boot University`,
 		description: `Keep track of enrolled courses. 
 		Stack includes React, AWS ec2, Bootstrap, Java, Maven, Neo4j Knowledge Graph, Spring Boot, D3 data visualization, Node, Express, Swagger, MS SQL Server`,
@@ -833,7 +857,7 @@ const projects = [
 			"html/css",
 			"javascript",
 			"react",
-			"lucidchart",
+			"lucid chart",
 			"nodejs",
 		],
 		image: "./images/supervisor.png",
