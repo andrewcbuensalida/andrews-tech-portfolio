@@ -1,6 +1,25 @@
 // if modifying, dont forget to update resume, sym link, linkedin, freelancer, diagram, angelist, indeed,dice, cybercoders,
 const projects = [
 	{
+		title: `Movieist`,
+		description: `Write reviews for movies. 
+		Stack includes Spring Boot, Java, Elastic Beanstalk, MongoDB`,
+		// URL: null,
+		stack: [
+			"amazon web services",
+			"aws elastic beanstalk",
+			"mongodb",
+			"java",
+			"maven",
+			"lucidchart",
+			"git",
+		],
+		image: "./images/movieist.png",
+		alt: "movieist",
+		githubLink:
+			"https://github.com/andrewcbuensalida/movieist-from-scratch.git",
+	},
+	{
 		title: `NestJs Task Tracker`,
 		description: `Keep track of users and tasks. 
 		Stack includes NestJs, Typescript, AWS Elastic Beanstalk, AWS RDS, MySQL, TypeORM`,
