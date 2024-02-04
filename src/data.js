@@ -11,6 +11,7 @@ const projects = [
 			"mongodb",
 			"java",
 			"maven",
+			"spring boot",
 			"lucidchart",
 			"git",
 		],
