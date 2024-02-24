@@ -1,6 +1,25 @@
 // if modifying, dont forget to update resume, sym link, linkedin, freelancer, diagram, angelist, indeed,dice, cybercoders,
 const projects = [
 	{
+		title: `Zillow Scraper`,
+		description: `Scrape house listings from Zillow.com 
+		Stack includes NodeJs, Puppeteer, Typescript, Express`,
+		// URL: null,
+		stack: [
+			"express",
+			"nodejs",
+			"html/css",
+			"puppeteer",
+			"typescript",
+			"web scraping",
+			"git",
+		],
+		image: "./images/zillow.png",
+		alt: "zillow scraper",
+		githubLink:
+			"https://github.com/andrewcbuensalida/express-api-starter-ts.git",
+	},
+	{
 		title: `Movieist`,
 		description: `Write reviews for movies. 
 		Stack includes Spring Boot, Java, Elastic Beanstalk, MongoDB`,
@@ -12,7 +31,7 @@ const projects = [
 			"java",
 			"maven",
 			"spring boot",
-			"lucidchart",
+			"lucid chart",
 			"git",
 		],
 		image: "./images/movieist.png",
