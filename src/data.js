@@ -39,7 +39,7 @@ const projects = [
 		image: "./images/tangibleai.jpg",
 		alt: "tangible ai",
 		githubLink:
-			"https://github.com/andrewcbuensalida/express-api-starter-ts.git",
+			"https://github.com/andrewcbuensalida/Complete-Generative-AI-Course-on-YouTube",
 	}, 
 	{
 		title: `Zillow Scraper`,
