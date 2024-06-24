@@ -21,7 +21,7 @@ const projects = [
 		image: "./images/mit.jpg",
 		alt: "mit",
 		githubLink:
-			"https://github.com/andrewcbuensalida/express-api-starter-ts.git",
+			"https://github.com/andrewcbuensalida/mrts-etl-mit",
 	}, 
 {
 		title: `Tangible AI`,
