@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { useMemo } from "react";
 import { useEffect } from "react";
+import { filtersToString } from "../filtersToString.js";
 
 function Filter({ handleFilter, projects }) {
+	console.log("Filters: ", filtersToString());
 	const [count, setCount] = useState(
 		document.getElementsByClassName("project").length
 	);
@@ -41,7 +43,7 @@ function Filter({ handleFilter, projects }) {
 		<div>
 			<ul className="filter">
 				<li>Filter:</li>
-				<button id='clear' className="clear" onClick={handleFilter}>
+				<button id="clear" className="clear" onClick={handleFilter}>
 					Clear ({count})
 				</button>
 				{/* sorting [['a',<h1...>],['b',<h1...>]] seems to be just comparing the first elements, a to b */}
