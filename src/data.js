@@ -1,38 +1,51 @@
 // if modifying, dont forget to update resume, sym link, linkedin, freelancer, diagram, angelist, indeed,dice, cybercoders,
 const projects = [
-{
+	{
 		title: `MIT Data Engineering`,
 		description: `Performed ETL (Extract Transform Load), Analyzed, Visualized UFO sighting stats, housing data, Titanic survivors, Olympics, MRTS sales, Bad Sakila Movies 
 		Stack: MatPlotLib, Numpy, Pandas, SciKit Learn, MySQL, Docker, MongoDB, Redis, Cassandra, Firebase, Flask, Strapi, Python`,
 		// URL: null,
 		stack: [
 			"matplotlib",
+			"data analysis",
+			"machine learning",
+			"artificial intelligence",
 			"numpy",
 			"scikitlearn",
 			"mysql",
 			"docker",
-	  "python",
-	"mongodb",
-	"redis",
-	"cassandra",
-	"firebase",	"flask",	"strapi",
+			"python",
+			"mongodb",
+			"redis",
+			"cassandra",
+			"firebase",
+			"flask",
+			"strapi",
 			"git",
 		],
 		image: "./images/mit.jpg",
 		alt: "mit",
-		githubLink:
-			"https://github.com/andrewcbuensalida/mrts-etl-mit",
-	}, 
-{
+		githubLink: "https://github.com/andrewcbuensalida/mrts-etl-mit",
+	},
+	{
 		title: `Tangible AI`,
 		description: `Built Retrieval Augmented Generation (RAG) APIs 
 		Stack: Chroma Vector Database, Pinecone DB, Langchain, OpenAI GPT LLM, Python`,
 		// URL: null,
 		stack: [
 			"chromadb",
+			"machine learning",
+			"artificial intelligence",
+      "llm",
+      "vector database",
+      "redis",
+      "langsmith",
+      "langgraph",
 			"pineconedb",
 			"langchain",
 			"openai",
+      "anthropic",
+      "chatbot",
 			"python",
 			"git",
 		],
@@ -40,7 +53,7 @@ const projects = [
 		alt: "tangible ai",
 		githubLink:
 			"https://github.com/andrewcbuensalida/Complete-Generative-AI-Course-on-YouTube",
-	}, 
+	},
 	{
 		title: `Zillow Scraper`,
 		description: `Scrape house listings from Zillow.com 
