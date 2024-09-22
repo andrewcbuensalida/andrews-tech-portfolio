@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useMemo } from "react";
 import { useEffect } from "react";
 import { filtersToString } from "../filtersToString.js";
 
