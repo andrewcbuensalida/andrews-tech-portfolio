@@ -118,11 +118,11 @@ function App() {
 			</header>
 			<Filter projects={projects} handleFilter={handleFilter} />
 			<div className="projects">{projectsComponents}</div>
-			<img
+			{/* <img
 				style={{ width: "90%", borderRadius: "5%" }}
 				src="./images/architecture.png"
 				alt="architecture"
-			/>
+			/> */}
 			<div>
 				<div
 					style={{
