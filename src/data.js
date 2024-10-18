@@ -1,6 +1,23 @@
 // if modifying, dont forget to update resume, sym link, linkedin, freelancer, diagram, angelist, indeed,dice, cybercoders,
 const projects = [
 	{
+		title: `Spring6yt`,
+		description: `A basic spring boot back-end API that gets users from Jsonplaceholder.com, and stores products in an H2 in-memory database with Hibernate. Deployed on AWS Elastic Beanstalk.`,
+		// URL: null,
+		stack: [
+			"amazon web services",
+			"aws elastic beanstalk",
+			"git",
+			"java",
+			"lombok",
+			"hibernate",
+			"h2",
+		],
+		image: "./images/spring6yt.png",
+		alt: "spring6yt",
+		githubLink: "https://github.com/andrewcbuensalida/spring6yt",
+	},
+	{
 		title: `Django Chatbot`,
 		description: `Chatbot using GPT-4 of OpenAI API, LangChain, Django, Docker, and AWS ECS.
 		Stack also includes: asyncio, beautiful soup, Pinecone DB`,
@@ -26,7 +43,7 @@ const projects = [
 			"python",
 			"sqlite",
 			"user authentication",
-			"vector database"
+			"vector database",
 		],
 		image: "./images/django-chatbot-langchain-docker.png",
 		alt: "django chatbot",
