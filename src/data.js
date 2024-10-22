@@ -12,6 +12,7 @@ const projects = [
 			"lombok",
 			"hibernate",
 			"h2",
+"spring boot"
 		],
 		image: "./images/spring6yt.png",
 		alt: "spring6yt",
