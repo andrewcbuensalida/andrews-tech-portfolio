@@ -2,7 +2,7 @@
 const projects = [
 {
 		title: `Course Spring Boot Devtiro`,
-		description: `A basic spring boot back-end API`,
+		description: `A spring boot back-end API for authors and books`,
 		// URL: null,
 		stack: [
 			"git",
@@ -10,11 +10,11 @@ const projects = [
 			"lombok",
 			"hibernate",
 			"h2",
-"spring boot","junit", "unit testing" 
+"spring boot","junit", "unit testing", "postgres" 
 		],
 		image: "./images/devtiro.png",
 		alt: "devtiro",
-		githubLink: "https://github.com/andrewcbuensalida/spring6yt",
+		githubLink: "https://github.com/andrewcbuensalida/course-spring-boot",
 	},
 	{
 		title: `Spring6yt`,
@@ -303,7 +303,7 @@ const projects = [
 			"serverless framework",
 			"sinon",
 			"swagger",
-			"typescript",
+			"typescript","unit testing", 
 			"visio",
 			"websockets",
 			"yup",
