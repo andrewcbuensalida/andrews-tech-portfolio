@@ -51,7 +51,7 @@ const projects = [
 		githubLink: "https://github.com/andrewcbuensalida/course-spring-boot",
 	},
 	{
-		title: `Employees/Albums/Products Spring6yt`,
+		title: `Employees/Albums Spring6yt`,
 		description: `A basic spring boot back-end API that gets users from Jsonplaceholder.com, and stores products in an H2 in-memory database with user authentication. Deployed on AWS Elastic Beanstalk.`,
 		// URL: null,
 		stack: [
@@ -63,7 +63,7 @@ const projects = [
 			"hibernate",
 			"h2",
 			"spring boot",
-			"user authetication",
+			"user authentication",
 			"oauth",
 		],
 		image: "./images/spring6yt.png",
