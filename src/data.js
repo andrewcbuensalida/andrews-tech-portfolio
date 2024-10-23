@@ -52,7 +52,7 @@ const projects = [
 	},
 	{
 		title: `Employees/Albums Spring6yt`,
-		description: `A basic spring boot back-end API that gets users from Jsonplaceholder.com, and stores products in an H2 in-memory database with user authentication. Deployed on AWS Elastic Beanstalk.`,
+		description: `A basic spring boot back-end API that gets users from Jsonplaceholder.com, and stores products in an H2 in-memory database, and user authentication with oauth and postgres. Deployed on AWS Elastic Beanstalk.`,
 		// URL: null,
 		stack: [
 			"amazon web services",
@@ -65,6 +65,7 @@ const projects = [
 			"spring boot",
 			"user authentication",
 			"oauth",
+			"postgres",
 		],
 		image: "./images/spring6yt.png",
 		alt: "spring6yt",
