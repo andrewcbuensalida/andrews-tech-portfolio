@@ -1,5 +1,21 @@
 // if modifying, dont forget to update resume, sym link, linkedin, freelancer, diagram, angelist, indeed,dice, cybercoders,
 const projects = [
+{
+		title: `Course Spring Boot Devtiro`,
+		description: `A basic spring boot back-end API`,
+		// URL: null,
+		stack: [
+			"git",
+			"java",
+			"lombok",
+			"hibernate",
+			"h2",
+"spring boot","junit", "unit testing" 
+		],
+		image: "./images/devtiro.png",
+		alt: "devtiro",
+		githubLink: "https://github.com/andrewcbuensalida/spring6yt",
+	},
 	{
 		title: `Spring6yt`,
 		description: `A basic spring boot back-end API that gets users from Jsonplaceholder.com, and stores products in an H2 in-memory database with Hibernate. Deployed on AWS Elastic Beanstalk.`,
@@ -12,7 +28,7 @@ const projects = [
 			"lombok",
 			"hibernate",
 			"h2",
-"spring boot"
+"spring boot",
 		],
 		image: "./images/spring6yt.png",
 		alt: "spring6yt",
