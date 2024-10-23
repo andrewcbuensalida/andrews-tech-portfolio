@@ -23,7 +23,7 @@ const projects = [
 			"spring boot",
 			"junit",
 			"unit testing",
-			"user auhtentication",
+			"user authentication",
 			"postgres",
 		],
 		image: "./images/pokemon.png",
