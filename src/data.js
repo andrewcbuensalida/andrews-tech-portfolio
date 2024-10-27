@@ -68,6 +68,7 @@ const projects = [
 			"unit testing",
 			"oauth",
 			"postgres",
+      "pagination"
 		],
 		image: "./images/spring6yt.png",
 		alt: "spring6yt",
@@ -434,6 +435,7 @@ const projects = [
 			"bootstrap",
 			"nginx",
 			"postgres",
+      "pagination",
 			"nodejs",
 			"express",
 			"linux",
