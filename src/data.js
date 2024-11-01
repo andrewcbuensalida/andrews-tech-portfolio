@@ -1,6 +1,16 @@
 // if modifying, dont forget to update resume, sym link, linkedin, freelancer, diagram, angelist, indeed,dice, cybercoders,
 const projects = [
 	{
+		title: `AutoApply`,
+		description: `AI that automatically applies to LinkedIn job postings. Stack: Selenium, Python, LangChain, OpenAI, PyTest`,
+		// URL: null,
+		stack: ["git", "python", "selenium", "langchain", "openai"],
+		image: "./images/autoapply.png",
+		alt: "autoapply",
+		// githubLink:
+			// "https://github.com/andrewcbuensalida/spring-boot-microservices-workshop",
+	},
+	{
 		title: `Spring Boot Movie Reviews`,
 		description: `A spring boot back-end API for getting movie reviews from TMDB with Eureka`,
 		// URL: null,
