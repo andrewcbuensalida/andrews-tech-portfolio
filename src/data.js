@@ -2,9 +2,9 @@
 const projects = [
 	{
 		title: `AutoApply`,
-		description: `AI that automatically applies to LinkedIn job postings. Stack: Selenium, Python, LangChain, OpenAI, PyTest`,
+		description: `AI that automatically applies to LinkedIn job postings with web scraping. Stack: Selenium, Python, LangChain, OpenAI, PyTest`,
 		// URL: null,
-		stack: ["git", "python", "selenium", "langchain", "openai"],
+		stack: ["git", "python", "selenium", "langchain", "openai","web scraping"],
 		image: "./images/autoapply.png",
 		alt: "autoapply",
 		// githubLink:
