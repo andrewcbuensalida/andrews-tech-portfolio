@@ -17,6 +17,7 @@ function Project({ filters, data }) {
 	return (
 		isIncluded && (
 			<div className={`project`}>
+        {/* Tilting makes it seem like it's clickable, so if there's no URL to go to, it shouldn't tilt */}
 				<Tilt
 					className="Tilt"
 					options={{
