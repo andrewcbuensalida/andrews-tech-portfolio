@@ -7,6 +7,7 @@ const projects = [
 		stack: [
 			"aws amplify",
 			"aws rds",
+			"docker",
 			"express",
 			"heroku",
 			"nodejs",
@@ -26,6 +27,24 @@ const projects = [
 		alt: "pokemon assistant",
 		githubLink:
 			"https://github.com/andrewcbuensalida/typescript-node-project",
+	},
+	{
+		title: `An honest observer vlog`,
+		description: `A RAG (Retrieval Augmented Generation) API for An honest observer Youtube Channel content. Stack: LangChain, Pinecone, Python `,
+		// URL: "",
+		stack: [
+			"git",
+			"langchain",
+			"llm",
+			"machine learning",
+			"pineconedb",
+			"python",
+			"vector database",
+		],
+		image: "./images/pinecone.png",
+		alt: "pinecone",
+		githubLink:
+			"https://github.com/andrewcbuensalida/anhonestobserver-rag.git",
 	},
 	{
 		title: `AutoApply`,
