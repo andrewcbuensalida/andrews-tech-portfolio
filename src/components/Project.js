@@ -1,7 +1,7 @@
 import Tilt from "react-tilt";
 
 function Project({ filters, data }) {
-	const { image, alt, description, stack, URL, title, githubLink } = data;
+	const { image, alt, description, stack, URL, title, githubLinks } = data;
 	let isIncluded = false;
 
 	// if all the languages in the filter are in the languages that the project uses, the project is included
@@ -17,7 +17,7 @@ function Project({ filters, data }) {
 	return (
 		isIncluded && (
 			<div className={`project`}>
-        {/* Tilting makes it seem like it's clickable, so if there's no URL to go to, it shouldn't tilt */}
+				{/* Tilting makes it seem like it's clickable, so if there's no URL to go to, it shouldn't tilt */}
 				<Tilt
 					className="Tilt"
 					options={{
@@ -34,11 +34,11 @@ function Project({ filters, data }) {
 
 				<h1 className="title">
 					{title}
-					{githubLink && (
-						<a href={githubLink} className="github">
+					{githubLinks.map((link) => (
+						<a href={link} className="github">
 							<img alt="github" src=".\images\github.png" />
 						</a>
-					)}
+					))}
 				</h1>
 				<p>{description}</p>
 				<h2>

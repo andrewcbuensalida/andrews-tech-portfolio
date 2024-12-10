@@ -1,5 +1,64 @@
-// if modifying, dont forget to update resume, sym link, linkedin, freelancer, diagram, angelist, indeed,dice, cybercoders,
 const projects = [
+	{
+		title: `Restaurant Menu API`,
+		description: `Stack: GraphQL, AWS RDS Postgres, Material UI, Heroku, AWS Amplify, Sequelize, NodeJs, Express, React, Git, CI/CD, User Authentication`,
+		URL: "https://main.d270tnz1kj6wbf.amplifyapp.com/",
+		stack: ["aws amplify",
+      "aws rds",
+      "ci/cd",
+      "git",
+      "graphql",
+      "heroku",
+      "material ui",
+      "postgres",
+      "react",
+      "sequelize",
+      "nodejs",
+      "express",
+      "javascript",
+      "user authentication",
+      "amazon web services",
+      "jwt",
+      "lucid chart",
+
+    ],
+		image: "./images/restaurant-menu.png",
+		alt: "restaurant menu",
+		githubLinks: [
+			"https://github.com/andrewcbuensalida/PSQL-Express-React-Node-GraphQL-Apollo.git",
+			"https://github.com/andrewcbuensalida/restaurant-menu-react.git",
+		],
+	},
+	{
+		title: `Chatbot Store Assistant`,
+		description: `A chatbot that answers the user's questions about products and orders. Stack: React, AWS Amplify, FastAPI, Heroku, Pandas, OpenAI API`,
+		URL: "https://main.dy2wjrq0yceeb.amplifyapp.com/",
+		stack: [
+			"aws amplify",
+			"chatbot",
+			"ci/cd",
+			"aws amplify",
+			"fastapi",
+			"git",
+			"heroku",
+			"lucid chart",
+			"machine learning",
+			"openai",
+			"pandas",
+			"react",
+			"extract transform load",
+			"javascript",
+			"python",
+			"llm",
+		],
+		image: "./images/chatbot-store.png",
+		alt: "chatbot store assistant",
+		githubLinks: [
+			"https://github.com/andrewcbuensalida/chatbot-store-openai-pandas.git",
+			"https://github.com/andrewcbuensalida/chatbot-store-orders-products-python-pandas-fastapi.git",
+			"https://github.com/andrewcbuensalida/react-chatbot-store.git",
+		],
+	},
 	{
 		title: `Pokemon Assistant`,
 		description: `Pokemon Chatbot that shows pictures and information about Pokemon. Stack: OpenAI, React, AWS Amplify, NodeJs, Heroku, PokeAPI, Tavily, Postgres, AWS RDS.`,
@@ -7,26 +66,29 @@ const projects = [
 		stack: [
 			"aws amplify",
 			"aws rds",
+			"chatbot",
+			"ci/cd",
 			"docker",
 			"express",
+			"git",
 			"heroku",
+			"llm",
+			"lucid chart",
+			"machine learning",
 			"nodejs",
 			"openai",
 			"pokeapi",
 			"postgres",
 			"react",
-			"chatbot",
-			"ci/cd",
-			"git",
-			"llm",
-			"lucid chart",
-			"machine learning",
 			"typescript",
+			"amazon web services",
 		],
 		image: "./images/pokemon-assistant.png",
 		alt: "pokemon assistant",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/typescript-node-project",
+			"https://github.com/andrewcbuensalida/react-chatgpt-clone-meta.git",
+		],
 	},
 	{
 		title: `An honest observer vlog`,
@@ -43,8 +105,9 @@ const projects = [
 		],
 		image: "./images/pinecone.png",
 		alt: "pinecone",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/anhonestobserver-rag.git",
+		],
 	},
 	{
 		title: `AutoApply`,
@@ -60,8 +123,7 @@ const projects = [
 		],
 		image: "./images/autoapply.png",
 		alt: "autoapply",
-		// githubLink:
-		// "https://github.com/andrewcbuensalida/spring-boot-microservices-workshop",
+		githubLinks: [],
 	},
 	{
 		title: `Spring Boot Movie Reviews`,
@@ -70,8 +132,9 @@ const projects = [
 		stack: ["git", "java", "spring boot", "eureka"],
 		image: "./images/spring-boot-microservices-workshop.png",
 		alt: "movies",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/spring-boot-microservices-workshop",
+		],
 	},
 	{
 		title: `Pokemon Review`,
@@ -93,8 +156,9 @@ const projects = [
 		],
 		image: "./images/pokemon.png",
 		alt: "pokemon",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/pokemon-review-springboot",
+		],
 	},
 	{
 		title: `Authors and Books Spring Boot`,
@@ -114,7 +178,9 @@ const projects = [
 		],
 		image: "./images/devtiro.png",
 		alt: "devtiro",
-		githubLink: "https://github.com/andrewcbuensalida/course-spring-boot",
+		githubLinks: [
+			"https://github.com/andrewcbuensalida/course-spring-boot",
+		],
 	},
 	{
 		title: `Employees/Albums Spring6yt`,
@@ -142,7 +208,7 @@ const projects = [
 		],
 		image: "./images/spring6yt.png",
 		alt: "spring6yt",
-		githubLink: "https://github.com/andrewcbuensalida/spring6yt",
+		githubLinks: ["https://github.com/andrewcbuensalida/spring6yt"],
 	},
 	{
 		title: `Django Chatbot`,
@@ -174,8 +240,9 @@ const projects = [
 		],
 		image: "./images/django-chatbot-langchain-docker.png",
 		alt: "django chatbot",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/django-chatbot-langchain-docker",
+		],
 	},
 	{
 		title: `MIT Data Engineering`,
@@ -222,7 +289,7 @@ const projects = [
 		],
 		image: "./images/mit.jpg",
 		alt: "mit",
-		githubLink: "https://github.com/andrewcbuensalida/mrts-etl-mit",
+		githubLinks: ["https://github.com/andrewcbuensalida/mrts-etl-mit"],
 	},
 	{
 		title: `Tangible AI`,
@@ -248,8 +315,9 @@ const projects = [
 		],
 		image: "./images/tangibleai.jpg",
 		alt: "tangible ai",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/Complete-Generative-AI-Course-on-YouTube",
+		],
 	},
 	{
 		title: `Zillow Scraper`,
@@ -267,8 +335,9 @@ const projects = [
 		],
 		image: "./images/zillow.png",
 		alt: "zillow scraper",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/express-api-starter-ts.git",
+		],
 	},
 	{
 		title: `Movieist`,
@@ -287,8 +356,9 @@ const projects = [
 		],
 		image: "./images/movieist.png",
 		alt: "movieist",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/movieist-from-scratch.git",
+		],
 	},
 	{
 		title: `NestJs Task Tracker`,
@@ -311,8 +381,9 @@ const projects = [
 		],
 		image: "./images/nest.png",
 		alt: "nest tasks",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/nestjs-task-management.git",
+		],
 	},
 	{
 		title: `Neo4j Spring Boot University`,
@@ -344,8 +415,9 @@ const projects = [
 		],
 		image: "./images/neo4j-springboot-university.png",
 		alt: "neo4j-springboot-university",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/spring-boot-neo4j.git",
+		],
 	},
 	{
 		title: `ASCONA senior care management specialists`,
@@ -373,8 +445,9 @@ const projects = [
 		],
 		image: "./images/ascona.png",
 		alt: "ASCONA",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/caring_clone_node.git",
+		],
 	},
 	{
 		title: `Department of Homeland Security`,
@@ -421,7 +494,7 @@ const projects = [
 		],
 		image: "./images/dhs.png",
 		alt: "dhs",
-		githubLink: null,
+		githubLinks: [null],
 	},
 	{
 		title: `JUST do it`,
@@ -454,8 +527,9 @@ const projects = [
 		],
 		image: "./images/justdoit.png",
 		alt: "justdoit",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/youtube/tree/mern-ecommerce-app-1",
+		],
 	},
 	{
 		title: `Messenger`,
@@ -485,8 +559,9 @@ const projects = [
 		],
 		image: "./images/messenger.png",
 		alt: "messenger",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/react-live-messenger.git",
+		],
 	},
 	{
 		title: `Doctor Database`,
@@ -515,8 +590,9 @@ const projects = [
 		],
 		image: "./images/doctordb.png",
 		alt: "doctordb",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/PERN-STACK-YELP-CLONE",
+		],
 	},
 	{
 		title: `Amazon Clone`,
@@ -540,8 +616,9 @@ const projects = [
 		],
 		image: "./images/amazon.png",
 		alt: "amazon",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/react-amazon-stripe-reducer-firebase",
+		],
 	},
 	{
 		// this one has the private repo
@@ -565,7 +642,7 @@ const projects = [
 		],
 		image: "./images/instagram.png",
 		alt: "instagram",
-		githubLink: "https://github.com/andrewcbuensalida/Instagram-Clone",
+		githubLinks: ["https://github.com/andrewcbuensalida/Instagram-Clone"],
 	},
 	{
 		title: `Andrew's Blogs`,
@@ -588,8 +665,9 @@ const projects = [
 		],
 		image: "./images/blogs.png",
 		alt: "blogs",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/node-crash-course.git",
+		],
 	},
 	{
 		title: `Minute Cookie Recipes`,
@@ -616,8 +694,9 @@ const projects = [
 		],
 		image: "./images/cookies.png",
 		alt: "cookies",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/node-express-jwt-auth.git",
+		],
 	},
 	{
 		title: `Love's Books`,
@@ -644,7 +723,7 @@ const projects = [
 		],
 		image: "./images/books.png",
 		alt: "books",
-		githubLink: "https://github.com/andrewcbuensalida/graphql-playlist",
+		githubLinks: ["https://github.com/andrewcbuensalida/graphql-playlist"],
 	},
 	{
 		title: `Heat`,
@@ -668,8 +747,9 @@ const projects = [
 		],
 		image: "./images/heat.png",
 		alt: "heat",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/react-native-tutorial-1",
+		],
 	},
 	{
 		title: `LinkUp`,
@@ -686,7 +766,7 @@ const projects = [
 		],
 		image: "./images/linkup.png",
 		alt: "linkup",
-		githubLink: "https://github.com/andrewcbuensalida/ExampleLinkedIn",
+		githubLinks: ["https://github.com/andrewcbuensalida/ExampleLinkedIn"],
 	},
 	{
 		title: `Flexible Life`,
@@ -707,8 +787,9 @@ const projects = [
 		],
 		image: "./images/flex.png",
 		alt: "flex",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/css-responsive-scrimba-simple-life",
+		],
 	},
 	{
 		title: `Andrew's Web Dev Services`,
@@ -729,8 +810,9 @@ const projects = [
 		],
 		image: "./images/webdev.png",
 		alt: "webdev",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/css-grid-responsive-scrimba-webdev-services",
+		],
 	},
 	{
 		title: `Merry Dating - Mobile`,
@@ -754,7 +836,7 @@ const projects = [
 		],
 		image: "./images/twilio.png",
 		alt: "Merry",
-		githubLink: null,
+		githubLinks: [null],
 	},
 	{
 		title: `Merry Dating - Web`,
@@ -775,7 +857,7 @@ const projects = [
 		],
 		image: "./images/twilio.png",
 		alt: "Merry",
-		githubLink: null,
+		githubLinks: [null],
 	},
 	{
 		title: `Social Street`,
@@ -796,7 +878,9 @@ const projects = [
 		],
 		image: "./images/socialstreet.png",
 		alt: "Social street",
-		githubLink: "https://github.com/andrewcbuensalida/social-street-react",
+		githubLinks: [
+			"https://github.com/andrewcbuensalida/social-street-react",
+		],
 	},
 	{
 		title: `Uplift Card Game`,
@@ -815,8 +899,9 @@ const projects = [
 		],
 		image: "./images/uplift.png",
 		alt: "Uplift",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/uplift-interview-andrew-buensalida",
+		],
 	},
 	{
 		title: `Yummy Bites`,
@@ -834,8 +919,9 @@ const projects = [
 		],
 		image: "./images/yummybites.png",
 		alt: "Yummy Bites",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/yumy-bites-react-node-express-postgress-NOT-TYPESCRIPT",
+		],
 	},
 	{
 		title: `Yummy Bites Electron`,
@@ -858,7 +944,9 @@ const projects = [
 		],
 		image: "./images/yummybiteselectron.png",
 		alt: "Yummy Bites Electron",
-		githubLink: "https://github.com/andrewcbuensalida/electron-react.git",
+		githubLinks: [
+			"https://github.com/andrewcbuensalida/electron-react.git",
+		],
 	},
 	{
 		title: `Auto Scribe`,
@@ -879,7 +967,7 @@ const projects = [
 		],
 		image: "./images/autoscribe.png",
 		alt: "auto scribe",
-		githubLink: "https://github.com/andrewcbuensalida/doctor-google",
+		githubLinks: ["https://github.com/andrewcbuensalida/doctor-google"],
 	},
 	{
 		title: `Andrew's Portfolio`,
@@ -900,8 +988,9 @@ const projects = [
 		],
 		image: "./images/portfolio.png",
 		alt: "portfolio",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/andrews-tech-portfolio",
+		],
 	},
 	{
 		title: `Crypto Logger`,
@@ -928,7 +1017,9 @@ const projects = [
 		],
 		image: "./images/crypto.png",
 		alt: "crypto",
-		githubLink: "https://github.com/andrewcbuensalida/typescript-tutorial",
+		githubLinks: [
+			"https://github.com/andrewcbuensalida/typescript-tutorial",
+		],
 	},
 	{
 		title: `Babylon Appointments`,
@@ -954,7 +1045,7 @@ const projects = [
 		],
 		image: "./images/babylon.png",
 		alt: "babylon",
-		githubLink: "https://github.com/andrewcbuensalida/web-interview",
+		githubLinks: ["https://github.com/andrewcbuensalida/web-interview"],
 	},
 	{
 		title: `Andrew's Black Jack`,
@@ -972,8 +1063,9 @@ const projects = [
 		],
 		image: "./images/blackjack.png",
 		alt: "blackjack",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/javascript-beginners-blackjack-clever-programmer",
+		],
 	},
 	{
 		title: `eMonk Accountability`,
@@ -996,8 +1088,9 @@ const projects = [
 		],
 		image: "./images/emonk.png",
 		alt: "emonk",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/serverless-framework-dynamodb-typescript",
+		],
 	},
 	{
 		title: `Random Star Wars Generator`,
@@ -1022,8 +1115,9 @@ const projects = [
 		],
 		image: "./images/starwars.png",
 		alt: "starwars",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/puppeteer-node-random-star-wars",
+		],
 	},
 	{
 		title: `Quizzes`,
@@ -1032,7 +1126,7 @@ const projects = [
 		stack: ["vue", "javascript", "html/css", "git"],
 		image: "./images/quizzes.png",
 		alt: "quizzes",
-		githubLink: "https://github.com/andrewcbuensalida/Vue3-Crash-Course",
+		githubLinks: ["https://github.com/andrewcbuensalida/Vue3-Crash-Course"],
 	},
 	{
 		title: `Hoopstr Sports Tracker `,
@@ -1041,7 +1135,9 @@ const projects = [
 		stack: ["javascript", "html/css", "hostgator", "php", "mysql", "git"],
 		image: "./images/hoopstr.png",
 		alt: "hoopstr",
-		githubLink: "https://github.com/andrewcbuensalida/php-html-Hoopstr-App",
+		githubLinks: [
+			"https://github.com/andrewcbuensalida/php-html-Hoopstr-App",
+		],
 	},
 	{
 		title: `Todo List`,
@@ -1067,7 +1163,7 @@ const projects = [
 		],
 		image: "./images/todo.png",
 		alt: "todo",
-		githubLink: "https://github.com/andrewcbuensalida/node-mongodb-todo",
+		githubLinks: ["https://github.com/andrewcbuensalida/node-mongodb-todo"],
 	},
 	{
 		title: `PyShop`,
@@ -1091,8 +1187,9 @@ const projects = [
 		],
 		image: "./images/pyshop.png",
 		alt: "pyshop",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/django-python-pyshop-mosh",
+		],
 	},
 	{
 		title: `Airflow`,
@@ -1110,7 +1207,7 @@ const projects = [
 		],
 		image: "./images/airflow.png",
 		alt: "airflow",
-		githubLink: "https://github.com/andrewcbuensalida/airflow",
+		githubLinks: ["https://github.com/andrewcbuensalida/airflow"],
 	},
 	{
 		title: `AWS SAM`,
@@ -1127,7 +1224,7 @@ const projects = [
 		],
 		image: "./images/sam.jpg",
 		alt: "sam-workshop",
-		githubLink: "https://github.com/andrewcbuensalida/sam-workshop",
+		githubLinks: ["https://github.com/andrewcbuensalida/sam-workshop"],
 	},
 	{
 		title: `Supervisor Notification`,
@@ -1155,8 +1252,9 @@ const projects = [
 		],
 		image: "./images/supervisor.png",
 		alt: "Supervisor Notification",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/lightfeather-takehome",
+		],
 	},
 	{
 		title: `Twitter Clone Sequelize`,
@@ -1165,7 +1263,9 @@ const projects = [
 		stack: ["sequelize", "git", "nodejs", "postgres", "docker", "express"],
 		image: "./images/sequelize.png",
 		alt: "sequelize",
-		githubLink: "https://github.com/andrewcbuensalida/postgres_sequelize",
+		githubLinks: [
+			"https://github.com/andrewcbuensalida/postgres_sequelize",
+		],
 	},
 	{
 		title: `Python Automation (unfinished)`,
@@ -1174,8 +1274,9 @@ const projects = [
 		stack: ["sequelize", "git", "nodejs", "postgres", "docker", "express"],
 		image: "./images/pythonautomation.jpg",
 		alt: "sequelize",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/build_tools_to_automate_python",
+		],
 	},
 	{
 		title: `Python for Hackers`,
@@ -1191,7 +1292,7 @@ const projects = [
 		],
 		image: "./images/pythonforhackers.png",
 		alt: "python for hackers",
-		githubLink: "https://github.com/andrewcbuensalida/python-sandbox",
+		githubLinks: ["https://github.com/andrewcbuensalida/python-sandbox"],
 	},
 	{
 		title: `AWS Cloudfront`,
@@ -1208,7 +1309,9 @@ const projects = [
 		],
 		image: "./images/cloudfront.jpg",
 		alt: "cloudfront",
-		githubLink: "https://github.com/andrewcbuensalida/cloudfront-s3-react",
+		githubLinks: [
+			"https://github.com/andrewcbuensalida/cloudfront-s3-react",
+		],
 	},
 	{
 		title: `Product Liker`,
@@ -1217,7 +1320,9 @@ const projects = [
 		stack: ["git", "rabbitmq", "nodejs", "typeorm", "mysql", "mongodb"],
 		image: "./images/rabbitmq.png",
 		alt: "rabbitmq",
-		githubLink: "https://github.com/andrewcbuensalida/node-microservices",
+		githubLinks: [
+			"https://github.com/andrewcbuensalida/node-microservices",
+		],
 	},
 	{
 		title: `Electrode`,
@@ -1236,8 +1341,9 @@ const projects = [
 		],
 		image: "./images/electrode.png",
 		alt: "electrode picture",
-		githubLink:
+		githubLinks: [
 			"https://github.com/andrewcbuensalida/electron-vanilla-javascript-todo",
+		],
 	},
 
 	{
@@ -1247,7 +1353,7 @@ const projects = [
 		stack: ["wordpress"],
 		image: "./images/kite.png",
 		alt: "kite",
-		githubLink: null,
+		githubLinks: [null],
 	},
 	{
 		title: `Mastermind Wordpress`,
@@ -1256,7 +1362,7 @@ const projects = [
 		stack: ["wordpress"],
 		image: "./images/mastermind.png",
 		alt: "mastermind",
-		githubLink: null,
+		githubLinks: [null],
 	},
 	{
 		title: `VRX Wordpress`,
@@ -1265,7 +1371,7 @@ const projects = [
 		stack: ["wordpress"],
 		image: "./images/vrx.png",
 		alt: "vrx",
-		githubLink: null,
+		githubLinks: [null],
 	},
 ];
 export default projects;
