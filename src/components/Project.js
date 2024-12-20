@@ -34,11 +34,18 @@ function Project({ filters, data }) {
 
 				<h1 className="title">
 					{title}
-					{githubLinks.map((link) => (
-						<a href={link} className="github">
-							<img alt="github" src=".\images\github.png" />
-						</a>
-					))}
+					{githubLinks.map((link) => {
+						return (
+							link && (
+								<a href={link} className="github">
+									<img
+										alt="github"
+										src=".\images\github.png"
+									/>
+								</a>
+							)
+						);
+					})}
 				</h1>
 				<p>{description}</p>
 				<h2>

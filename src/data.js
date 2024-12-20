@@ -704,7 +704,7 @@ const projects = [
 		],
 		image: "./images/dhs.png",
 		alt: "dhs",
-		githubLinks: [null],
+		githubLinks: [],
 	},
 	{
 		title: `JUST do it`,
@@ -1046,7 +1046,7 @@ const projects = [
 		],
 		image: "./images/twilio.png",
 		alt: "Merry",
-		githubLinks: [null],
+		githubLinks: [],
 	},
 	{
 		title: `Merry Dating - Web`,
@@ -1067,7 +1067,7 @@ const projects = [
 		],
 		image: "./images/twilio.png",
 		alt: "Merry",
-		githubLinks: [null],
+		githubLinks: [],
 	},
 	{
 		title: `Social Street`,
@@ -1563,7 +1563,7 @@ const projects = [
 		stack: ["wordpress"],
 		image: "./images/kite.png",
 		alt: "kite",
-		githubLinks: [null],
+		githubLinks: [],
 	},
 	{
 		title: `Mastermind Wordpress`,
@@ -1572,7 +1572,7 @@ const projects = [
 		stack: ["wordpress"],
 		image: "./images/mastermind.png",
 		alt: "mastermind",
-		githubLinks: [null],
+		githubLinks: [],
 	},
 	{
 		title: `VRX Wordpress`,
@@ -1581,7 +1581,7 @@ const projects = [
 		stack: ["wordpress"],
 		image: "./images/vrx.png",
 		alt: "vrx",
-		githubLinks: [null],
+		githubLinks: [],
 	},
 ];
 export default projects;
