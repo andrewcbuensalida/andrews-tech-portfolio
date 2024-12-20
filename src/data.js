@@ -31,7 +31,7 @@ const projects = [
 	},
 	{
 		title: `Chatbot Store Assistant`,
-		description: `A chatbot that answers the user's questions about products and orders. Stack: React, AWS Amplify, FastAPI, Heroku, Pandas, OpenAI API`,
+		description: `A chatbot that answers the user's questions about products and orders. Stack: React, Pinecone Vector Database AWS Amplify, FastAPI, Heroku, Pandas, OpenAI API`,
 		URL: "https://main.dy2wjrq0yceeb.amplifyapp.com/",
 		stack: [
 			"amazon web services",
@@ -50,6 +50,8 @@ const projects = [
 			"extract transform load",
 			"javascript",
 			"python",
+      'pineconedb',
+      'vector database',
 			"llm",
 		],
 		image: "./images/chatbot-store.png",
