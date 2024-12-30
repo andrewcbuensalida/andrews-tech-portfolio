@@ -31,7 +31,7 @@ const projects = [
 	},
 	{
 		title: `Chatbot Store Assistant`,
-		description: `A chatbot that answers the user's questions about products and orders. Stack: React, Pinecone Vector Database, AWS Amplify, FastAPI, Heroku, Pandas, OpenAI API, Websockets, WebRTC`,
+		description: `A voice chatbot that answers the user's questions about products and orders. Stack: React, Pinecone Vector Database, AWS Amplify, FastAPI, Heroku, Pandas, OpenAI API, Websockets, WebRTC, Twilio`,
 		URL: "https://main.dy2wjrq0yceeb.amplifyapp.com/",
 		stack: [
 			"amazon web services",
@@ -55,6 +55,7 @@ const projects = [
 			"artificial intelligence",
 			"html/css",
 			"typescript",
+      'twilio',
 			"websockets",
 			"webrtc",
 		],
