@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -8,16 +8,14 @@ import Parallax from "./components/parallax";
 import Project from "./components/Project";
 import projects from "./data";
 import PieChart from "./components/PieChart";
+import typingPath from "./static/typing.mp3";
 
 function App() {
 	// filter buttons selected
 	const [filters, setFilters] = useState([]);
 	Parallax();
 
-	// loop through projects, if at least one filter isn't included in that project's stack, disable all of it's
-	//languages that aren't selected
-	// [1,2]
-	// [2,3]
+	const typingRef = useRef(new Audio(typingPath));
 
 	function handleFilter(e) {
 		if (e.target.id === "clear") {
@@ -94,13 +92,15 @@ function App() {
 	}
 
 	const projectsComponents = projects.map((project) => (
-    <Project key={project.title} filters={filters} data={project} />
-    ));
+		<Project key={project.title} filters={filters} data={project} />
+	));
 
 	return (
 		<div>
 			<header>
-				<h1>Andrew Buensalida - Software Engineer</h1>
+				<h1 onClick={() => typingRef.current.play()}>
+					Andrew Buensalida - Software Engineer
+				</h1>
 				<h2>
 					<a href="https://www.linkedin.com/in/andrewcbuensalida/">
 						<LinkedInIcon style={{ fontSize: "3rem" }} />
@@ -131,7 +131,7 @@ function App() {
 						margin: "0 auto",
 						position: "relative",
 						borderRadius: "20px",
-                        overflow:'hidden'
+						overflow: "hidden",
 					}}
 				>
 					<iframe
