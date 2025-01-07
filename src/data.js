@@ -2,7 +2,7 @@ const projects = [
 	{
 		title: `Restaurant Menu API`,
 		description: `Stack: GraphQL, AWS RDS Postgres, Material UI, Heroku, AWS Amplify, Sequelize, NodeJs, Express, React, Git, CI/CD, User Authentication`,
-		URL: "https://main.d270tnz1kj6wbf.amplifyapp.com/",
+		// URL: "https://main.d270tnz1kj6wbf.amplifyapp.com/",
 		stack: [
 			"aws amplify",
 			"aws rds",
