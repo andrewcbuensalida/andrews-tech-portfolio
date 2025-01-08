@@ -50,6 +50,7 @@ const projects = [
 			"pandas",
 			"python",
 			"react",
+      'responsive',
 			"pineconedb",
 			"vector database",
 			"artificial intelligence",
