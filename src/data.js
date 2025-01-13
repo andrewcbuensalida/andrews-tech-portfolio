@@ -32,7 +32,7 @@ const projects = [
 	{
 		title: `Chatbot Store Assistant`,
 		description: `A voice chatbot that answers the user's questions about products and orders. Stack: React, Pinecone Vector Database, AWS Amplify, FastAPI, Heroku, Pandas, OpenAI API, Websockets, WebRTC, Twilio`,
-		URL: "https://main.dy2wjrq0yceeb.amplifyapp.com/",
+		URL: "https://demo.aiatyourservice.com/",
 		stack: [
 			"amazon web services",
 			"aws amplify",
@@ -71,7 +71,7 @@ const projects = [
 	{
 		title: `Pokemon Assistant`,
 		description: `Pokemon Chatbot that shows pictures and information about Pokemon. Stack: OpenAI, React, AWS Amplify, NodeJs, Heroku, PokeAPI, Tavily, Postgres, AWS RDS.`,
-		URL: "https://master.d25jr6vo3627gh.amplifyapp.com",
+		// URL: "https://master.d25jr6vo3627gh.amplifyapp.com",
 		stack: [
 			"aws amplify",
 			"aws rds",
