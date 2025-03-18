@@ -1,5 +1,26 @@
 const projects = [
 	{
+		title: `Restaurant 2 API`,
+		description: `A sample backend using GraphQL and in-memory restaurant menu dummy data, this time in Typescript. Stack: GraphQL, NodeJs, Jest, Github Actions, CI/CD, Typescript`,
+		// URL: "https://main.d270tnz1kj6wbf.amplifyapp.com/",
+		stack: [
+			"ci/cd",
+			"git",
+			"graphql",
+			"nodejs",
+			"javascript",
+			"typescript",
+			"jest",
+			"github actions",
+			"unit testing",
+		],
+		image: "./images/restaurant2.png",
+		alt: "restaurant menu 2",
+		githubLinks: [
+			"https://github.com/andrewcbuensalida/restaurant-2-graphql-node-apollo",
+		],
+	},
+	{
 		title: `AI Comics Publisher`,
 		description: `Data Analysis and Dashboard to approve AI generated draft Facebook posts for a Comic Books Company. Front-end Stack: React, React-Query Pagination, React-Table, BootStrap, Typescript, AWS Amplify. Back-end Stack: AWS S3, SSH Tunnel, FastAPI, OpenAI, AWS Elastic Beanstalk, Python, SQL Server, Facebook Graph API`,
 		// URL: "https://demo2.aiatyourservice.com/",
@@ -13,7 +34,7 @@ const projects = [
 			"ci/cd",
 			"extract transform load",
 			"fastapi",
-      'facebook graph api',
+			"facebook graph api",
 			"git",
 			"javascript",
 			"llm",
