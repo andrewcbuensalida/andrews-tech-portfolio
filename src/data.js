@@ -123,6 +123,7 @@ const projects = [
 			"jest",
 			"github actions",
 			"unit testing",
+			"user authentication",
 		],
 		image: "./images/restaurant2.png",
 		alt: "restaurant menu 2",
