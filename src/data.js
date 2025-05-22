@@ -12,7 +12,6 @@ const projects = [
 			"aws route 53",
 			"chatbot",
 			"ci/cd",
-			"extract transform load",
 			"fastapi",
 			"git",
 			"heroku",
@@ -53,7 +52,6 @@ const projects = [
 			"aws amplify",
 			"chatbot",
 			"ci/cd",
-			"extract transform load",
 			"fastapi",
 			"git",
 			"heroku",
@@ -541,6 +539,7 @@ const projects = [
 		// URL: null,
 		stack: [
 			"airflow",
+      'extract transform load',
 			"docker",
 			"nifi",
 			"mysql",
